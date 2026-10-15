@@ -16,8 +16,10 @@ separate project.
 ## Research policy
 
 The aim is complete solutions, including proofs and disproofs on equal terms.
-We retain partial mathematical work only when it
-has a documented role in advancing a full solution. We do not count finite
+Complete resolutions of substantive, precisely identified open subquestions are
+recorded separately, with the parent conjecture's remaining status explicit.
+We retain partial mathematical work only when it has a documented role in
+advancing a full solution. We do not count finite
 verification, a conditional result, or a formalization of a known theorem as a
 solution to an open problem.
 
@@ -39,6 +41,11 @@ Three GPT-6 Astra Ultra research chats screen disjoint groups of direct entries.
 The parent coordinates integration, audits subcategory coverage, and reviews
 candidate proof targets.
 
+The initial snapshot contains 124 direct pages (123 eligible) and 143 unique
+pages including the abc subcategory. The
+[subcategory scope review](research/parent/REPORT.md) distinguishes additional
+open questions from biographies, definitions, and established theorems.
+
 ## Reproduction
 
 The Lean version is pinned in `lean-toolchain`; Mathlib is pinned in
@@ -56,6 +63,17 @@ Refresh the Wikipedia membership snapshot with:
 ```sh
 python3 scripts/fetch_catalog.py
 ```
+
+Compile accepted manuscripts on Linux x86_64 with:
+
+```sh
+bash scripts/setup_tex.sh
+python3 scripts/build_papers.py
+```
+
+The Tectonic 0.17.0 installer verifies the official release asset's SHA-256.
+The manuscript command reports that there is nothing to compile until a result
+is registered. Generated PDFs still require visual and mathematical review.
 
 The catalog records when membership was retrieved. Its page titles and links
 identify source articles; original mathematical summaries are written separately

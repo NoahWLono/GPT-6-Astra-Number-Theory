@@ -10,9 +10,21 @@ ROOT = Path(__file__).resolve().parents[1]
 ALLOWED = {"propext", "Classical.choice", "Quot.sound"}
 
 
+def check_declaration(name, output):
+    no_axioms = re.search(r"'" + re.escape(name) + r"' does not depend on any axioms", output)
+    match = re.search(r"'" + re.escape(name) + r"' depends on axioms:\s*\[([^\]]*)\]", output)
+    if no_axioms:
+        return
+    if not match:
+        raise ValueError(f"Missing axiom output for {name}")
+    axioms = {s.strip() for s in match.group(1).split(",") if s.strip()}
+    if axioms - ALLOWED:
+        raise ValueError(f"Unaccepted axioms for {name}: {sorted(axioms - ALLOWED)}")
+
+
 def main():
     registry = json.loads((ROOT / "catalog/results.json").read_text())
-    names = [name for kind in ("complete_solutions", "direct_advances")
+    names = [name for kind in ("complete_solutions", "subquestion_solutions", "direct_advances")
              for result in registry[kind] for name in result["lean_declarations"]]
     if not names:
         print("No accepted theorem declarations to audit; this is not a proof result.")
@@ -29,15 +41,7 @@ def main():
         if run.stderr:
             print(run.stderr, end="")
         for name in names:
-            no_axioms = re.search(r"'" + re.escape(name) + r"' does not depend on any axioms", run.stdout)
-            match = re.search(r"'" + re.escape(name) + r"' depends on axioms:\s*\[([^\]]*)\]", run.stdout)
-            if no_axioms:
-                continue
-            if not match:
-                raise ValueError(f"Missing axiom output for {name}")
-            axioms = {s.strip() for s in match.group(1).split(",") if s.strip()}
-            if axioms - ALLOWED:
-                raise ValueError(f"Unaccepted axioms for {name}: {sorted(axioms - ALLOWED)}")
+            check_declaration(name, run.stdout)
     print(f"Axiom audit passed for {len(names)} declarations.")
 
 

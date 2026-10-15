@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-15",
+  "coverage": 19,
+  "entries": [
+    {
+      "id": "wiki-17174687",
+      "title": "ABC@Home",
+      "source_url": "https://en.wikipedia.org/wiki/ABC%40Home",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "computational_project",
+      "target": null,
+      "decision": "Historical computation and source data, not a separate conjecture. Finite abc triples do not settle abc."
+    },
+    {
+      "id": "wiki-29028436",
+      "title": "Cameron Leigh Stewart",
+      "source_url": "https://en.wikipedia.org/wiki/Cameron_Leigh_Stewart",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-62382",
+      "title": "Catalan's conjecture",
+      "source_url": "https://en.wikipedia.org/wiki/Catalan's_conjecture",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "established_theorem",
+      "target": null,
+      "decision": "Do not count an established theorem as a newly solved open problem. Consult only if a selected proof route requires it."
+    },
+    {
+      "id": "wiki-2172777",
+      "title": "David Masser",
+      "source_url": "https://en.wikipedia.org/wiki/David_Masser",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-7536770",
+      "title": "Dorian M. Goldfeld",
+      "source_url": "https://en.wikipedia.org/wiki/Dorian_M._Goldfeld",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-19021953",
+      "title": "Fermat's Last Theorem",
+      "source_url": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "established_theorem",
+      "target": null,
+      "decision": "Do not count an established theorem as a newly solved open problem. Consult only if a selected proof route requires it."
+    },
+    {
+      "id": "wiki-13798040",
+      "title": "Field with one element",
+      "source_url": "https://en.wikipedia.org/wiki/Field_with_one_element",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "research_framework",
+      "target": null,
+      "decision": "No uniquely specified open theorem follows from the page title. Require a precise conjecture and source before assignment."
+    },
+    {
+      "id": "wiki-37007490",
+      "title": "Hodge–Arakelov theory",
+      "source_url": "https://en.wikipedia.org/wiki/Hodge%E2%80%93Arakelov_theory",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "research_framework",
+      "target": null,
+      "decision": "No uniquely specified open theorem follows from the page title. Require a precise conjecture and source before assignment."
+    },
+    {
+      "id": "wiki-20014458",
+      "title": "Jerzy Browkin",
+      "source_url": "https://en.wikipedia.org/wiki/Jerzy_Browkin",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-1604631",
+      "title": "Joseph Oesterlé",
+      "source_url": "https://en.wikipedia.org/wiki/Joseph_Oesterl%C3%A9",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-30962576",
+      "title": "Mason–Stothers theorem",
+      "source_url": "https://en.wikipedia.org/wiki/Mason%E2%80%93Stothers_theorem",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "established_theorem",
+      "target": null,
+      "decision": "Do not count an established theorem as a newly solved open problem. Consult only if a selected proof route requires it."
+    },
+    {
+      "id": "wiki-57687190",
+      "title": "Nobushige Kurokawa",
+      "source_url": "https://en.wikipedia.org/wiki/Nobushige_Kurokawa",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-9236652",
+      "title": "Néron–Tate height",
+      "source_url": "https://en.wikipedia.org/wiki/N%C3%A9ron%E2%80%93Tate_height",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "definition_or_tool",
+      "target": null,
+      "decision": "Use only if needed by a selected full-solution route."
+    },
+    {
+      "id": "wiki-1802312",
+      "title": "Paul Vojta",
+      "source_url": "https://en.wikipedia.org/wiki/Paul_Vojta",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "biography",
+      "target": null,
+      "decision": "Background reference, not an independent conjecture assignment."
+    },
+    {
+      "id": "wiki-462499",
+      "title": "Powerful number",
+      "source_url": "https://en.wikipedia.org/wiki/Powerful_number",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "additional_open_target",
+      "target": "Prove that no positive integer n has n, n+1, and n+2 all powerful, or supply a certified counterexample. Powerful means every prime divisor p occurs with p^2 dividing the integer.",
+      "decision": "Retain for target comparison; recent partial papers require review before selecting a subcase.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2503.21485",
+        "https://arxiv.org/abs/2608.23418",
+        "https://arxiv.org/abs/2605.06697"
+      ],
+      "obstruction": "Known special-factorization arguments do not cover arbitrary squarefree parts. Arithmetic progressions consecutive in the ordered powerful-number sequence need not have common difference one."
+    },
+    {
+      "id": "wiki-1634886",
+      "title": "Radical of an integer",
+      "source_url": "https://en.wikipedia.org/wiki/Radical_of_an_integer",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "definition_or_tool",
+      "target": null,
+      "decision": "Use only if needed by a selected full-solution route."
+    },
+    {
+      "id": "wiki-700981",
+      "title": "Ribet's theorem",
+      "source_url": "https://en.wikipedia.org/wiki/Ribet's_theorem",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "established_theorem",
+      "target": null,
+      "decision": "Do not count an established theorem as a newly solved open problem. Consult only if a selected proof route requires it."
+    },
+    {
+      "id": "wiki-1967197",
+      "title": "Siegel zero",
+      "source_url": "https://en.wikipedia.org/wiki/Siegel_zero",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "additional_open_target",
+      "target": "Fix an exact uniform exceptional-real-zero-free region for primitive real Dirichlet L-functions, including constants and conductor range, then prove it or refute that statement.",
+      "decision": "Statement not yet fixed; defer until a concrete route justifies the analytic formalization cost.",
+      "obstruction": "A chosen numerical zero-free region is not automatically equivalent to the qualitative absence of Siegel zeros. Conditional implications from abc or GRH do not supply an unconditional solution.",
+      "primary_review_status": "pending"
+    },
+    {
+      "id": "wiki-5001103",
+      "title": "Tijdeman's theorem",
+      "source_url": "https://en.wikipedia.org/wiki/Tijdeman's_theorem",
+      "screened_date": "2026-10-15",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "classification": "established_theorem",
+      "target": null,
+      "decision": "Do not count an established theorem as a newly solved open problem. Consult only if a selected proof route requires it."
+    }
+  ]
+}

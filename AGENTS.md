@@ -11,6 +11,9 @@ LaTeX expositions, compiled PDFs, and all supporting source code.
 - Screen the whole category before concentrating on selected targets.
 - Pursue complete proofs and complete disproofs equally; the user explicitly
   confirmed that a decisive Lean-verified counterexample counts as a resolution.
+- A complete resolution of a substantive, precisely identified open subquestion
+  is also an accepted goal. Record it separately from the article's main
+  conjecture, whose unresolved status must remain explicit.
 - Run at most three research chats alongside the parent coordinator. Use
   `gpt-6-astra` with `ultra` reasoning for those chats.
 - Retain mathematical work only when it directly advances a full solution.
