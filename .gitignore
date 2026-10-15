@@ -1,0 +1,13 @@
+.tools/
+.lake/
+.local/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+tmp/

@@ -1,0 +1,15 @@
+name: Verify research artifacts
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  lean-and-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned Lean and dependencies
+        run: bash scripts/setup_lean.sh
+      - name: Check inventory, build Lean, and audit registered declarations
+        run: bash scripts/verify.sh
