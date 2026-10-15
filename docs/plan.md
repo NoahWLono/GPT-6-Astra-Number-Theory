@@ -14,10 +14,16 @@ advances a full solution. The magic square of squares is excluded.
 - [x] Pin Lean and Mathlib, resolve dependencies, and run a clean baseline build.
   An empty verified library must never be described as a mathematical result.
 - [x] Publish the public repository with catalog, policy, sources, and CI checks.
-- [ ] Complete initial literature screening, separating established results,
+- [x] Complete initial literature screening, separating established results,
   genuine open statements, compound questions, and uncertain status.
-- [ ] Select focused attempts using exact statements, potential proof routes,
+- [x] Select focused attempts using exact statements, potential proof routes,
   and identified obstructions. Avoid routine formalization without a direct role.
+
+All 123 eligible direct entries now have initial records, and the 19 additional
+subcategory pages have an article-scope review. This does not certify an
+exhaustive literature search or the correctness of any external proof claim.
+The current round keeps a balanced mix of universal arguments and exact
+construction searches, following the user's preference.
 
 ## Candidate acceptance
 

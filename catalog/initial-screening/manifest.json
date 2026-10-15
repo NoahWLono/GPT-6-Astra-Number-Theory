@@ -1,0 +1,1171 @@
+{
+  "schema_version": 1,
+  "screened_on": "2026-10-15",
+  "direct_records": 123,
+  "additional_scope_records": 19,
+  "limitation": "Initial triage; evidence depth varies. No exhaustive literature, proof, or novelty certification.",
+  "inputs": [
+    {
+      "file": "batch-a.json",
+      "source": "research/batch-a/screening.json",
+      "sha256": "e7171f9b21053f07565051d3ea2ef21438c90e19cfe29b2ecb522d49a2c6cd80",
+      "records": 41
+    },
+    {
+      "file": "batch-b.json",
+      "source": "research/batch-b/screening.json",
+      "sha256": "13e3069ff75c8082d1c850ac18700cc78f062d252957604564422db6d1628ce1",
+      "records": 41
+    },
+    {
+      "file": "batch-c.json",
+      "source": "research/batch-c/screening.json",
+      "sha256": "3db410e3576510f59f2c96b2039deb3a5d31485352c5ed772e81b8b968ba6d39",
+      "records": 41
+    },
+    {
+      "file": "subcategory.json",
+      "source": "research/parent/subcategory-screening.json",
+      "sha256": "01df800a925eff6cbd46ce6b028456c8604207d119b5725ef5562a17c6a648e4",
+      "records": 19
+    }
+  ],
+  "entries": [
+    {
+      "id": "wiki-174108",
+      "title": "Abc conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified: published IUT proof claim remains disputed; no accepted proof established by this screen"
+    },
+    {
+      "id": "wiki-17174687",
+      "title": "ABC@Home",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "computational_project"
+    },
+    {
+      "id": "wiki-1084681",
+      "title": "Agoh–Giuga conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; consulted literature establishes equivalences and restrictions, not a full solution"
+    },
+    {
+      "id": "wiki-7878893",
+      "title": "Andrica's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no full proof found in consulted sources"
+    },
+    {
+      "id": "wiki-2085185",
+      "title": "Artin's conjecture on primitive roots",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified October 2026 infinitude proof claim; full density statement remains a separate target"
+    },
+    {
+      "id": "wiki-3609890",
+      "title": "Baillie–PSW primality test",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; 2021 primary paper reports no known odd composite passing the test"
+    },
+    {
+      "id": "wiki-3949019",
+      "title": "Balanced prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no full solution found"
+    },
+    {
+      "id": "wiki-1085053",
+      "title": "Bateman–Horn conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no general proof found"
+    },
+    {
+      "id": "wiki-2397539",
+      "title": "Beal conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no full solution established"
+    },
+    {
+      "id": "wiki-435161",
+      "title": "Birch and Swinnerton-Dyer conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "open according to current Clay official problem page; no proof established"
+    },
+    {
+      "id": "wiki-2620525",
+      "title": "Brocard's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; source article's proposed RH implication is not justified by the cited bound"
+    },
+    {
+      "id": "wiki-11301521",
+      "title": "Brocard's problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; recent related primary work does not solve this equation"
+    },
+    {
+      "id": "wiki-20510092",
+      "title": "Brumer–Stark conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "full proof claimed in 2023 preprint; away-from-2 theorem published; full claim not independently verified here"
+    },
+    {
+      "id": "wiki-12511846",
+      "title": "Bunyakovsky conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no general proof found"
+    },
+    {
+      "id": "wiki-29028436",
+      "title": "Cameron Leigh Stewart",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-19103379",
+      "title": "Carmichael's totient function conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; structural and large-bound results do not settle multiplicity one"
+    },
+    {
+      "id": "wiki-37236964",
+      "title": "Casas-Alvero conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified full-proof claim revised March 2026; no accepted resolution established"
+    },
+    {
+      "id": "wiki-62382",
+      "title": "Catalan's conjecture",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "established_theorem"
+    },
+    {
+      "id": "wiki-596282",
+      "title": "Class number problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "mixed article: effective imaginary-quadratic classification is known; real-quadratic class-number-one infinitude unverified as resolved"
+    },
+    {
+      "id": "wiki-37895",
+      "title": "Collatz conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; Tao's almost-all theorem is not a full resolution"
+    },
+    {
+      "id": "wiki-2334769",
+      "title": "Congruent number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "conditional criterion known; unconditional complete decision claim not established here"
+    },
+    {
+      "id": "wiki-343085",
+      "title": "Cousin prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no proof of fixed gap four infinitude found"
+    },
+    {
+      "id": "wiki-2297820",
+      "title": "Covering system",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "mixed article: large minimum-modulus question solved; odd distinct-cover question not resolved by consulted sources"
+    },
+    {
+      "id": "wiki-290441",
+      "title": "Cramér's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; large-gap lower bounds do not settle the upper bound"
+    },
+    {
+      "id": "wiki-48707305",
+      "title": "Cuboid conjectures",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "mixed: first conjecture has an external formal-proof pointer and informal proof claim; second and third remain open in the consulted statement catalog; no local proof accepted"
+    },
+    {
+      "id": "wiki-321895",
+      "title": "Cullen number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; known examples and density-zero results do not settle either question"
+    },
+    {
+      "id": "wiki-2172777",
+      "title": "David Masser",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-31611712",
+      "title": "Dickson's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no general simultaneous-linear-primes proof found"
+    },
+    {
+      "id": "wiki-5943744",
+      "title": "Divisor summatory function",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no exponent-1/4 proof found"
+    },
+    {
+      "id": "wiki-7536770",
+      "title": "Dorian M. Goldfeld",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-627828",
+      "title": "Double Mersenne number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; the page lists multiple unresolved questions rather than one theorem"
+    },
+    {
+      "id": "wiki-1898427",
+      "title": "Elliott–Halberstam conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no all-moduli level approaching one theorem found"
+    },
+    {
+      "id": "wiki-53551948",
+      "title": "Erdős–Moser equation",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; very large lower bounds do not prove nonexistence"
+    },
+    {
+      "id": "wiki-2431002",
+      "title": "Erdős–Straus conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; average and local results do not solve every n"
+    },
+    {
+      "id": "wiki-31244492",
+      "title": "Erdős–Turán conjecture on additive bases",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; recent integer-basis results do not settle the nonnegative-integer target"
+    },
+    {
+      "id": "wiki-52483865",
+      "title": "Erdős–Ulam problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; cited nonexistence results require unproved conjectures"
+    },
+    {
+      "id": "wiki-1666249",
+      "title": "Euclid number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; known no-perfect-power results do not establish squarefreeness"
+    },
+    {
+      "id": "wiki-10456890",
+      "title": "Euclid–Mullin sequence",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; complete-prime-coverage results for variants do not resolve this sequence"
+    },
+    {
+      "id": "wiki-1278374",
+      "title": "Euler brick",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no perfect cuboid construction or impossibility proof established"
+    },
+    {
+      "id": "wiki-148594",
+      "title": "Euler's constant",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no irrationality proof established"
+    },
+    {
+      "id": "wiki-12756318",
+      "title": "Feit–Thompson conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; stronger coprimality assertion is known false"
+    },
+    {
+      "id": "wiki-91127",
+      "title": "Fermat number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; no universal primality/compositeness classification established"
+    },
+    {
+      "id": "wiki-19021953",
+      "title": "Fermat's Last Theorem",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "established_theorem"
+    },
+    {
+      "id": "wiki-22736152",
+      "title": "Fermat–Catalan conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; fixed-signature finiteness is established but insufficient"
+    },
+    {
+      "id": "wiki-2502261",
+      "title": "Fibonacci prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; heuristic asymptotics and probable-prime records do not prove infinitude"
+    },
+    {
+      "id": "wiki-13798040",
+      "title": "Field with one element",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "research_framework"
+    },
+    {
+      "id": "wiki-36793030",
+      "title": "Firoozbakht's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; verification and implications do not prove the universal inequality"
+    },
+    {
+      "id": "wiki-15114628",
+      "title": "Four exponentials conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-a.json",
+      "assessment": "unverified current status; six-exponential and conditional special-case results do not prove this target"
+    },
+    {
+      "id": "wiki-3821872",
+      "title": "Friendly number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-19474055",
+      "title": "Gauss circle problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-35633206",
+      "title": "Gaussian moat",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1010141",
+      "title": "Gilbreath's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-41730066",
+      "title": "Gillies' conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-2771364",
+      "title": "Giuga number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-44758",
+      "title": "Goldbach's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-11327223",
+      "title": "Goormaghtigh conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-60008412",
+      "title": "Greenberg's conjectures",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-6278350",
+      "title": "Grimm's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-3135542",
+      "title": "Grothendieck–Katz p-curvature conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-7119900",
+      "title": "Hall's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-32010162",
+      "title": "Hermite's problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1695214",
+      "title": "Hilbert's ninth problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-37007490",
+      "title": "Hodge–Arakelov theory",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "research_framework"
+    },
+    {
+      "id": "wiki-14556621",
+      "title": "Idoneal number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-20014458",
+      "title": "Jerzy Browkin",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-1604631",
+      "title": "Joseph Oesterlé",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-18677709",
+      "title": "Juggler sequence",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-2478058",
+      "title": "Kummer–Vandiver conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-5785677",
+      "title": "Landau's problems",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-40052960",
+      "title": "Lander, Parkin, and Selfridge conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-2620450",
+      "title": "Legendre's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-13739985",
+      "title": "Lehmer's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-39052718",
+      "title": "Lehmer's totient problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-12552062",
+      "title": "Lemoine's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-21829200",
+      "title": "Leopoldt's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1465085",
+      "title": "Lindelöf hypothesis",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-627501",
+      "title": "Littlewood conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-19538953",
+      "title": "Lonely runner conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-398404",
+      "title": "Lucas number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1358112",
+      "title": "Lychrel number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-41912043",
+      "title": "Manin conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-30962576",
+      "title": "Mason–Stothers theorem",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "established_theorem"
+    },
+    {
+      "id": "wiki-8478563",
+      "title": "Mersenne conjectures",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-18908",
+      "title": "Mersenne prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-41375141",
+      "title": "Minimum overlap problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-21627970",
+      "title": "Montgomery's pair correlation conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-47297286",
+      "title": "N conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-62769759",
+      "title": "Newman's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-323705",
+      "title": "Newman–Shanks–Williams prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-57687190",
+      "title": "Nobushige Kurokawa",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-9236652",
+      "title": "Néron–Tate height",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "definition_or_tool"
+    },
+    {
+      "id": "wiki-8509589",
+      "title": "Odd greedy expansion",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-4860966",
+      "title": "Odd perfect number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-29543748",
+      "title": "Oppermann's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-424723",
+      "title": "Palindromic prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-b.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1802312",
+      "title": "Paul Vojta",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "biography"
+    },
+    {
+      "id": "wiki-1355482",
+      "title": "Pell number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-23670",
+      "title": "Perfect number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-81079117",
+      "title": "Pi prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-2595060",
+      "title": "Pierpont prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-3348772",
+      "title": "Polignac's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-41731660",
+      "title": "Pollock's conjectures",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-462499",
+      "title": "Powerful number",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "additional_open_target"
+    },
+    {
+      "id": "wiki-812561",
+      "title": "Prime quadruplet",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-7493205",
+      "title": "Prime triplet",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-11702062",
+      "title": "Problems involving arithmetic progressions",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-321913",
+      "title": "Quasiperfect number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-1634886",
+      "title": "Radical of an integer",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "definition_or_tool"
+    },
+    {
+      "id": "wiki-51244926",
+      "title": "Rank of an elliptic curve",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-323689",
+      "title": "Regular prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-700981",
+      "title": "Ribet's theorem",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "established_theorem"
+    },
+    {
+      "id": "wiki-19344125",
+      "title": "Riemann hypothesis",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-321963",
+      "title": "Riesel number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-89244",
+      "title": "Safe and Sophie Germain primes",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-2031353",
+      "title": "Schanuel's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-604052",
+      "title": "Schinzel's hypothesis H",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-578650",
+      "title": "Scholz conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-361598",
+      "title": "Second Hardy–Littlewood conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-25943365",
+      "title": "Serre's conjecture II",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-343116",
+      "title": "Sexy primes",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-1967197",
+      "title": "Siegel zero",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "additional_open_target"
+    },
+    {
+      "id": "wiki-169570",
+      "title": "Sierpiński number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-4374033",
+      "title": "Singmaster's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-52290066",
+      "title": "Square-difference-free set",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "claimed_resolution_unverified"
+    },
+    {
+      "id": "wiki-5685631",
+      "title": "Stark conjectures",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-70060173",
+      "title": "Sum of four cubes problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-60187666",
+      "title": "Sums of three cubes",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-16911683",
+      "title": "Superperfect number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-22965231",
+      "title": "Supersingular prime (algebraic number theory)",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-18813336",
+      "title": "Szpiro's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-3124804",
+      "title": "Tate conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "claimed_resolution_unverified"
+    },
+    {
+      "id": "wiki-5001103",
+      "title": "Tijdeman's theorem",
+      "scope": "subcategory",
+      "review_level": "article scope; not an exhaustive literature audit",
+      "record_file": "subcategory.json",
+      "assessment": "established_theorem"
+    },
+    {
+      "id": "wiki-41997",
+      "title": "Twin prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-34682455",
+      "title": "Vojta's conjecture",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-712166",
+      "title": "Wagstaff prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-323651",
+      "title": "Wall–Sun–Sun prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    },
+    {
+      "id": "wiki-33569",
+      "title": "Waring's problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-26497499",
+      "title": "Waring–Goldbach problem",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "mixed_resolved_open"
+    },
+    {
+      "id": "wiki-323631",
+      "title": "Wieferich prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-323646",
+      "title": "Wilson prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-29426653",
+      "title": "Wolstenholme prime",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "open_supported"
+    },
+    {
+      "id": "wiki-321962",
+      "title": "Woodall number",
+      "scope": "direct",
+      "review_level": "initial scope and literature screening",
+      "record_file": "batch-c.json",
+      "assessment": "unverified"
+    }
+  ]
+}

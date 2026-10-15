@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "batch": "batch-c",
+  "as_of": "2026-10-15",
+  "assigned_count": 41,
+  "screened_count": 41,
+  "coverage": "Breadth-first article and literature screening; no exhaustive claim about all literature.",
+  "entries": [
+    {
+      "id": "wiki-1355482",
+      "title": "Pell number",
+      "url": "https://en.wikipedia.org/wiki/Pell_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "With P_0=0, P_1=1 and P_(n+2)=2P_(n+1)+P_n, are there infinitely many n in N for which P_n is prime? Companion Pell prime infinitude is a distinct possible target.",
+      "status": "unverified",
+      "status_detail": "The assigned article discusses Pell primes but does not explicitly state the infinitude question in its current extract. The intended category target is inferred. Perfect-power classification is known, not a new target. Pinned Formal Conjectures source explicitly records the Pell-prime infinitude question, removing ambiguity about that target; current primary status remains incompletely verified.",
+      "sources": [
+        {
+          "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v163-n3-p05.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Pethő-related perfect-power literature linked by article; source concerns powers, not prime infinitude."
+        },
+        {
+          "url": "https://nhsjs.com/2026/sqtpp-shifted-quadratic-twice-prime-power-equation-necessary-conditions-and-structural-analysis/",
+          "accessed_on": "2026-10-15",
+          "note": "Recent research note describes Pell prime infinitude as open; not sufficient alone for strong status certification."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/Pell.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/Pell.lean",
+        "declarations": "infinite_pellNumber_primes",
+        "alignment_notes": "Exact infinitude statement; the open declaration has a sorry placeholder.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Seek a primality-producing mechanism for recurrence terms at unbounded prime indices.",
+      "obstruction": "Primitive divisors guarantee a new prime factor, not a prime term.",
+      "next_step": "Confirm precise prime-infinitude formulation with a specialist primary survey before selection.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-1355482.json",
+        "retrieved_at": "2026-10-15T14:53:11.423520+00:00",
+        "revision_id": 1374592550,
+        "revision_timestamp": "2026-09-13T00:23:53Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-23670",
+      "title": "Perfect number",
+      "url": "https://en.wikipedia.org/wiki/Perfect_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "(A) Does any odd n>0 satisfy sigma(n)=2n? (B) Are there infinitely many n>0 with sigma(n)=2n? Even-perfect infinitude is equivalent to infinitely many Mersenne primes.",
+      "status": "open_supported",
+      "status_detail": "Compound article. Even-perfect classification is established; odd existence and infinitude remain separate. Recent papers give restricted necessary conditions, not a complete solution.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.19746",
+          "accessed_on": "2026-10-15",
+          "note": "Ochem and Zelinsky, July 2026: strong condition under a restricted exponent pattern."
+        },
+        {
+          "url": "https://www.lirmm.fr/~ochem/opn/opn.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Ochem and Rao source for lower-bound work; no finite bound settles existence."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/PerfectNumbers.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/PerfectNumbers.lean",
+        "declarations": "infinitely_many_perfect; infinitely_many_even_perfect; odd_perfect_number_conjecture",
+        "alignment_notes": "Three distinct questions. Known Euler-form proof is separate; open declarations have sorry placeholders.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "A structural contradiction for every Euler-form odd candidate would solve (A); an unbounded prime-generation mechanism is needed for (B).",
+      "obstruction": "Finite factor-chain searches do not cover unbounded support/exponents.",
+      "next_step": "Deprioritize unless a new uniform invariant is identified.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-23670.json",
+        "retrieved_at": "2026-10-15T14:53:11.339223+00:00",
+        "revision_id": 1378937800,
+        "revision_timestamp": "2026-10-07T00:39:12Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-81079117",
+      "title": "Pi prime",
+      "url": "https://en.wikipedia.org/wiki/Pi_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "For a_n=floor(10^(n-1)*pi), n>=1, are infinitely many a_n prime? Include initial digit 3; decimal-only prefixes are a different sequence.",
+      "status": "unverified",
+      "status_detail": "Article supplies a heuristic, not a proof, of infinitude. A 2026 primality report settles one formerly probable-prime prefix only.",
+      "sources": [
+        {
+          "url": "https://t5k.org/curios/page.php?number_id=1435",
+          "accessed_on": "2026-10-15",
+          "note": "Baillie reports proving the 16208-digit prefix prime with Primo in May 2026; no certificate audited here."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Need arithmetic distribution of actual pi prefixes sufficient to force primes.",
+      "obstruction": "Normality is unknown and would not by itself force primality of prefixes.",
+      "next_step": "Do not retain prefix computations as progress to infinitude.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-81079117.json",
+        "retrieved_at": "2026-10-15T14:53:11.581444+00:00",
+        "revision_id": 1359532426,
+        "revision_timestamp": "2026-06-15T20:28:51Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-2595060",
+      "title": "Pierpont prime",
+      "url": "https://en.wikipedia.org/wiki/Pierpont_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are there infinitely many primes p=2^u*3^v+1 with u,v natural numbers (including 0)?",
+      "status": "open_supported",
+      "status_detail": "Gleason infinitude conjecture; logarithmic count is a stronger heuristic. Searches did not establish a resolution.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1311.4261",
+          "accessed_on": "2026-10-15",
+          "note": "Primary research source cited for Gleason conjecture; requires full-text review before proof selection."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pierpont_prime",
+          "accessed_on": "2026-10-15",
+          "note": "Article defines exponents and points to Gleason 1988, footnote 8."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/PierpontPrime.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/PierpontPrime.lean",
+        "declarations": "infinitely_many_pierpont_primes",
+        "alignment_notes": "Infinitude statement with sorry placeholder.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Develop a sieve lower bound for primes adjacent to 3-smooth numbers.",
+      "obstruction": "Sparse two-exponent set; probabilistic density and factor tests do not prove infinitude.",
+      "next_step": "Deprioritize without a uniform primality argument.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-2595060.json",
+        "retrieved_at": "2026-10-15T14:53:11.727426+00:00",
+        "revision_id": 1361678244,
+        "revision_timestamp": "2026-06-29T12:43:01Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-3348772",
+      "title": "Polignac's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Polignac's_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every even integer k>=2, are there infinitely many consecutive primes p<q with q-p=k?",
+      "status": "open_supported",
+      "status_detail": "The consecutive-prime requirement is essential. Bounded-gap results do not identify an arbitrary prescribed gap.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1407.4897",
+          "accessed_on": "2026-10-15",
+          "note": "D.H.J. Polymath 2014 proves bounded intervals, with conditional bound 6; no prescribed-gap solution."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "A prime-pattern theorem including compositeness of all intermediate admissible positions would suffice.",
+      "obstruction": "Sieve parity and prescribed gaps remain unresolved.",
+      "next_step": "Coordinate overlap with twin/sexy/tuple pages; avoid duplicate research.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-3348772.json",
+        "retrieved_at": "2026-10-15T14:53:11.776031+00:00",
+        "revision_id": 1378654360,
+        "revision_timestamp": "2026-10-05T13:45:17Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-41731660",
+      "title": "Pollock's conjectures",
+      "url": "https://en.wikipedia.org/wiki/Pollock's_conjectures",
+      "screened_on": "2026-10-15",
+      "exact_question": "Separate targets: every N>=0 is a sum of <=5 tetrahedral t_n=n(n+1)(n+2)/6; every N>=0 is a sum of <=7 octahedral o_n=n(2n^2+1)/3, n>=0. Other Pollock polyhedra are separate claims.",
+      "status": "mixed_resolved_open",
+      "status_detail": "Tetrahedral and all-integer octahedral targets remain candidates. Octahedral sufficiently-large theorem is known. August 2026 preprint claims icosahedral/dodecahedral full results; article wording about 2025 must not stand as current primary evidence.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1509.04316",
+          "accessed_on": "2026-10-15",
+          "note": "Explicit sufficiently-large octahedral theorem; threshold does not eliminate all smaller cases."
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.08019",
+          "accessed_on": "2026-10-15",
+          "note": "Basak, Dong, Saettone, Zaharescu, August 2026: claimed refined icosahedral/dodecahedral proofs; not independently audited."
+        },
+        {
+          "url": "https://link.springer.com/10.1007/s00283-023-10307-0",
+          "accessed_on": "2026-10-15",
+          "note": "Known centered nonagonal result, excluded from novel targets."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/PollocksConjecture.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/PollocksConjecture.lean",
+        "declarations": "pollock_tetrahedral",
+        "alignment_notes": "Five tetrahedral summands only; no octahedral statement in this file. Open declaration has sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "For octahedra, obtain effective descent to a feasible finite range or radically lower the analytic threshold.",
+      "obstruction": "Existing huge threshold leaves a finite interval too large for direct certification; local solubility is not global representation.",
+      "next_step": "Candidate for second mathematical attempt after complete breadth screening.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-41731660.json",
+        "retrieved_at": "2026-10-15T14:53:12.059978+00:00",
+        "revision_id": 1376238210,
+        "revision_timestamp": "2026-09-22T23:51:30Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-812561",
+      "title": "Prime quadruplet",
+      "url": "https://en.wikipedia.org/wiki/Prime_quadruplet",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many p such that p,p+2,p+6,p+8 are prime? Quintuplet and sextuplet infinitude in the article are additional, stronger pattern targets.",
+      "status": "open_supported",
+      "status_detail": "Admissible fixed tuple; no complete resolution found. Counting asymptotic is stronger than infinitude.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1407.4897",
+          "accessed_on": "2026-10-15",
+          "note": "Polymath bounded-gap paper describes the gap between bounded intervals and prescribed small tuples."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "A Hardy-Littlewood prime-tuples lower bound would imply infinitude.",
+      "obstruction": "Known bounded-interval methods permit unspecified offsets.",
+      "next_step": "Deprioritize; group with fixed prime tuples.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-812561.json",
+        "retrieved_at": "2026-10-15T14:53:12.053438+00:00",
+        "revision_id": 1339423542,
+        "revision_timestamp": "2026-02-20T13:22:53Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-7493205",
+      "title": "Prime triplet",
+      "url": "https://en.wikipedia.org/wiki/Prime_triplet",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are there infinitely many p with all of p,p+2,p+6 prime, and separately with all of p,p+4,p+6 prime? Infinitude of the union is weaker.",
+      "status": "open_supported",
+      "status_detail": "Article asks infinitude. Both patterns are admissible; no proof found.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1407.4897",
+          "accessed_on": "2026-10-15",
+          "note": "Primary bounded-gap paper supplies context, not a tuple proof."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/PrimeTriplets.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/PrimeTriplets.lean",
+        "declarations": "prime_triplets",
+        "alignment_notes": "Infinite union of the two orientations. Does not assert infinitude of each orientation separately; sorry placeholder.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Prove positive lower bounds for either fixed triple correlation.",
+      "obstruction": "Both imply twin primes; no route removes sieve parity.",
+      "next_step": "Keep both orientation-specific claims distinct.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-7493205.json",
+        "retrieved_at": "2026-10-15T14:53:12.315342+00:00",
+        "revision_id": 1246079392,
+        "revision_timestamp": "2024-09-16T19:36:34Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-11702062",
+      "title": "Problems involving arithmetic progressions",
+      "url": "https://en.wikipedia.org/wiki/Problems_involving_arithmetic_progressions",
+      "screened_on": "2026-10-15",
+      "exact_question": "Compound page: determine extremal A_k(N), the largest subset of {1,...,N} without a nonconstant k-term arithmetic progression; also several incompletely specified covering and partition problems.",
+      "status": "mixed_resolved_open",
+      "status_detail": "Szemerédi and Green-Tao existence results are already proved. Exact/general quantitative extremal and covering tasks are not a single precise conjecture. Covering length needs p and degeneracy conventions.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1403.2957",
+          "accessed_on": "2026-10-15",
+          "note": "Primary reference linked from article on arithmetic progression problems; target matching still needed."
+        },
+        {
+          "url": "https://arxiv.org/abs/math/0404188",
+          "accessed_on": "2026-10-15",
+          "note": "Green and Tao, primes contain arbitrarily long arithmetic progressions: known result."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Select a specific extremal asymptotic or fully quantified covering assertion before any proof.",
+      "obstruction": "Category membership bundles solved theorems with open quantitative questions and under-specified optimization tasks.",
+      "next_step": "Do not label the whole article solved/open as one proposition.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-11702062.json",
+        "retrieved_at": "2026-10-15T14:53:12.299732+00:00",
+        "revision_id": 1285636680,
+        "revision_timestamp": "2025-04-14T21:18:20Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-321913",
+      "title": "Quasiperfect number",
+      "url": "https://en.wikipedia.org/wiki/Quasiperfect_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "Does there exist n>=1 with sigma(n)=2n+1? A full negative solution proves forall n>=1, sigma(n) != 2n+1.",
+      "status": "unverified",
+      "status_detail": "Classical necessary conditions exist. A June 2025 preprint claims nonexistence; this requires argument audit and is not adopted as a resolution.",
+      "sources": [
+        {
+          "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa22/aa2245.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Abbott, Aull, Brown, Suryanarayana (1973), Quasiperfect numbers."
+        },
+        {
+          "url": "https://www.preprints.org/manuscript/202506.2159",
+          "accessed_on": "2026-10-15",
+          "note": "Claimed nonexistence proof; acceptance and correctness unverified."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/QuasiperfectNumbers.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/QuasiperfectNumbers.lean",
+        "declarations": "exists_quasiperfect",
+        "alignment_notes": "Existence is encoded as a question with sorry, not evidence that a quasiperfect number exists.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Use multiplicativity and odd-square structure to derive a uniform contradiction.",
+      "obstruction": "Comparing products over the first few primes cannot uniformly bound all possible prime supports.",
+      "next_step": "Audit the 2025 claim only if this becomes a candidate; do not formalize it blindly.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-321913.json",
+        "retrieved_at": "2026-10-15T14:53:12.612800+00:00",
+        "revision_id": 1312558748,
+        "revision_timestamp": "2025-09-21T10:18:12Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-51244926",
+      "title": "Rank of an elliptic curve",
+      "url": "https://en.wikipedia.org/wiki/Rank_of_an_elliptic_curve",
+      "screened_on": "2026-10-15",
+      "exact_question": "(A) Is {rank E(Q): E/Q an elliptic curve} bounded? (B) Does the average algebraic rank, ordered by minimal integral naive height max(4|A|^3,27B^2), tend to 1/2?",
+      "status": "open_supported",
+      "status_detail": "Opposite heuristics exist for boundedness; a record rank cannot settle it. Average-rank results depend on the height convention.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1602.01431",
+          "accessed_on": "2026-10-15",
+          "note": "Park, Poonen, Voight, Wood: bounded-rank heuristic, not a theorem."
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.07089",
+          "accessed_on": "2026-10-15",
+          "note": "Janbazi 2025: average bound for coefficient height max(|A|,|B|), a different ordering."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Uniform descent control for boundedness or a family with unbounded independent points for unboundedness.",
+      "obstruction": "Known rank bounds are individual or average; neither controls the supremum.",
+      "next_step": "Keep boundedness and average-rank conjectures separate; do not target record computation.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-51244926.json",
+        "retrieved_at": "2026-10-15T14:57:54.420383+00:00",
+        "revision_id": 1379833235,
+        "revision_timestamp": "2026-10-12T04:39:23Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-323689",
+      "title": "Regular prime",
+      "url": "https://en.wikipedia.org/wiki/Regular_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many odd primes p regular, i.e. p does not divide the class number of Q(zeta_p)? Stronger: is their density among primes exp(-1/2)?",
+      "status": "open_supported",
+      "status_detail": "The infinitude of irregular primes does not settle regular-prime infinitude. Formal FLT for regular primes is a known theorem.",
+      "sources": [
+        {
+          "url": "https://mathweb.ucsd.edu/~tgrubb/205paper.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Expository primary note explicitly states regular-prime infinitude conjecture; not a current completeness certificate."
+        },
+        {
+          "url": "https://afm.episciences.org/16046/pdf",
+          "accessed_on": "2026-10-15",
+          "note": "2025 formalization of FLT for regular primes, a source for the definition in Lean."
+        }
+      ],
+      "existing_formalization": "2025 AFM paper: A complete formalization of Fermat’s Last Theorem for regular primes in Lean; relevant definitions exist, but no infinitude proof is claimed.",
+      "plausible_approach": "Control simultaneous Bernoulli numerator nondivisibility as p grows.",
+      "obstruction": "Heuristic independence of Bernoulli residues has no uniform proof.",
+      "next_step": "Use existing regular-prime definitions only if a new distribution argument arises.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-323689.json",
+        "retrieved_at": "2026-10-15T14:58:03.008537+00:00",
+        "revision_id": 1365822533,
+        "revision_timestamp": "2026-07-24T16:46:53Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-19344125",
+      "title": "Riemann hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every complex s with zeta(s)=0 and 0<Re(s)<1, prove Re(s)=1/2. Equivalent global formulations must exclude trivial zeros and the pole at 1.",
+      "status": "open_supported",
+      "status_detail": "Clay lists RH as unsolved; computational zero verification is not a full solution.",
+      "sources": [
+        {
+          "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+          "accessed_on": "2026-10-15",
+          "note": "Current Clay problem page and official formulation."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Millennium/RiemannHypothesis.lean",
+        "declarations": "riemannHypothesis",
+        "alignment_notes": "Uses mathlib RiemannHypothesis and contains sorry. A statement, not a proof.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "A positive spectral/analytic representation that forces all nontrivial zeros onto the line.",
+      "obstruction": "No such positive representation is available; checking bounded height is insufficient.",
+      "next_step": "Deprioritize without a concrete new analytic identity.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-19344125.json",
+        "retrieved_at": "2026-10-15T14:58:11.412269+00:00",
+        "revision_id": 1380378050,
+        "revision_timestamp": "2026-10-15T11:22:41Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-321963",
+      "title": "Riesel number",
+      "url": "https://en.wikipedia.org/wiki/Riesel_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "Is 509203 the least positive odd k such that k*2^n-1 is composite for every integer n>=1? Prove a prime witness exists for every smaller eligible k.",
+      "status": "open_supported",
+      "status_detail": "Known covering proof gives the candidate; minimality remains the search target. Current remaining-candidate count was not independently synchronized.",
+      "sources": [
+        {
+          "url": "https://www.primegrid.com/",
+          "accessed_on": "2026-10-15",
+          "note": "Maintainer project lists ongoing Riesel search; current complete certificates not fetched."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Certify primality witnesses for every remaining smaller k, then combine with covering proof.",
+      "obstruction": "The remaining witnesses may have millions of digits; testing bounded n does not prove no prime exists.",
+      "next_step": "Only pursue with a full candidate ledger and realistic final-witness route; avoid partial eliminations.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-321963.json",
+        "retrieved_at": "2026-10-15T14:58:20.109124+00:00",
+        "revision_id": 1378745235,
+        "revision_timestamp": "2026-10-06T00:28:39Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-89244",
+      "title": "Safe and Sophie Germain primes",
+      "url": "https://en.wikipedia.org/wiki/Safe_and_Sophie_Germain_primes",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many primes p such that 2p+1 is also prime? This is equivalent to infinitely many safe primes q=2p+1.",
+      "status": "open_supported",
+      "status_detail": "A 2026 paper still uses Sophie Germain infinitude conjecturally. Unreviewed universal-proof titles were located but not adopted.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.17847",
+          "accessed_on": "2026-10-15",
+          "note": "2026 paper explicitly uses Sophie Germain conjecture conditionally."
+        },
+        {
+          "url": "https://researchers.mq.edu.au/en/publications/generating-safe-primes/",
+          "accessed_on": "2026-10-15",
+          "note": "Research paper distinguishes prime generation algorithms from infinitude theorem."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Lower bound for simultaneous prime values n and 2n+1.",
+      "obstruction": "Fixed linear-pattern sieve parity obstacle.",
+      "next_step": "Group with Schinzel H and twin-prime work; no isolated computational target.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-89244.json",
+        "retrieved_at": "2026-10-15T14:57:16.721031+00:00",
+        "revision_id": 1379028502,
+        "revision_timestamp": "2026-10-07T13:34:34Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-2031353",
+      "title": "Schanuel's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Schanuel's_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every n>=1 and Q-linearly independent z_1,...,z_n in C, trdeg_Q Q(z_1,...,z_n,exp(z_1),...,exp(z_n)) >= n.",
+      "status": "open_supported",
+      "status_detail": "Ordinary complex exponential is essential. Differential-field and generic-tuple analogues do not establish the universal statement.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1007/978-3-031-97439-7_5",
+          "accessed_on": "2026-10-15",
+          "note": "2025/2026 algorithmic applications survey relies on Schanuel as conjecture."
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.14041",
+          "accessed_on": "2026-10-15",
+          "note": "2025 generic-tuple and elliptic analogues; do not substitute them for universal complex claim."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/Schanuel.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/Schanuel.lean",
+        "declarations": "schanuel_conjecture",
+        "alignment_notes": "Complex Q-linear independence and transcendence-degree target; sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "A uniform algebraic-dependence bound for arbitrary complex tuples.",
+      "obstruction": "Even specific two-variable consequences are beyond current methods; model-theoretic surrogates are not C.",
+      "next_step": "Deprioritize; exact formal statement may be reusable.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-2031353.json",
+        "retrieved_at": "2026-10-15T14:58:28.592117+00:00",
+        "revision_id": 1375037872,
+        "revision_timestamp": "2026-09-15T14:10:24Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-604052",
+      "title": "Schinzel's hypothesis H",
+      "url": "https://en.wikipedia.org/wiki/Schinzel's_hypothesis_H",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every finite nonempty family of nonconstant irreducible f_i in Z[X] with positive leading coefficients and no prime dividing product_i f_i(n) for all n in Z, infinitely many positive n make every f_i(n) a positive prime.",
+      "status": "open_supported",
+      "status_detail": "Almost-all polynomial results leave exceptional fixed polynomials. Recent work continues to state results conditional on H.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2005.02998",
+          "accessed_on": "2026-10-15",
+          "note": "Skorobogatov and Sofos: 100 percent of polynomials, not every fixed polynomial."
+        },
+        {
+          "url": "https://doi.org/10.1017/S0305004125101758",
+          "accessed_on": "2026-10-15",
+          "note": "Anwar 2025/2026 work explicitly conditional on Hypothesis H."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/Schinzel.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/Schinzel.lean",
+        "declarations": "schinzel_conjecture",
+        "alignment_notes": "Uses BunyakovskyCondition, SchinzelCondition and natAbs of values. Definitions require full sign/nonconstant audit before importing; sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Uniform primality-producing method beyond the sieve parity barrier.",
+      "obstruction": "Includes twin primes and n^2+1 primes; averaged statements cannot discharge all quantifiers.",
+      "next_step": "Deprioritize unless a universal mechanism appears.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-604052.json",
+        "retrieved_at": "2026-10-15T14:58:36.902285+00:00",
+        "revision_id": 1379029091,
+        "revision_timestamp": "2026-10-07T13:40:07Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-578650",
+      "title": "Scholz conjecture",
+      "url": "https://en.wikipedia.org/wiki/Scholz_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every integer n>=1, ell(2^n-1) <= n-1+ell(n), where ell(m) is minimum number of additions in an ordinary increasing addition chain from 1 to m.",
+      "status": "open_supported",
+      "status_detail": "Full Scholz conjecture remains open in specialist source. Hansen-chain cases and individual non-Hansen repairs are partial results.",
+      "sources": [
+        {
+          "url": "https://additionchains.com/Repair.html",
+          "accessed_on": "2026-10-15",
+          "note": "September 2026 maintainer update; exact six-unrepaired list requires capture and audit."
+        },
+        {
+          "url": "https://arxiv.org/abs/2210.13812",
+          "accessed_on": "2026-10-15",
+          "note": "Tall: infinite special families, not universal theorem."
+        },
+        {
+          "url": "https://www.additionchains.com/ScholzBrauer.html",
+          "accessed_on": "2026-10-15",
+          "note": "Specialist explanation of Hansen-chain construction."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/ScholzConjecture.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/ScholzConjecture.lean",
+        "declarations": "scholz_conjecture",
+        "alignment_notes": "Exact positive-natural target using ordinary additionChainLength; sorry. Underlying chain definitions downloaded separately for alignment.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Seek a universal transformation from an optimal exponent chain to a Mersenne chain with amortized cost n-1 per all shifts.",
+      "obstruction": "Non-star steps require previously unavailable shifted blocks; local repairs lack global budget theorem.",
+      "next_step": "Select as strongest symbolic target after breadth screening; specify all chains and quantify shift budget.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-578650.json",
+        "retrieved_at": "2026-10-15T14:58:45.401690+00:00",
+        "revision_id": 1286134739,
+        "revision_timestamp": "2025-04-17T23:24:24Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-361598",
+      "title": "Second Hardy–Littlewood conjecture",
+      "url": "https://en.wikipedia.org/wiki/Second_Hardy%E2%80%93Littlewood_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every integers x,y>=2, is pi(x+y)<=pi(x)+pi(y)? A single rigorously certified violating pair disproves it.",
+      "status": "open_supported",
+      "status_detail": "Known incompatible with prime-tuples conjecture, but a conditional counterexample is not a disproof. 2026 paper proves ranges only.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2503.02766",
+          "accessed_on": "2026-10-15",
+          "note": "Chahal et al.; published Acta Arithmetica 223 (2026): improved unconditional/conditional ranges."
+        },
+        {
+          "url": "https://doi.org/10.4064/aa-25-4-375-391",
+          "accessed_on": "2026-10-15",
+          "note": "Hensley and Richards 1974 prime-constellation incompatibility."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/HardyLittlewood.lean",
+        "declarations": "second_hardy_littlewood_conjecture",
+        "alignment_notes": "x,y>=2 prime-counting subadditivity; sorry. Incompatibility with first conjecture is separately tagged solved but also has sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Construct a dense actual prime constellation exceeding pi(interval length).",
+      "obstruction": "Admissibility alone gives no actual simultaneous primes; expected counterexamples are enormous.",
+      "next_step": "No finite search retained without a path to a certificate.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-361598.json",
+        "retrieved_at": "2026-10-15T14:58:53.902005+00:00",
+        "revision_id": 1362216275,
+        "revision_timestamp": "2026-07-02T15:45:16Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-25943365",
+      "title": "Serre's conjecture II",
+      "url": "https://en.wikipedia.org/wiki/Serre's_conjecture_II",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every perfect field F of cohomological dimension <=2 and every semisimple simply connected F-group G, is H^1(F,G) trivial? Imperfect-field extension requires its own characteristic hypotheses.",
+      "status": "unverified",
+      "status_detail": "Article claims all perfect-field cases solved but does not supply matching evidence; the 2026 primary paper describes the conjecture and proves equivalence with a generalization plus global/local special cases. Do not accept the article’s blanket solved assertion.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.00903",
+          "accessed_on": "2026-10-15",
+          "note": "Izquierdo and Lucchini Arteche transfer principles, published 2025; special instances and reductions."
+        },
+        {
+          "url": "https://arxiv.org/abs/2603.08061",
+          "accessed_on": "2026-10-15",
+          "note": "Nguyen March 2026: pseudo-reductive generalization and equivalence; not a general resolution."
+        },
+        {
+          "url": "https://math.univ-lyon1.fr/homes-www/gille/publis/hyderabad.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Gille specialist survey; exceptional-type cases require careful matching."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Control exceptional-group torsors over arbitrary cohomological-dimension-two fields.",
+      "obstruction": "Known local/global cases do not cover arbitrary perfect fields.",
+      "next_step": "Flag source discrepancy for parent; audit full theorem statements before any target selection.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-25943365.json",
+        "retrieved_at": "2026-10-15T14:59:02.239243+00:00",
+        "revision_id": 1376896895,
+        "revision_timestamp": "2026-09-26T21:18:04Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-343116",
+      "title": "Sexy primes",
+      "url": "https://en.wikipedia.org/wiki/Sexy_primes",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many natural p with p and p+6 both prime? Intermediate primes are allowed.",
+      "status": "open_supported",
+      "status_detail": "Article contains unsupported equivalences: H_1<=6 only asserts infinitely many gaps in {2,4,6}; generalized Elliott-Halberstam implies such a bound but no converse or prescribed gap follows.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1407.4897",
+          "accessed_on": "2026-10-15",
+          "note": "Polymath 2014: bounded-gap conditional result, not an equivalence with gap 6."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "A fixed-pair prime correlation lower bound at shift 6.",
+      "obstruction": "The pigeonhole principle selects some gap, not necessarily 6.",
+      "next_step": "Flag the article error; never use it as a reduction or a proof.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-343116.json",
+        "retrieved_at": "2026-10-15T14:59:10.720608+00:00",
+        "revision_id": 1379054954,
+        "revision_timestamp": "2026-10-07T17:19:19Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-169570",
+      "title": "Sierpiński number",
+      "url": "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "Is 78557 the least positive odd k with k*2^n+1 composite for every n>=1? Also distinguish the least prime Sierpinski number and second-smallest Sierpinski number, both conjectured 271129.",
+      "status": "open_supported",
+      "status_detail": "Covering proof establishes the candidate; full minimality requires witnesses for all smaller k. Current remaining ledger count unverified.",
+      "sources": [
+        {
+          "url": "https://www.primegrid.com/",
+          "accessed_on": "2026-10-15",
+          "note": "Project-maintainer search page identifies ongoing Seventeen or Bust, prime and extended Sierpinski searches."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/SierpinskiNumber.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/SierpinskiNumber.lean",
+        "declarations": "selfridge_conjecture; prime_sierpinski_problem; extended_sierpinski_problem",
+        "alignment_notes": "Minimality questions have sorry. Selfridge candidate covering result is a separate proof. Check n=0 versus n>=1 convention when reusing.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Close every remaining k with a certified prime witness and combine with covering proof.",
+      "obstruction": "Bounded exponent searches do not settle any surviving k.",
+      "next_step": "Coordinate whole-ledger closure only; no partial prime hunt.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-169570.json",
+        "retrieved_at": "2026-10-15T14:59:19.201706+00:00",
+        "revision_id": 1376976702,
+        "revision_timestamp": "2026-09-27T05:46:55Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-4374033",
+      "title": "Singmaster's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Singmaster's_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "Does there exist C in N such that for all integers t>1, the number of pairs (n,k) with n in N, 0<=k<=n, choose(n,k)=t is at most C?",
+      "status": "open_supported",
+      "status_detail": "Uniform bound is open; finiteness for each fixed t is easy and insufficient. Restricted interior bounds do not cover Pascal triangle edges.",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/qjmath/article/73/3/1137/6563541",
+          "accessed_on": "2026-10-15",
+          "note": "2022 paper Singmaster’s Conjecture in the Interior of Pascal’s Triangle: restricted regime."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/Singmaster.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/Singmaster.lean",
+        "declarations": "singmaster",
+        "alignment_notes": "Uniform natural C over t>1, finiteness and cardinality bound; sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Control the small-k edge uniformly, then combine with known interior bounds.",
+      "obstruction": "For fixed k algebraic/Diophantine tools do not yield constants uniform over all k.",
+      "next_step": "Lower priority than Scholz; do not retain finite multiplicity tables.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-4374033.json",
+        "retrieved_at": "2026-10-15T14:59:27.591677+00:00",
+        "revision_id": 1371072537,
+        "revision_timestamp": "2026-08-24T12:12:21Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-52290066",
+      "title": "Square-difference-free set",
+      "url": "https://en.wikipedia.org/wiki/Square-difference-free_set",
+      "screened_on": "2026-10-15",
+      "exact_question": "Let r_square(N)=max{|A|: A subset {1,...,N}, no difference a-b=m^2 for m>=1}. Determine its asymptotic growth. Separate candidate: for every epsilon>0, r_square(N)>=N^(1-epsilon) for all sufficiently large N, up to constants.",
+      "status": "claimed_resolution_unverified",
+      "status_detail": "September 24 2026 OpenAI manuscript claims r_square(N)<=C*N^(1-c) for absolute c>0. If sound this disproves the nearly-linear lower-bound candidate, but does not determine the optimal exponent. August 2026 construction also passes the former 3/4 lower-bound barrier.",
+      "sources": [
+        {
+          "url": "https://github.com/openai/math/blob/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026/paper.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Downloaded first-party PDF; abstract and theorem claim power saving. Full proof and independent acceptance not audited."
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.01325",
+          "accessed_on": "2026-10-15",
+          "note": "Square-Difference-Free Sets beyond the Three-Quarter Barrier, August 2026; lower-bound progress."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Audit current power-saving argument before choosing an unresolved exact exponent or asymptotic.",
+      "obstruction": "The page is an optimization program, not a single conjecture; latest preprint claim changes target selection.",
+      "next_step": "Parent should record claimed resolution of fixed-power question separately from open sharp asymptotic.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-52290066.json",
+        "retrieved_at": "2026-10-15T14:59:36.076032+00:00",
+        "revision_id": 1379301745,
+        "revision_timestamp": "2026-10-09T03:12:02Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-5685631",
+      "title": "Stark conjectures",
+      "url": "https://en.wikipedia.org/wiki/Stark_conjectures",
+      "screened_on": "2026-10-15",
+      "exact_question": "Rational Stark formulation: for every finite Galois extension K/k, admissible finite place set S, character chi and rational G-module identification phi between S-unit and augmentation modules, A_phi(chi)=L_S^*(0,chi)/R_phi(chi) should be algebraic with A_phi(chi^sigma)=sigma(A_phi(chi)). Integral abelian rank-one unit refinements are additional claims.",
+      "status": "mixed_resolved_open",
+      "status_detail": "Family of conjectures. Gross-Stark and Brumer-Stark results must not be promoted to all complex Stark conjectures; prime-2 and rank restrictions need exact theorem matching.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2010.00657",
+          "accessed_on": "2026-10-15",
+          "note": "Dasgupta and Kakde: Brumer-Stark setting for abelian CM extensions over totally real fields."
+        },
+        {
+          "url": "https://arxiv.org/abs/2204.09037",
+          "accessed_on": "2026-10-15",
+          "note": "Refinements and precise scope of Brumer-Stark work."
+        },
+        {
+          "url": "https://services.math.duke.edu/~dasgupta/papers/Dasguptaseniorthesis.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Detailed formulations of complex and Brumer-Stark variants."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Identify a precise unsolved character/rank case with regulator control.",
+      "obstruction": "Broad family spans incompatible hypotheses; numerical unit recognition does not prove exact equalities.",
+      "next_step": "Require full normalized formulation from primary source before formal work; defer.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-5685631.json",
+        "retrieved_at": "2026-10-15T14:59:44.425950+00:00",
+        "revision_id": 1365865648,
+        "revision_timestamp": "2026-07-24T22:16:29Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-70060173",
+      "title": "Sum of four cubes problem",
+      "url": "https://en.wikipedia.org/wiki/Sum_of_four_cubes_problem",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every n in Z, do there exist x_1,x_2,x_3,x_4 in Z with n=sum x_i^3? Zero and negative cubes allowed.",
+      "status": "open_supported",
+      "status_detail": "Four signed cubes differ from four positive cubes. Known identities cover many residue classes; 2026 primary paper still states full signed-cube assertion conjecturally.",
+      "sources": [
+        {
+          "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70554",
+          "accessed_on": "2026-10-15",
+          "note": "Maynard 2026, Sums of three positive cubes, introduction distinguishes signed four-cube conjecture."
+        },
+        {
+          "url": "https://www.alpertron.com.ar/FCUBES.HTM",
+          "accessed_on": "2026-10-15",
+          "note": "Algorithm author’s September 2026 implementation excludes 4 and 5 mod 9; no universal algorithm."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Find integer-valued polynomial families or descent covering remaining classes 4,5 mod 9.",
+      "obstruction": "Rational parametrizations can introduce denominators; bounded witness searches do not cover every integer.",
+      "next_step": "Possible secondary target, but do not replicate known residue identities.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-70060173.json",
+        "retrieved_at": "2026-10-15T14:59:52.892483+00:00",
+        "revision_id": 1333139585,
+        "revision_timestamp": "2026-01-15T23:21:42Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-60187666",
+      "title": "Sums of three cubes",
+      "url": "https://en.wikipedia.org/wiki/Sums_of_three_cubes",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every n in Z with n mod 9 not in {4,5}, do there exist x,y,z in Z with x^3+y^3+z^3=n? Stronger infinitude-of-representations claim is separate.",
+      "status": "open_supported",
+      "status_detail": "Local obstruction is necessary; universal sufficiency remains conjectural. Positive-cube density questions are separate.",
+      "sources": [
+        {
+          "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70554",
+          "accessed_on": "2026-10-15",
+          "note": "2026 research distinguishes nonnegative/signed problems and states the signed conjecture."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/SumOfThreeCubes.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/SumOfThreeCubes.lean",
+        "declarations": "isSumOfThreeCubes_iff_mod_9",
+        "alignment_notes": "Full signed-integer criterion encoded with sorry; separate rational identity does not settle it.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Establish integral local-global principle on these affine cubic surfaces.",
+      "obstruction": "Existence over Q and congruence solubility do not supply integer points.",
+      "next_step": "No search for isolated small unresolved n without full-target route.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-60187666.json",
+        "retrieved_at": "2026-10-15T15:00:01.426396+00:00",
+        "revision_id": 1374533187,
+        "revision_timestamp": "2026-09-12T17:11:51Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-16911683",
+      "title": "Superperfect number",
+      "url": "https://en.wikipedia.org/wiki/Superperfect_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "Does any positive odd n satisfy sigma(sigma(n))=2n? Separate generalized target: does any n>0 satisfy sigma(sigma(n))=5n?",
+      "status": "unverified",
+      "status_detail": "Even superperfect numbers are classified. Odd existence remains stated open in article; current primary status not fully verified. Existing formal-conjectures file targets (2,5), not odd superperfect existence.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Superperfect_number",
+          "accessed_on": "2026-10-15",
+          "note": "Article supplies original Suryanarayana and later references; current literature check inconclusive."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/Superperfectnumbers.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/Superperfectnumbers.lean",
+        "declarations": "twoFivePerfect",
+        "alignment_notes": "Only nonexistence of (2,5)-perfect numbers, not odd superperfect numbers. Open declaration has sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Use multiplicative constraints jointly on n and sigma(n), without bounding support.",
+      "obstruction": "Applying sigma twice couples two unknown factorizations; finite searches only give lower bounds.",
+      "next_step": "Find a current specialist source; preserve distinction from (2,5)-perfect target.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-16911683.json",
+        "retrieved_at": "2026-10-15T15:00:09.989547+00:00",
+        "revision_id": 1365374288,
+        "revision_timestamp": "2026-07-22T00:33:33Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-22965231",
+      "title": "Supersingular prime (algebraic number theory)",
+      "url": "https://en.wikipedia.org/wiki/Supersingular_prime_(algebraic_number_theory)",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every fixed non-CM elliptic curve E/Q, prove the Lang-Trotter asymptotic for number of good primes p<=x with a_p(E)=0, with its curve-dependent constant. Broader number-field infinitude is separate.",
+      "status": "mixed_resolved_open",
+      "status_detail": "Infinitely many supersingular primes for E/Q is already Elkies’s theorem. The asymptotic count remains conjectural; do not re-solve known infinitude.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.17639",
+          "accessed_on": "2026-10-15",
+          "note": "Wang August 2026 cites Elkies and studies fixed Frobenius fields in special families."
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.00822",
+          "accessed_on": "2026-10-15",
+          "note": "2026 primary work states elliptic Lang-Trotter asymptotic before studying a different averaged genus-2 problem."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Effective Frobenius equidistribution at the single trace value 0.",
+      "obstruction": "Continuous Sato-Tate distribution alone does not resolve a shrinking single-trace target.",
+      "next_step": "Deprioritize full asymptotic; avoid conflating CM and non-CM cases.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-22965231.json",
+        "retrieved_at": "2026-10-15T15:00:18.593119+00:00",
+        "revision_id": 1346640370,
+        "revision_timestamp": "2026-04-02T00:44:24Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-18813336",
+      "title": "Szpiro's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Szpiro's_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every epsilon>0, exists C(epsilon)>0 such that every elliptic curve E/Q has |minimal discriminant| <= C(epsilon)*conductor^(6+epsilon). Modified version replaces |Delta| by max(|c4|^3,|c6|^2).",
+      "status": "unverified",
+      "status_detail": "IUT-related claimed proofs remain disputed; no accepted full proof was established by this screening. Original and modified inequalities must be distinguished.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.15971",
+          "accessed_on": "2026-10-15",
+          "note": "Cuevas Barrientos and Pasten 2025: unconditional subexponential bounds in families, not uniform Szpiro."
+        },
+        {
+          "url": "https://math.arizona.edu/~kirti/joshi-mochizuki-FAQ.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Claimant’s current account; not independent validation of IUT."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "A uniform conductor-discriminant inequality with exponent arbitrarily close to 6.",
+      "obstruction": "Family-specific constants and subexponential bounds do not imply universal exponent 6+epsilon.",
+      "next_step": "Parent owns abc overlap; avoid duplicate work and disputed-proof imports.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-18813336.json",
+        "retrieved_at": "2026-10-15T15:00:27.372800+00:00",
+        "revision_id": 1376069537,
+        "revision_timestamp": "2026-09-21T21:36:17Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-3124804",
+      "title": "Tate conjecture",
+      "url": "https://en.wikipedia.org/wiki/Tate_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every smooth projective variety X over a field k finitely generated over its prime field, every codimension i, and every prime ell different from char(k), is the rational ell-adic cycle class map onto H^(2i)(X_bar,Q_ell(i))^Gal(k_bar/k)? Integral versions are excluded.",
+      "status": "claimed_resolution_unverified",
+      "status_detail": "General target remains unsupported by a proof here. October 6 2026 OpenAI manuscript claims rational Hodge for CM abelian varieties and hence Tate for all abelian varieties over finite fields. This is a restricted class of varieties and a claim not independently audited.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.07337",
+          "accessed_on": "2026-10-15",
+          "note": "Kahn 2025 explicitly records unsuccessful approaches for surfaces over finite fields."
+        },
+        {
+          "url": "https://github.com/openai/math/blob/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/paper.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "First-party October 2026 manuscript, claimed abelian-variety consequence; no general Tate proof."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Construct algebraic cycles realizing all rational invariant classes.",
+      "obstruction": "Known divisor theorems and abelian-variety claims do not cover arbitrary varieties and codimensions.",
+      "next_step": "Parent should record the recent restricted claim and commission a separate source/statement audit before treating it as solved.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-3124804.json",
+        "retrieved_at": "2026-10-15T15:00:35.975444+00:00",
+        "revision_id": 1378962843,
+        "revision_timestamp": "2026-10-07T03:15:31Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-41997",
+      "title": "Twin prime",
+      "url": "https://en.wikipedia.org/wiki/Twin_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many natural numbers p such that both p and p+2 are prime?",
+      "status": "open_supported",
+      "status_detail": "Fixed gap 2 is not proved by any bounded-gap theorem inspected.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1407.4897",
+          "accessed_on": "2026-10-15",
+          "note": "Polymath bounded gaps: upper bound on liminf of prime gaps is not a proof of gap 2."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/TwinPrimes.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/TwinPrimes.lean",
+        "declarations": "twin_primes",
+        "alignment_notes": "Exact infinite fixed-gap-2 statement; sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "A lower bound for the simultaneous prime correlation at shift 2.",
+      "obstruction": "Sieve parity obstruction; almost-primes and some bounded even gap do not suffice.",
+      "next_step": "Share the fixed-prime-pattern obstruction with Polignac and prime-tuple entries; defer.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-41997.json",
+        "retrieved_at": "2026-10-15T15:00:44.782650+00:00",
+        "revision_id": 1378441795,
+        "revision_timestamp": "2026-10-04T14:17:47Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-34682455",
+      "title": "Vojta's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Vojta's_conjecture",
+      "screened_on": "2026-10-15",
+      "exact_question": "For every smooth projective X over a number field k, effective normal-crossings divisor D, ample divisor A, finite set S of places including the infinite places, and epsilon>0, do there exist a proper closed Z and C with m_S(D,P)+h_KX(P)<=epsilon*h_A(P)+C for every k-rational P outside Z and supp(D)?",
+      "status": "open_supported",
+      "status_detail": "This is the rational-point epsilon-height version. Algebraic-point variants require degree and discriminant terms; logarithmic-error or truncated variants must be stated separately.",
+      "sources": [
+        {
+          "url": "https://math.berkeley.edu/~vojta/cime/cime.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Vojta author-hosted survey: Conjectures 14.6 and 24.1, precise rational and algebraic point formulations."
+        },
+        {
+          "url": "https://math.berkeley.edu/~vojta/bib.html",
+          "accessed_on": "2026-10-15",
+          "note": "Author bibliography accessed October 2026; no full solution located."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Uniform height inequality outside a proper exceptional set.",
+      "obstruction": "Existing approximation theorems only handle special varieties/divisors; rational and algebraic domains differ.",
+      "next_step": "Use the author’s precise normalization before any future Lean specification; defer.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-34682455.json",
+        "retrieved_at": "2026-10-15T15:00:53.183980+00:00",
+        "revision_id": 1365060223,
+        "revision_timestamp": "2026-07-20T01:36:35Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-712166",
+      "title": "Wagstaff prime",
+      "url": "https://en.wikipedia.org/wiki/Wagstaff_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many odd primes p such that (2^p+1)/3 is prime?",
+      "status": "unverified",
+      "status_detail": "Infinitude remains listed conjectural; recent primary results certify individual primes or study sequence intersections, without establishing a full current-status theorem.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.18555",
+          "accessed_on": "2026-10-15",
+          "note": "Dolotov May 2026: three Brillhart-Lehmer-Selfridge primality proofs for individual Wagstaff numbers."
+        },
+        {
+          "url": "https://arxiv.org/abs/2602.20387",
+          "accessed_on": "2026-10-15",
+          "note": "Batte February 2026: Wagstaff primes in a k-Lucas sequence, a different restricted problem."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Uniform primality production in exponential sequence at prime exponents.",
+      "obstruction": "No known distribution theorem gives infinitely many prime values; certificates are finite.",
+      "next_step": "Do not retain isolated certificates unless part of a universal construction.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-712166.json",
+        "retrieved_at": "2026-10-15T15:01:01.984832+00:00",
+        "revision_id": 1366161998,
+        "revision_timestamp": "2026-07-26T17:23:43Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-323651",
+      "title": "Wall–Sun–Sun prime",
+      "url": "https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Does there exist a prime p>5 such that p^2 divides F_(p-(5/p)), where F is the Fibonacci sequence and (5/p) is the Legendre symbol? Infinitude is a separate stronger conjecture.",
+      "status": "unverified",
+      "status_detail": "No example reported by the inspected project record; this is not proof of nonexistence. PrimeGrid search bound and project termination must be tied to dated project evidence, not inferred from near-miss rows.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1102.1636",
+          "accessed_on": "2026-10-15",
+          "note": "Primary equivalences for the Wall-Sun-Sun prime condition."
+        },
+        {
+          "url": "https://www.primegrid.com/stats_ww.php",
+          "accessed_on": "2026-10-15",
+          "note": "Maintainer statistics: finite search and near misses, not a proof of either global assertion."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Analyze Frobenius lifting modulo p^2 for the Fibonacci unit.",
+      "obstruction": "Local probability heuristics do not force a zero Fermat quotient at any prime.",
+      "next_step": "Existence has a possible finite witness, but no bounded search cutoff can close the negative direction; defer.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-323651.json",
+        "retrieved_at": "2026-10-15T15:01:10.689350+00:00",
+        "revision_id": 1370481276,
+        "revision_timestamp": "2026-08-21T10:08:52Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-33569",
+      "title": "Waring's problem",
+      "url": "https://en.wikipedia.org/wiki/Waring's_problem",
+      "screened_on": "2026-10-15",
+      "exact_question": "Let g(k) be the least s representing every n>=0 as at most s nonnegative kth powers. For every integer k>=2, is g(k)=2^k+floor((3/2)^k)-2? Separately determine G(k), the least s for all sufficiently large n; notably is G(3)=4?",
+      "status": "mixed_resolved_open",
+      "status_detail": "Finiteness of g(k) is Hilbert’s known theorem. Ideal Waring formula and exact asymptotic values are different remaining questions; no universal formula proof was established in this screening.",
+      "sources": [
+        {
+          "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70554",
+          "accessed_on": "2026-10-15",
+          "note": "Maynard 2026 distinguishes the open four-positive-cube asymptotic problem from three-cube density results."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Waring%27s_problem",
+          "accessed_on": "2026-10-15",
+          "note": "Catalog source for ideal-formula conjecture; current primary verification of its exceptional-exponent boundary remains incomplete."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Ideal formula: a uniform irrationality inequality for fractional parts of (3/2)^k. Cubes: sufficiently strong minor-arc control.",
+      "obstruction": "Finite exceptional-exponent verification and density-one results do not imply all exponents or all large n.",
+      "next_step": "Keep precise ideal-formula and G(k) targets separate; no routine Hilbert theorem formalization.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-33569.json",
+        "retrieved_at": "2026-10-15T15:01:19.162120+00:00",
+        "revision_id": 1368657466,
+        "revision_timestamp": "2026-08-10T09:43:44Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-26497499",
+      "title": "Waring–Goldbach problem",
+      "url": "https://en.wikipedia.org/wiki/Waring%E2%80%93Goldbach_problem",
+      "screened_on": "2026-10-15",
+      "exact_question": "The page asks whether for every k>=1 some bounded number of kth powers of primes represents every sufficiently large integer. That existence question is known. The remaining optimization problem is H(k), the least fixed s for every sufficiently large n in the admissible class n=s mod K(k), with K(k) as defined in the cited primary source.",
+      "status": "mixed_resolved_open",
+      "status_detail": "The article’s initial existence question is not a fresh open target. Exact H(k) and improved bounds remain research topics. Fixed-term statements require local congruence conditions; mixed powers are not like powers.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1510.00982",
+          "accessed_on": "2026-10-15",
+          "note": "Kumchev and Wooley 2015: finite bounds for H(k), improving classical Hua bounds."
+        },
+        {
+          "url": "https://arxiv.org/abs/1602.08592",
+          "accessed_on": "2026-10-15",
+          "note": "Kumchev and Wooley 2016: seventh and higher powers."
+        },
+        {
+          "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2285-01.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Kawada specialist survey gives K(k), H(k), and known existence."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s11139-026-01340-6",
+          "accessed_on": "2026-10-15",
+          "note": "Andrade February 2026 concerns mixed powers, not all exact H(k)."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Specify one unresolved optimal H(k), then close all admissible sufficiently large integers.",
+      "obstruction": "Improving an upper bound is not determining the optimum; finite exceptions and local conditions matter.",
+      "next_step": "Parent should mark the broad existence version resolved and require a sharper target before proof work.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-26497499.json",
+        "retrieved_at": "2026-10-15T15:01:27.586951+00:00",
+        "revision_id": 1376326412,
+        "revision_timestamp": "2026-09-23T13:30:47Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-323631",
+      "title": "Wieferich prime",
+      "url": "https://en.wikipedia.org/wiki/Wieferich_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many odd primes p with 2^(p-1)=1 mod p^2? Separately, are infinitely many primes not satisfying this congruence?",
+      "status": "open_supported",
+      "status_detail": "Both infinitude questions need distinction; abc gives conditional information for the non-Wieferich direction. Known examples and finite search limits settle neither unconditional infinitude.",
+      "sources": [
+        {
+          "url": "https://web.math.princeton.edu/~nmk/wieferich40.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Katz specialist account of Wieferich primes and conditional versus unconditional questions."
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13904",
+          "accessed_on": "2026-10-15",
+          "note": "Jones September 2026: connection to monogenic trinomials, not an infinitude theorem."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/WieferichPrime.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/WieferichPrime.lean",
+        "declarations": "infinite_isWieferichPrime; isWieferichPrime_iff",
+        "alignment_notes": "Contains opposing possible answers as open questions with sorry. Do not treat all declarations jointly as true; broad-base statement also needs a=0 domain audit.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Control distribution of Fermat quotients at varying primes.",
+      "obstruction": "Equidistribution heuristics and consequences of abc are not unconditional proofs.",
+      "next_step": "Record exact direction for any proposed approach; defer.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-323631.json",
+        "retrieved_at": "2026-10-15T15:01:35.924853+00:00",
+        "revision_id": 1370481335,
+        "revision_timestamp": "2026-08-21T10:09:34Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-323646",
+      "title": "Wilson prime",
+      "url": "https://en.wikipedia.org/wiki/Wilson_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many primes p such that p^2 divides (p-1)!+1?",
+      "status": "open_supported",
+      "status_detail": "Known Wilson primes and finite exclusion ranges do not establish infinitude. Current primary survey records computational progress.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1209.3436",
+          "accessed_on": "2026-10-15",
+          "note": "Costa, Gerbicz, Harvey: fast search for Wilson primes."
+        },
+        {
+          "url": "https://epubs.siam.org/doi/10.1137/25M1803139",
+          "accessed_on": "2026-10-15",
+          "note": "Harvey 2026 ICM article on the accumulating remainder tree and computational number theory."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/WilsonPrime.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/WilsonPrime.lean",
+        "declarations": "infinitely_many_wilson_primes",
+        "alignment_notes": "Infinitude statement with sorry.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Prove recurrence/distribution results for Wilson quotients across primes.",
+      "obstruction": "Factorials change modulus and support with p; no independence theorem justifies the divergent-sum heuristic.",
+      "next_step": "No finite search as substitute for infinitude.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-323646.json",
+        "retrieved_at": "2026-10-15T15:01:44.193756+00:00",
+        "revision_id": 1370502238,
+        "revision_timestamp": "2026-08-21T13:44:56Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-29426653",
+      "title": "Wolstenholme prime",
+      "url": "https://en.wikipedia.org/wiki/Wolstenholme_prime",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many primes p>=5 with binom(2p-1,p-1)=1 mod p^4? Equivalently for these primes binom(2p,p)=2 mod p^4.",
+      "status": "open_supported",
+      "status_detail": "Only finite searches and congruence characterizations were found. Bernoulli numerator criterion is equivalent, not a proof of infinitely many indices.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2101.11157",
+          "accessed_on": "2026-10-15",
+          "note": "Booker, Hathi, Mossinghoff, Trudgian: Wolstenholme and Vandiver primes, 2021 preprint/2022 publication; search up to 10^11."
+        }
+      ],
+      "existing_formalization": {
+        "repository": "google-deepmind/formal-conjectures",
+        "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+        "path": "FormalConjectures/Wikipedia/WolstenholmePrime.lean",
+        "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/79eac378a26b46d30974cdb33962e0752591b79d/FormalConjectures/Wikipedia/WolstenholmePrime.lean",
+        "declarations": "wolstenholme_prime_infinite",
+        "alignment_notes": "Definition uses p>7; relate p=5,7 exclusions to p>=5 target. Some external test declarations use native_decide; no accepted proof imported.",
+        "proof_status": "External statement source only; not built or accepted as a solution."
+      },
+      "plausible_approach": "Find a structural source of p dividing numerator B_(p-3).",
+      "obstruction": "The Bernoulli index varies with the modulus and irregular-prime infinitude does not select this index.",
+      "next_step": "Defer; no unrelated Bernoulli congruence formalization.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-29426653.json",
+        "retrieved_at": "2026-10-15T15:01:52.693393+00:00",
+        "revision_id": 1370481351,
+        "revision_timestamp": "2026-08-21T10:09:52Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    },
+    {
+      "id": "wiki-321962",
+      "title": "Woodall number",
+      "url": "https://en.wikipedia.org/wiki/Woodall_number",
+      "screened_on": "2026-10-15",
+      "exact_question": "Are infinitely many integers n>=1 such that n*2^n-1 is prime?",
+      "status": "unverified",
+      "status_detail": "A 2014 primary article explicitly records infinitude as conjectural and almost-all-composite results. No later resolution was verified by this screening.",
+      "sources": [
+        {
+          "url": "https://cs.uwaterloo.ca/journals/JIS/VOL17/Marques/marques5r2.pdf",
+          "accessed_on": "2026-10-15",
+          "note": "Marques 2014: Cullen and Woodall numbers, explicit infinitude conjecture and known compositeness density."
+        }
+      ],
+      "existing_formalization": "No exact formal statement located in the initial search; absence is not established.",
+      "plausible_approach": "Produce infinitely many prime values despite dense compositeness obstructions.",
+      "obstruction": "Almost-all composite is compatible with either infinitely or finitely many primes.",
+      "next_step": "Current specialist confirmation needed before selection; do not count record primes as progress to full proof.",
+      "solution_claim": false,
+      "article_snapshot": {
+        "local_file": "sources/wiki-321962.json",
+        "retrieved_at": "2026-10-15T15:02:01.189644+00:00",
+        "revision_id": 1350610988,
+        "revision_timestamp": "2026-04-22T23:12:19Z"
+      },
+      "scope_review": "The exact_question field separates the intended full target from solved subcases. This is literature triage, not an exhaustive status proof."
+    }
+  ]
+}

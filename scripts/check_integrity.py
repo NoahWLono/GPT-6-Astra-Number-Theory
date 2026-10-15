@@ -44,6 +44,17 @@ def main():
     require(len(assigned) == len(set(assigned)), "Duplicate worker assignment")
     require(set(assigned) == {r["id"] for r in eligible}, "Incomplete direct coverage")
 
+    screen_dir = ROOT / "catalog/initial-screening"
+    screen = json.loads((screen_dir / "manifest.json").read_text())
+    screened_ids = [r["id"] for r in screen["entries"]]
+    require(len(screened_ids) == len(set(screened_ids)), "Duplicate screening ID")
+    require(set(screened_ids) == {r["id"] for r in rows if r["status"] != "excluded"},
+            "Initial screening coverage mismatch")
+    for source in screen["inputs"]:
+        path = artifact(f"catalog/initial-screening/{source['file']}")
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == source["sha256"],
+                f"Initial screening hash mismatch: {source['file']}")
+
     lean_files = [ROOT / "NumberTheory.lean", *sorted((ROOT / "NumberTheory").rglob("*.lean"))]
     # This intentionally conservative source lint also catches words in comments.
     # It supplements the kernel build and transitive axiom audit; it cannot replace review.
@@ -52,19 +63,29 @@ def main():
         require(not forbidden.search(path.read_text()), f"Unaccepted construct in {path.relative_to(ROOT)}")
     registry = json.loads((ROOT / "catalog/results.json").read_text())
     result_ids = set()
-    for kind in ("complete_solutions", "direct_advances"):
+    for kind in ("complete_solutions", "subquestion_solutions", "direct_advances"):
         for result in registry[kind]:
             require(result["id"] not in result_ids, "Duplicate result ID")
             result_ids.add(result["id"])
             require(result["problem_id"] in {r["id"] for r in rows if r["status"] != "excluded"},
                     "Result refers to excluded or unknown problem")
             require(result.get("lean_declarations"), "No declarations to audit")
+            require(result.get("resolution_kind") in {"proof", "disproof", "partial_advance"},
+                    "Resolution kind must be explicit")
+            if kind != "direct_advances":
+                require(result["resolution_kind"] != "partial_advance", "Partial result marked complete")
+            if kind == "subquestion_solutions":
+                require(result.get("subquestion_statement") and result.get("parent_problem_status"),
+                        "Subquestion results must state their target and the parent problem's status")
             for field in ("lean_file", "latex_file", "pdf_file", "review_file", "statement_file"):
                 artifact(result[field])
             require(artifact(result["pdf_file"]).read_bytes().startswith(b"%PDF-"), "Invalid PDF")
             require(result.get("full_solution_relevance"), "No full-solution relevance documented")
     print(f"Inventory valid: {len(direct)} direct, {len(eligible)} assigned, {len(rows)} unique pages.")
-    print(f"Accepted complete solutions: {len(registry['complete_solutions'])}; direct advances: {len(registry['direct_advances'])}.")
+    print(f"Initial screening snapshot: {len(screened_ids)} eligible records; evidence depth varies.")
+    print(f"Accepted main-problem solutions: {len(registry['complete_solutions'])}; "
+          f"subquestion solutions: {len(registry['subquestion_solutions'])}; "
+          f"direct advances: {len(registry['direct_advances'])}.")
     print("Artifact checks do not establish mathematical correctness or novelty.")
 
 

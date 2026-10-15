@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "wiki-174108",
+    "title": "Abc conjecture",
+    "pageid": 174108,
+    "url": "https://en.wikipedia.org/wiki/Abc_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory",
+      "Category:Abc conjecture"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every real epsilon>0 there is K>0 such that positive coprime integers a,b,c with a+b=c satisfy c < K*rad(abc)^(1+epsilon).",
+    "current_status": "unverified: published IUT proof claim remains disputed; no accepted proof established by this screen",
+    "primary_sources": [
+      {
+        "url": "https://www.kurims.kyoto-u.ac.jp/~motizuki/IUTchI-IV-2014.pdf",
+        "date": "2014",
+        "inspected": "bibliographic lead in source article; full proof not inspected",
+        "supports": "Mochizuki's IUT claim",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf",
+        "date": "2018",
+        "inspected": "primary introduction and target statement",
+        "supports": "Scholze-Stix objection",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Resolve the precise disputed inequality or find a new height/radical inequality uniform in all triples.",
+    "obstruction": "Finite searches and abc-quality examples do not bound all triples; the disputed proof cannot be assumed.",
+    "next_step": "Read the exact IUT objection and replies before investing in formalization; preserve the full epsilon/K quantifiers.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-174108.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/ABC.lean",
+      "sha": "5c7f7f258146e9ada6d122aca58af6ff7611981e",
+      "snapshot": "sources/formal-statements/ABC.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-1084681",
+    "title": "Agoh–Giuga conjecture",
+    "pageid": 1084681,
+    "url": "https://en.wikipedia.org/wiki/Agoh%E2%80%93Giuga_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every integer n>=2, sum_{i=1}^{n-1} i^(n-1) is congruent to -1 modulo n if and only if n is prime.",
+    "current_status": "unverified current status; consulted literature establishes equivalences and restrictions, not a full solution",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/math/0409259",
+        "date": "2004-09-15",
+        "inspected": "abstract",
+        "supports": "Kellner: equivalence of Agoh and Giuga formulations",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.maths.tcd.ie/EMIS/journals/JIS/VOL17/Mestrovic/mes4.pdf",
+        "date": "2014",
+        "inspected": "search-extracted primary text",
+        "supports": "Composite solutions must satisfy both Carmichael and Giuga conditions",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove the Carmichael and Giuga divisibility conditions incompatible, or produce a composite satisfying both.",
+    "obstruction": "Each condition separately admits composites; restrictions on size or number of factors do not close the infinite case.",
+    "next_step": "Audit the newly surfaced Lean structural equivalence separately from a proof of nonexistence.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-1084681.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+      "sha": "d50427a990062f900a176f4dc5090041f4c79498",
+      "snapshot": "sources/formal-statements/AgohGiuga.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-7878893",
+    "title": "Andrica's conjecture",
+    "pageid": 7878893,
+    "url": "https://en.wikipedia.org/wiki/Andrica's_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every pair p<q of consecutive positive primes, sqrt(q)-sqrt(p)<1.",
+    "current_status": "unverified current status; no full proof found in consulted sources",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.3390/math6120289",
+        "date": "2018",
+        "inspected": "primary search text",
+        "supports": "Visser studies variants and finite verification",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1112/plms/83.3.532",
+        "date": "2001",
+        "inspected": "bibliography; access failed",
+        "supports": "Baker-Harman-Pintz short interval estimate, not Andrica",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2307.08725v4",
+        "date": "2026-05-07 v4",
+        "inspected": "abstract and current catalog citation; proof not audited",
+        "supports": "Ferreira claims prime asymptotics in x^lambda intervals for every lambda>0; no journal acceptance established here",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Uniform prime gaps g(p)<2*sqrt(p)+1, or a prime-free interval violating that bound.",
+    "obstruction": "Known asymptotic power bounds with exponent above 1/2 do not imply this inequality.",
+    "next_step": "Seek a new uniform short-interval argument; do not formalize finite checks as the target.",
+    "scope_caveats": "The article's use of an ineffective/asymptotic threshold to certify a finite range is not justified; its asserted asymptotic decrease is not accepted here. The external Lean catalog labels an eventual Ferreira variant solved but leaves its proof as sorry. This annotation is not accepted as proof or independent review.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-7878893.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Andrica.lean",
+      "sha": "315ad462cc7a05b478df44e35c28a367d22de67c",
+      "snapshot": "sources/formal-statements/Andrica.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2085185",
+    "title": "Artin's conjecture on primitive roots",
+    "pageid": 2085185,
+    "url": "https://en.wikipedia.org/wiki/Artin's_conjecture_on_primitive_roots",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every integer a other than -1 or an integer square, infinitely many primes p not dividing a have multiplicative order ord_p(a)=p-1. The stronger density version asserts the predicted positive density, expressible by sum_{k>=1} mu(k)/[Q(zeta_k,a^(1/k)):Q].",
+    "current_status": "unverified October 2026 infinitude proof claim; full density statement remains a separate target",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/2412.13355",
+        "date": "2026-01-23 v2; journal 2025",
+        "inspected": "abstract",
+        "supports": "Klurman-Shparlinski-Teraväinen prove an almost-all-base result",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://github.com/openai/math/blob/main/preprints/Primitive-roots-for-every-admissible-integer-base-October-4-2026/primitive-roots-all-integer-bases.pdf",
+        "date": "2026-10-04",
+        "inspected": "repository page and article claim; manuscript not audited",
+        "supports": "Claim of infinitude for every admissible base; not a verified density proof",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Audit the recent claimed uniform argument, including its analytic assumptions, before attempting an independent proof.",
+    "obstruction": "GRH-conditional results and almost-all-base theorems do not prove every fixed base; infinitude does not prove density.",
+    "next_step": "Identify the exact unconditional theorem and review status of the October manuscript.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2085185.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean",
+      "sha": "d24bedbfad40a2aaf19e851e98d7e7fff37e68ed",
+      "snapshot": "sources/formal-statements/ArtinPrimitiveRootsConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-3609890",
+    "title": "Baillie–PSW primality test",
+    "pageid": 3609890,
+    "url": "https://en.wikipedia.org/wiki/Baillie%E2%80%93PSW_primality_test",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Does any odd composite pass the standard strong base-2 Miller-Rabin test and strong Lucas-Selfridge test? Pin Selfridge A: nonsquare n, first D in 5,-7,9,-11,... with Jacobi(D,n)=-1, P=1,Q=(1-D)/4; handle nontrivial gcd as compositeness. Either a counterexample or a proof of none resolves this variant.",
+    "current_status": "unverified current status; 2021 primary paper reports no known odd composite passing the test",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/2006.14425",
+        "date": "2021-06-11 v2",
+        "inspected": "abstract",
+        "supports": "Baillie-Fiori-Wagstaff: strengthening BPSW; no known odd composite",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1090/mcom/3616",
+        "date": "2021",
+        "inspected": "journal metadata",
+        "supports": "Published strengthened-test paper",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Construct a simultaneous strong base-2 and Lucas pseudoprime, with exact certificates, or establish incompatible group conditions.",
+    "obstruction": "Separate pseudoprime families do not automatically intersect; bounded exhaustive testing cannot prove universal reliability.",
+    "next_step": "Specify the precise test and candidate certificate verifier before a constructive search.",
+    "scope_caveats": "Selfridge A*, extra Lucas-V checks, and Euler-Jacobi checks change the target; do not combine variants silently.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-3609890.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-3949019",
+    "title": "Balanced prime",
+    "pageid": 3949019,
+    "url": "https://en.wikipedia.org/wiki/Balanced_prime",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Are there infinitely many primes p whose immediate predecessor q and immediate successor r satisfy q+r=2p? Equivalently, for every N there are consecutive primes q<p<r with p>N and equal neighboring gaps.",
+    "current_status": "unverified current status; no full solution found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1509.01564",
+        "date": "2015-09",
+        "inspected": "abstract",
+        "supports": "Pintz studies patterns of consecutive primes; no equal-gap infinitude claim",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Find arbitrarily large admissible three-term patterns and force absence of intervening primes.",
+    "obstruction": "Prime arithmetic progressions need not consist of consecutive primes; bounded gaps do not force equal gaps.",
+    "next_step": "Look for a theorem controlling both adjacent gaps, rather than a generic prime progression.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-3949019.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/BalancedPrimes.lean",
+      "sha": "c013d850ed260385e8468a81835a9d3eaf5756a2",
+      "snapshot": "sources/formal-statements/BalancedPrimes.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-1085053",
+    "title": "Bateman–Horn conjecture",
+    "pageid": 1085053,
+    "url": "https://en.wikipedia.org/wiki/Bateman%E2%80%93Horn_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For each finite nonempty list of distinct nonconstant irreducible polynomials f_i in Z[x] with positive leading coefficients and no prime dividing their product at every integer, the number of n<=x where all f_i(n) are positive primes is asymptotic to C/(product deg f_i)*integral_2^x dt/(log t)^m, with C=product_p (1-N_p/p)/(1-1/p)^m and N_p the number of roots of the product modulo p.",
+    "current_status": "unverified current status; no general proof found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1807.08899",
+        "date": "2018; revised 2020",
+        "inspected": "abstract",
+        "supports": "Aletheia-Zomlefer-Fukshansky-Garcia survey of conjecture and consequences",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.2307/2004056",
+        "date": "1962",
+        "inspected": "bibliographic reference",
+        "supports": "Original Bateman-Horn conjecture",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Obtain simultaneous prime asymptotics with all local obstructions accounted for.",
+    "obstruction": "Already contains unproved quadratic prime production and twin-prime-type problems.",
+    "next_step": "Deprioritize unless an approach breaks the prime-detecting sieve barrier; specify leading constants and positivity exactly.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-1085053.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/BatemanHornConjecture.lean",
+      "sha": "8b3445b9ec92d35e82fde8d9da24f2fad0336fdf",
+      "snapshot": "sources/formal-statements/BatemanHornConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2397539",
+    "title": "Beal conjecture",
+    "pageid": 2397539,
+    "url": "https://en.wikipedia.org/wiki/Beal_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory",
+      "Category:Abc conjecture"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For all positive integers A,B,C,x,y,z with x,y,z>2, A^x+B^y=C^z implies that A,B,C have a common prime divisor.",
+    "current_status": "unverified current status; no full solution established",
+    "primary_sources": [
+      {
+        "url": "https://www.ams.org/notices/199711/beal.pdf",
+        "date": "1997",
+        "inspected": "article bibliography; direct PDF retrieval returned 403",
+        "supports": "Mauldin's statement of Beal's conjecture",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://personal.math.ubc.ca/~bennett/BeChDaYa-IJNT-2015.pdf",
+        "date": "2015",
+        "inspected": "primary search text",
+        "supports": "Partial generalized Fermat signatures",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove absence of primitive solutions uniformly over all exponent signatures, or certify one counterexample.",
+    "obstruction": "Fixed-signature modular methods do not control the unbounded exponent family.",
+    "next_step": "Assess a uniform signature-reduction argument before any case formalization.",
+    "scope_caveats": "Bases equal to 1 are included. The common-prime conclusion is stronger than merely excluding pairwise coprime triples if no equation-based reduction is supplied.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2397539.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/BealConjecture.lean",
+      "sha": "5a4f3f303f04da932575eba821ff83af6482d872",
+      "snapshot": "sources/formal-statements/BealConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-435161",
+    "title": "Birch and Swinnerton-Dyer conjecture",
+    "pageid": 435161,
+    "url": "https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every elliptic curve E/Q, ord_{s=1} L(E,s)=rank E(Q); the full refined target includes finiteness of Sha(E/Q) and the specified leading-coefficient formula involving real period, regulator, Tamagawa factors, Sha, and rational torsion. Targets over general number fields must be stated separately.",
+    "current_status": "open according to current Clay official problem page; no proof established",
+    "primary_sources": [
+      {
+        "url": "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/",
+        "date": "accessed 2026-10-15",
+        "inspected": "official page",
+        "supports": "Lists the problem as unsolved",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.claymath.org/wp-content/uploads/2022/02/MPPc.pdf",
+        "date": "official formulation",
+        "inspected": "primary text/search excerpts",
+        "supports": "Wiles formulation and congruent-number relation",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Control arbitrary analytic rank and the full Selmer/Sha contribution.",
+    "obstruction": "Rank-zero/one cases and numerical L-values do not establish the universal or refined statement.",
+    "next_step": "Choose an explicit full version before proof work; do not count known rank cases as new solutions.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-435161.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-2620525",
+    "title": "Brocard's conjecture",
+    "pageid": 2620525,
+    "url": "https://en.wikipedia.org/wiki/Brocard's_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every pair of consecutive primes p<q with p>=3, at least four distinct primes lie strictly between p^2 and q^2.",
+    "current_status": "unverified current status; source article's proposed RH implication is not justified by the cited bound",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1112/plms/83.3.532",
+        "date": "2001",
+        "inspected": "bibliography; access failed",
+        "supports": "Short interval bounds do not reach every square-root length interval",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2307.08725v4",
+        "date": "2026-05-07 v4",
+        "inspected": "abstract and current catalog citation; proof not audited",
+        "supports": "Ferreira claims prime asymptotics in x^lambda intervals for every lambda>0; no journal acceptance established here",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove a uniform lower bound of four primes in these particular intervals, or exhibit a finite violating pair.",
+    "obstruction": "An RH gap estimate O(sqrt(x) log x) does not by itself guarantee primes in intervals of length O(sqrt(x)).",
+    "next_step": "Verify the source chain for any claimed conditional theorem; prioritize only if a new short-interval method appears.",
+    "scope_caveats": "Exclude p=2: (4,9) has only two primes. Broad asymptotic estimates do not handle every interval. The external Lean catalog labels an eventual Ferreira variant solved but leaves its proof as sorry. This annotation is not accepted as proof or independent review.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2620525.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/BrocardConjecture.lean",
+      "sha": "4d698d99b193a952c3d3a0ebd802dbc3d7263180",
+      "snapshot": "sources/formal-statements/BrocardConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-11301521",
+    "title": "Brocard's problem",
+    "pageid": 11301521,
+    "url": "https://en.wikipedia.org/wiki/Brocard's_problem",
+    "categories": [
+      "Category:Unsolved problems in number theory",
+      "Category:Abc conjecture"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For natural numbers n,m, classify n!+1=m^2: conjecturally the only pairs are (4,5),(5,11),(7,71).",
+    "current_status": "unverified current status; recent related primary work does not solve this equation",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1007/s11139-024-00960-0",
+        "date": "2024-10-22",
+        "inspected": "abstract and introduction excerpt",
+        "supports": "Abderrahim-Makki-Naciri study variant polynomial factorial equations",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1112/blms/25.2.104",
+        "date": "1993",
+        "inspected": "bibliographic/reference summary",
+        "supports": "Overholt conditional finiteness from weak Szpiro/abc",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Use coprime factors (m-1)(m+1)=n! to force an impossible distribution of valuations for n>7.",
+    "obstruction": "Conditional finiteness does not give the exact three solutions, and large search cutoffs leave unbounded n.",
+    "next_step": "Seek a uniform valuation or smooth-neighbor obstruction, with explicit treatment n<=7.",
+    "scope_caveats": "For integer m, negative square roots must also be included; this screen uses natural m.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-11301521.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/BrocardProblem.lean",
+      "sha": "1156b9e22376dd85e4954bcfeda9cebb9e7648ff",
+      "snapshot": "sources/formal-statements/BrocardProblem.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-20510092",
+    "title": "Brumer–Stark conjecture",
+    "pageid": 20510092,
+    "url": "https://en.wikipedia.org/wiki/Brumer%E2%80%93Stark_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Full integral Brumer-Stark statement for finite abelian CM extensions H/F of totally real number fields, with the exact admissible S,T hypotheses: Stickelberger elements produce the prescribed principal ideals and antiunits with the required abelian-root-extension property. Exact S,T normalization must be copied from the primary theorem before formalization.",
+    "current_status": "full proof claimed in 2023 preprint; away-from-2 theorem published; full claim not independently verified here",
+    "primary_sources": [
+      {
+        "url": "https://annals.math.princeton.edu/2023/197-1/p05",
+        "date": "2023",
+        "inspected": "published abstract",
+        "supports": "Dasgupta-Kakde prove Brumer-Stark away from 2",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2310.16399",
+        "date": "2023-10-25",
+        "inspected": "abstract",
+        "supports": "Dasgupta-Kakde-Silliman-Wang claim complete proof over Z",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://sites.math.duke.edu/~dasgupta/",
+        "date": "accessed 2026-10-15",
+        "inspected": "author publication list",
+        "supports": "Still lists the over-Z manuscript as a preprint; this page may itself lag publication status",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Check whether the category is stale by matching the complete integral theorem to the original conjecture.",
+    "obstruction": "Ignoring the 2-primary part or changing smoothing hypotheses changes the claim.",
+    "next_step": "Check publication/review status and exact theorem alignment; do not present reproduction of an established theorem as a new solution.",
+    "scope_caveats": "Specification is deliberately incomplete at S,T normalization and is not ready for proof work.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-20510092.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-12511846",
+    "title": "Bunyakovsky conjecture",
+    "pageid": 12511846,
+    "url": "https://en.wikipedia.org/wiki/Bunyakovsky_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Every nonconstant irreducible polynomial f in Z[x] with positive leading coefficient and no fixed prime divisor takes positive prime values for arbitrarily large positive integers n.",
+    "current_status": "unverified current status; no general proof found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1807.08899",
+        "date": "2018; revised 2020",
+        "inspected": "abstract and survey source",
+        "supports": "Places singleton prime-value conjectures in Bateman-Horn framework",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove a prime-value theorem beyond degree one with uniform control of divisibility.",
+    "obstruction": "Even n^2+1 is unresolved by this screen; irreducibility alone does not detect prime values.",
+    "next_step": "Require a method addressing degree>=2 and the parity obstruction.",
+    "scope_caveats": "Singleton Bunyakovsky is not the simultaneous-polynomial conjecture; do not claim it directly proves twin primes.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-12511846.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+      "sha": "909ee397e54a1693e61744a5efa6537752a911ea",
+      "snapshot": "sources/formal-statements/Bunyakovsky.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-19103379",
+    "title": "Carmichael's totient function conjecture",
+    "pageid": 19103379,
+    "url": "https://en.wikipedia.org/wiki/Carmichael's_totient_function_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every positive integer n there is a positive integer m different from n with phi(m)=phi(n).",
+    "current_status": "unverified current status; structural and large-bound results do not settle multiplicity one",
+    "primary_sources": [
+      {
+        "url": "https://www.ford126.web.illinois.edu/wwwpapers/totients.pdf",
+        "date": "1998",
+        "inspected": "abstract and primary text excerpts",
+        "supports": "Ford: distribution of totients and multiplicities",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.ford126.web.illinois.edu/wwwpapers/recurs.pdf",
+        "date": "2013",
+        "inspected": "primary theorem excerpt",
+        "supports": "Ford: recursively prime-factor-closed sets can be thin",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Force an infinite predecessor-prime closure from a hypothetical least unique totient preimage.",
+    "obstruction": "Thinness of a closed prime set is not emptiness; large lower bounds do not rule out a finite exceptional n.",
+    "next_step": "Audit exactly which closure condition follows and whether it forces infinitely many distinct prime divisors.",
+    "scope_caveats": "The n=1 case pairs with m=2. Ford's positive-proportion result concerns totient values, not all integers.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-19103379.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+      "sha": "54512ecae7572cad5cc5a42014a86e65657090b4",
+      "snapshot": "sources/formal-statements/CarmichaelTotient.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-37236964",
+    "title": "Casas-Alvero conjecture",
+    "pageid": 37236964,
+    "url": "https://en.wikipedia.org/wiki/Casas-Alvero_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every characteristic-zero field K and every monic f in K[X] of degree d>=1, if gcd(f,f^(i)) has positive degree for each 1<=i<d, then f=(X-a)^d for some a in K. Derivatives are ordinary formal derivatives.",
+    "current_status": "unverified full-proof claim revised March 2026; no accepted resolution established",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/2501.09272",
+        "date": "2026-03-21 v2",
+        "inspected": "abstract",
+        "supports": "Ghosh claims all degrees in characteristic zero",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1208.5404",
+        "date": "2012",
+        "inspected": "abstract/source reference",
+        "supports": "Castryck-Laterveer-Ounaies prove additional finite degrees",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2608.14726",
+        "date": "2026-08-12",
+        "inspected": "abstract",
+        "supports": "Marashdeh studies descent-set obstruction; partial result",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Audit the all-degree Koszul argument or find a direct obstruction to a nontrivial normalized root configuration.",
+    "obstruction": "Degree-by-degree computations do not control arbitrary d; alleged flaws in related work remain unverified here.",
+    "next_step": "Read the revised proof and independent reviews before pursuing a second derivation.",
+    "scope_caveats": "Monicity and characteristic zero are essential to this exact statement; positive characteristic has different behavior.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-37236964.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-596282",
+    "title": "Class number problem",
+    "pageid": 596282,
+    "url": "https://en.wikipedia.org/wiki/Class_number_problem",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Open target separated from solved imaginary classification: are there infinitely many squarefree integers d>1 for which the ordinary ideal class number of Q(sqrt(d)) is one?",
+    "current_status": "mixed article: effective imaginary-quadratic classification is known; real-quadratic class-number-one infinitude unverified as resolved",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1090/S0025-5718-03-01517-5",
+        "date": "2004",
+        "inspected": "source reference",
+        "supports": "Watkins determines imaginary quadratic fields of class number <=100",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2512.11311",
+        "date": "2025-12-12",
+        "inspected": "abstract",
+        "supports": "Unit-generated real quadratic orders: restricted class-number bounds",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Produce infinitely many distinct real quadratic fields with a class-number certificate uniform in the family.",
+    "obstruction": "Classifying a restricted family or imaginary fields does not establish real-field infinitude.",
+    "next_step": "Pin ordinary versus narrow class number and field versus nonmaximal order before any proof.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-596282.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/ClassNumberProblem.lean",
+      "sha": "2d5c7d209a22be59c67910af57b115537b6dcd09",
+      "snapshot": "sources/formal-statements/ClassNumberProblem.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-37895",
+    "title": "Collatz conjecture",
+    "pageid": 37895,
+    "url": "https://en.wikipedia.org/wiki/Collatz_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Let T(n)=n/2 if n is even and 3n+1 if n is odd. For every natural n>=1 there exists k>=0 with T^[k](n)=1.",
+    "current_status": "unverified current status; Tao's almost-all theorem is not a full resolution",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1909.03562",
+        "date": "2026-07-16 v7; published 2022",
+        "inspected": "abstract and version history",
+        "supports": "Almost all orbits in logarithmic density attain any prescribed divergent bound",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove well-founded descent for every orbit, or construct and verify a nontrivial cycle/divergent orbit.",
+    "obstruction": "Density-one control permits exceptional orbits; statistical negative drift is not a universal descent function.",
+    "next_step": "Demand a pointwise invariant or ranking argument rather than more finite verification.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-37895.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/CollatzConjecture.lean",
+      "sha": "f357510330b4cfccb54f545969e074cb9a241652",
+      "snapshot": "sources/formal-statements/CollatzConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2334769",
+    "title": "Congruent number",
+    "pageid": 2334769,
+    "url": "https://en.wikipedia.org/wiki/Congruent_number",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Give a proved, terminating criterion deciding for every positive squarefree integer n whether there exist positive rationals a,b,c with a^2+b^2=c^2 and ab/2=n. Equivalently, the elliptic curve y^2=x^3-n^2*x has a rational point with y nonzero.",
+    "current_status": "conditional criterion known; unconditional complete decision claim not established here",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1007/BF01389327",
+        "date": "1983",
+        "inspected": "bibliography and official Clay discussion",
+        "supports": "Tunnell's necessary condition, sufficient conditional on BSD",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.claymath.org/wp-content/uploads/2022/02/MPPc.pdf",
+        "date": "official formulation",
+        "inspected": "primary excerpts",
+        "supports": "Connection between BSD and congruent-number criterion",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove sufficiency of Tunnell's condition for every squarefree n, or another unconditional total criterion.",
+    "obstruction": "Enumerating rational triangles certifies yes instances but provides no termination guarantee for no instances.",
+    "next_step": "State the exact parity-dependent Tunnell counts before a dedicated proof attempt.",
+    "scope_caveats": "Trivial points with y=0 must be excluded; positivity of area and squarefree reduction must be accounted for.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2334769.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/CongruentNumber.lean",
+      "sha": "c7826b5c71b2f166c12f529517e2385904863709",
+      "snapshot": "sources/formal-statements/CongruentNumber.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-343085",
+    "title": "Cousin prime",
+    "pageid": 343085,
+    "url": "https://en.wikipedia.org/wiki/Cousin_prime",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every natural N, there exists a prime p>N such that p+4 is prime.",
+    "current_status": "unverified current status; no proof of fixed gap four infinitude found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1807.08899",
+        "date": "2018; revised 2020",
+        "inspected": "survey source",
+        "supports": "Admissible prime-pair patterns under Bateman-Horn",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Obtain a prime-pair theorem for the admissible pattern {0,4}.",
+    "obstruction": "Infinitely many bounded gaps do not identify gap four.",
+    "next_step": "Treat this as a fixed prime-pair problem and avoid inference from generic bounded gaps.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-343085.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Dickson.lean",
+      "sha": "c77c4d9dd2e58194bcc8fe0ad7be5150562aacf9",
+      "snapshot": "sources/formal-statements/Dickson.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2297820",
+    "title": "Covering system",
+    "pageid": 2297820,
+    "url": "https://en.wikipedia.org/wiki/Covering_system",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "There is no finite set of congruence classes a_i modulo n_i covering every integer when all moduli n_i>1 are odd and pairwise distinct (the odd covering conjecture).",
+    "current_status": "mixed article: large minimum-modulus question solved; odd distinct-cover question not resolved by consulted sources",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1703.02133",
+        "date": "2017; Duke 2019",
+        "inspected": "abstract",
+        "supports": "Hough-Nielsen: every distinct covering has a modulus divisible by 2 or 3",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1307.0874",
+        "date": "2013; published 2015",
+        "inspected": "source reference",
+        "supports": "Hough solves minimum-modulus problem",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.disc.2026.115013",
+        "date": "2026",
+        "inspected": "abstract/search text",
+        "supports": "Odd coverings with a repeated modulus are a different problem",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Strengthen the local-lemma/sieve argument to eliminate the all-odd branch, or construct an exact finite cover.",
+    "obstruction": "Forcing a factor 3 still permits odd moduli; constructions with repetitions violate distinctness.",
+    "next_step": "Audit known distortion bounds specifically at the prime 3; a counterexample would be finitely certifiable.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2297820.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-290441",
+    "title": "Cramér's conjecture",
+    "pageid": 290441,
+    "url": "https://en.wikipedia.org/wiki/Cram%C3%A9r's_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For consecutive primes p<q, q-p=O((log p)^2) uniformly as p grows. Distinguish this from the stronger conjectured limsup (q-p)/(log p)^2=1.",
+    "current_status": "unverified current status; large-gap lower bounds do not settle the upper bound",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.4064/aa-2-1-23-46",
+        "date": "1936",
+        "inspected": "bibliographic reference",
+        "supports": "Original Cramer conjecture",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1412.5029",
+        "date": "2014; JAMS 2018",
+        "inspected": "primary source reference",
+        "supports": "Ford-Green-Konyagin-Maynard-Tao large prime-gap lower bounds",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove a uniform logarithmic-square upper bound, or a sequence with unbounded normalized gaps.",
+    "obstruction": "Random-model predictions are not proofs; recent lower bounds remain far below disproving the big-O statement.",
+    "next_step": "Keep the big-O and constant-one targets separate; audit any claimed contradiction against the correct version.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-290441.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-48707305",
+    "title": "Cuboid conjectures",
+    "pageid": 48707305,
+    "url": "https://en.wikipedia.org/wiki/Cuboid_conjectures",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Three universal irreducibility conjectures for Sharipov's integer polynomials P_(a,u) of degree 8, Q_(p,q) of degree 10, and R_(a,b,u) of degree 12. First and second quantify over positive coprime unequal parameter pairs. Third quantifies over positive triples with gcd(a,b,u)=1, excluding a=b, a=u, b=u, bu=a^2 and au=b^2. Exact coefficient formulas are in the pinned EulerBrick.lean definitions CuboidOneFor/CuboidTwoFor/CuboidThreeFor and must be aligned with Sharipov before proof work.",
+    "current_status": "mixed: first conjecture has an external formal-proof pointer and informal proof claim; second and third remain open in the consulted statement catalog; no local proof accepted",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1108.5348",
+        "date": "2011",
+        "inspected": "original full statement section 5 inspected",
+        "supports": "Sharipov's three irreducibility conjectures",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/html/2510.11768v3",
+        "date": "2026-03-15 v3",
+        "inspected": "selected proof sections inspected; computational certificates not reproduced",
+        "supports": "Asiryan claims first conjecture through a fixed genus-one curve",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://github.com/google-deepmind/formal-conjectures/blob/34c93bbad127a9a5354b9d53478d338eb65edb88/FormalConjectures/Wikipedia/EulerBrick.lean",
+        "date": "commit 34c93bbad127a9a5354b9d53478d338eb65edb88",
+        "inspected": "retrieved full pinned source; target and static trust-token scan inspected; not built",
+        "supports": "External formal proof of first conjecture advertised",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2601.04240",
+        "date": "2026-01-05",
+        "inspected": "abstract; 2601.04240 normalization and ansatz also read; certificates not reproduced",
+        "supports": "Claimed exclusion of irreducible quintic-by-quintic splitting of Q",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2601.04241",
+        "date": "2026-01-12 v2",
+        "inspected": "abstract; 2601.04240 normalization and ansatz also read; certificates not reproduced",
+        "supports": "Claimed no-rational-root theorem for associated quintic, using Chabauty",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2601.07899",
+        "date": "2026-01-22 v2",
+        "inspected": "abstract; 2601.04240 normalization and ansatz also read; certificates not reproduced",
+        "supports": "Only bounded rational-point search for quadratic-cubic splitting; explicitly conditional on completeness",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Audit the first-conjecture status to avoid duplicate work; use factorization geometry for the remaining two polynomial families or find a counterexample.",
+    "obstruction": "A proof of one polynomial family does not settle the other families or perfect cuboid nonexistence.",
+    "next_step": "Check the external formal proof's statement and axioms; then consider the second family's factorization patterns.",
+    "scope_caveats": "This Wikipedia entry redirects to Euler brick. Do not count the duplicate source article as an independent problem solved. Coprimality for the third statement means collective gcd, not pairwise gcd.",
+    "attempt_record": "ATTEMPTS.md",
+    "target_specification": "TARGETS.md",
+    "lean_specification": "TargetSpecifications.lean",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-48707305.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/EulerBrick.lean",
+      "sha": "8ffac53e6218f0b4c8518198a876b2fdd9b4edf5",
+      "snapshot": "sources/formal-statements/EulerBrick.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-321895",
+    "title": "Cullen number",
+    "pageid": 321895,
+    "url": "https://en.wikipedia.org/wiki/Cullen_number",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "With C_n=n*2^n+1 for positive integers n: are infinitely many C_n prime? Also, does any prime index p have C_p prime? These are distinct questions.",
+    "current_status": "unverified current status; known examples and density-zero results do not settle either question",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.2307/2153382",
+        "date": "1995",
+        "inspected": "bibliographic reference; DOI retrieval failed",
+        "supports": "Keller: New Cullen primes",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "For infinitude, find a prime-producing argument despite the moving coefficient; for prime indices, seek a certified example or a universal divisor obstruction.",
+    "obstruction": "Almost-all compositeness permits infinitely many exceptions; no known identity forces a factor for every prime index.",
+    "next_step": "Separate the prime-index existence target from the much harder infinitude target; pin any computational candidate and primality certificate.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-321895.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-31611712",
+    "title": "Dickson's conjecture",
+    "pageid": 31611712,
+    "url": "https://en.wikipedia.org/wiki/Dickson's_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every finite nonempty list of distinct linear polynomials a_i+b_i*n with integer a_i and positive integer b_i, if no prime divides their product for every integer n, then arbitrarily large positive n make every a_i+b_i*n prime.",
+    "current_status": "unverified current status; no general simultaneous-linear-primes proof found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1807.08899",
+        "date": "2018; revised 2020",
+        "inspected": "survey source",
+        "supports": "Linear simultaneous prime values as a special case of Bateman-Horn",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove simultaneous primality for every admissible finite linear pattern.",
+    "obstruction": "The one-polynomial Dirichlet theorem does not imply a simultaneous intersection for two polynomials.",
+    "next_step": "Assess whether a proposed sieve argument actually overcomes the parity obstruction; check joint admissibility.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-31611712.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Dickson.lean",
+      "sha": "c77c4d9dd2e58194bcc8fe0ad7be5150562aacf9",
+      "snapshot": "sources/formal-statements/Dickson.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-5943744",
+    "title": "Divisor summatory function",
+    "pageid": 5943744,
+    "url": "https://en.wikipedia.org/wiki/Divisor_summatory_function",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For D(x)=sum_{1<=n<=x}d(n) and Delta(x)=D(x)-x*log(x)-(2*gamma-1)*x, prove for every epsilon>0 that Delta(x)=O(x^(1/4+epsilon)) as real x tends to infinity. Generalized Piltz problems for higher divisor functions are separate targets.",
+    "current_status": "unverified current status; no exponent-1/4 proof found",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1112/S0024611503014485",
+        "date": "2003",
+        "inspected": "bibliographic reference matched to source article",
+        "supports": "Huxley: exponential sums and lattice points III",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022314X25002550",
+        "date": "2026-03",
+        "inspected": "primary abstract/search text",
+        "supports": "Recent correlations for divisor error do not establish the pointwise conjecture",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove cancellation in the oscillatory divisor error uniformly at exponent 1/4+epsilon.",
+    "obstruction": "Mean-square bounds do not imply the requisite pointwise bound; an improved exponent still above 1/4 is partial.",
+    "next_step": "Audit current best pointwise bounds without assuming that article figures are up to date; seek a uniform cancellation mechanism.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-5943744.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-627828",
+    "title": "Double Mersenne number",
+    "pageid": 627828,
+    "url": "https://en.wikipedia.org/wiki/Double_Mersenne_number",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Let M_n=2^n-1 and D_p=M_(M_p). Determine whether any prime D_p exists beyond p=2,3,5,7; separately determine D_61 primality and whether infinitely many D_p are prime. The Catalan-Mersenne sequence b_0=2,b_(n+1)=2^(b_n)-1 has its own universal primality conjecture.",
+    "current_status": "unverified current status; the page lists multiple unresolved questions rather than one theorem",
+    "primary_sources": [
+      {
+        "url": "https://www.ams.org/journals/mcom/1955-09-051/S0025-5718-1955-0071444-6/S0025-5718-1955-0071444-6.pdf",
+        "date": "1955",
+        "inspected": "original source link; direct retrieval returned 403",
+        "supports": "Conjectures concerning Mersenne numbers",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "For a finite instance seek a certified factor or primality certificate; for the universal questions analyze divisors of iterated Mersenne numbers.",
+    "obstruction": "Primality of p and M_p is necessary, not sufficient. D_61 has an exponent too large for ordinary integer expansion.",
+    "next_step": "Verify current factor records and distinguish a finite certified disproof from an infinitude result.",
+    "scope_caveats": "Only-four-double-primes and universal Catalan-Mersenne primality cannot both hold indefinitely; do not merge them into one conjecture.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-627828.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-1898427",
+    "title": "Elliott–Halberstam conjecture",
+    "pageid": 1898427,
+    "url": "https://en.wikipedia.org/wiki/Elliott%E2%80%93Halberstam_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every real 0<theta<1 and A>0, there exists C such that for all x>=2, sum_{q<=x^theta} max_{gcd(a,q)=1} |pi(x;q,a)-pi(x)/phi(q)| <= C*x/(log x)^A.",
+    "current_status": "unverified current status; no all-moduli level approaching one theorem found",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1311.4600",
+        "date": "2013; published 2015",
+        "inspected": "source reference",
+        "supports": "Maynard small prime gaps and distribution hypotheses",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1407.4897",
+        "date": "2014",
+        "inspected": "source reference",
+        "supports": "Polymath variants and consequences of distribution estimates",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Control prime distribution averaged over every modulus up to x^theta, uniformly for each theta<1.",
+    "obstruction": "Restricted smooth-modulus estimates and generalized EH variants do not automatically imply this statement; endpoint theta=1 differs.",
+    "next_step": "Match normalization and modulus range before treating any distribution advance as a solution.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-1898427.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/ElliottHalberstamConjecture.lean",
+      "sha": "7a8eac6d3b7fef6bb45264acbd9178977f3aee2e",
+      "snapshot": "sources/formal-statements/ElliottHalberstamConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-53551948",
+    "title": "Erdős–Moser equation",
+    "pageid": 53551948,
+    "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Moser_equation",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For positive integers m,k, sum_{i=1}^{m-1} i^k=m^k implies m=3 and k=1.",
+    "current_status": "unverified current status; very large lower bounds do not prove nonexistence",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/0907.1356",
+        "date": "2009; Math. Comp. 2011",
+        "inspected": "abstract",
+        "supports": "Gallot-Moree-Zudilin: continued fractions of log 2 and a large solution lower bound",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Combine prime divisor restrictions with the rational approximation to log 2 forced by a hypothetical solution.",
+    "obstruction": "The approximation condition survives arbitrarily large denominators; raising a bound does not exclude all solutions.",
+    "next_step": "Seek an obstruction applying to every relevant convergent, not another finite continued-fraction calculation.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-53551948.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/ErdosMoser.lean",
+      "sha": "52cd5fc024d23ecdd04a4b7c43a4f679c6549f07",
+      "snapshot": "sources/formal-statements/ErdosMoser.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2431002",
+    "title": "Erdős–Straus conjecture",
+    "pageid": 2431002,
+    "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every integer n>=2 there exist positive integers x,y,z with 4xyz=n(xy+xz+yz), equivalently 4/n=1/x+1/y+1/z. The denominators need not be distinct.",
+    "current_status": "unverified current status; average and local results do not solve every n",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1107.1010",
+        "date": "2015-08-02 v6; journal 2013",
+        "inspected": "abstract/version note",
+        "supports": "Elsholtz-Tao count representations on average",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1908.02526",
+        "date": "2019; BLMS 2020",
+        "inspected": "abstract",
+        "supports": "Bright-Loughran study integral Hasse and strong approximation failures",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Reduce to prime n and cover all primes with certified divisor-based parametrizations.",
+    "obstruction": "A finite list of congruence identities can leave residue classes uncovered; local solubility need not produce integral denominators.",
+    "next_step": "Find an all-prime divisor-selection argument or prove that a proposed cover is complete.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2431002.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-31244492",
+    "title": "Erdős–Turán conjecture on additive bases",
+    "pageid": 31244492,
+    "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Tur%C3%A1n_conjecture_on_additive_bases",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every A subset of the nonnegative integers that represents every sufficiently large n as a+b with a,b in A, the unordered representation function r_A(n)=#{(a,b) in A^2:a<=b,a+b=n} is unbounded: for every M there exists n with r_A(n)>M.",
+    "current_status": "unverified current status; recent integer-basis results do not settle the nonnegative-integer target",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1112/jlms/s1-16.4.212",
+        "date": "1941",
+        "inspected": "original bibliography",
+        "supports": "Erdos-Turan additive bases problem",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.jcta.2026.106166",
+        "date": "2026",
+        "inspected": "abstract/search text",
+        "supports": "Unique representation bases on Z concern a different ambient domain",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Turn eventual covering of all integers into a contradiction with a uniform bound on pair collisions.",
+    "obstruction": "Counting only gives critical sqrt(x) growth; it does not force arbitrarily many representations at one n.",
+    "next_step": "Retain the one-sided domain and limsup/unbounded conclusion in any combinatorial argument.",
+    "scope_caveats": "The article's stronger prose about tending to infinity is not used. Bases over all integers allow different behavior.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-31244492.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-52483865",
+    "title": "Erdős–Ulam problem",
+    "pageid": 52483865,
+    "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ulam_problem",
+    "categories": [
+      "Category:Unsolved problems in number theory",
+      "Category:Abc conjecture"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Does there exist S subset of R^2 dense in the whole Euclidean plane such that the distance between every pair of points of S is rational?",
+    "current_status": "unverified current status; cited nonexistence results require unproved conjectures",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/0806.3095",
+        "date": "2008; published 2010",
+        "inspected": "source reference",
+        "supports": "Solymosi-de Zeeuw restrict rational distance sets on algebraic curves",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/1501.00159",
+        "date": "2015; published 2018",
+        "inspected": "abstract/source reference",
+        "supports": "Shaffaf: conditional nonexistence under Bombieri-Lang",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1007/s00605-016-0973-2",
+        "date": "2017",
+        "inspected": "bibliographic reference",
+        "supports": "Pasten: conditional connection to abc",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Construct a countable set meeting every rational open ball with all distances rational, or prove a global rigidity theorem.",
+    "obstruction": "Dense subsets of a circle or line are not plane-dense; conditional arithmetic geometry does not remove the main assumption.",
+    "next_step": "Check finite extension compatibility rather than assuming independently chosen rational distances can be realized.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-52483865.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-1666249",
+    "title": "Euclid number",
+    "pageid": 1666249,
+    "url": "https://en.wikipedia.org/wiki/Euclid_number",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Let P_n be the product of the first n primes. Are infinitely many P_n+1 prime? Are infinitely many P_n-1 prime (Kummer/negative primorial variant)? Is every P_n+1 squarefree? State n>=1; changing initial indexing adds only boundary cases.",
+    "current_status": "unverified current status; known no-perfect-power results do not establish squarefreeness",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1090/S0025-5718-01-01315-1",
+        "date": "2002",
+        "inspected": "bibliographic reference",
+        "supports": "Caldwell-Gallot primality tests for factorial/primorial neighbors",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1017/S0025557200008184",
+        "date": "2014",
+        "inspected": "source reference",
+        "supports": "Lord: Euclid numbers are not perfect powers",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Find a square divisor of a primorial plus one for a finite disproof, or prove uniform square avoidance; infinitude requires a separate prime-production argument.",
+    "obstruction": "Pairwise construction of new prime divisors does not prove Euclid numbers themselves prime; non-perfect-power does not imply squarefree.",
+    "next_step": "Separate the finite-counterexample search from infinitude and retain exact indexing.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-1666249.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Euclid.lean",
+      "sha": "04bb5783f905225f459ac7301fe54a1c2c626e2a",
+      "snapshot": "sources/formal-statements/Euclid.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-10456890",
+    "title": "Euclid–Mullin sequence",
+    "pageid": 10456890,
+    "url": "https://en.wikipedia.org/wiki/Euclid%E2%80%93Mullin_sequence",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Define a_1=2 and a_(n+1) as the least prime factor of 1+product_{i<=n} a_i. Does every prime occur in this sequence?",
+    "current_status": "unverified current status; complete-prime-coverage results for variants do not resolve this sequence",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1605.08929",
+        "date": "2016",
+        "inspected": "abstract",
+        "supports": "Booker: variants of the Euclid-Mullin sequence",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.1090/S0002-9904-1963-11017-4",
+        "date": "1963",
+        "inspected": "original bibliography",
+        "supports": "Mullin's recursive sequence",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "For a missing prime r, prove the deterministic products eventually enter the residue -1 modulo r and r is then least among new factors.",
+    "obstruction": "Residue attainment alone does not force selection as the least prime factor; branching graph variants change the recursion.",
+    "next_step": "Seek a deterministic recurrence argument addressing both divisibility and least-factor priority.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-10456890.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-1278374",
+    "title": "Euler brick",
+    "pageid": 1278374,
+    "url": "https://en.wikipedia.org/wiki/Euler_brick",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "Does there exist a positive integer triple a,b,c with all four numbers a^2+b^2, a^2+c^2, b^2+c^2, a^2+b^2+c^2 integer squares (a perfect cuboid)? Higher-dimensional all-face variants are separate. The three polynomial irreducibility conjectures are indexed separately at wiki-48707305.",
+    "current_status": "unverified current status; no perfect cuboid construction or impossibility proof established",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1108.5348",
+        "date": "2011",
+        "inspected": "source reference",
+        "supports": "Sharipov's reduction to polynomial families",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2510.11768",
+        "date": "2026-03-15 v3",
+        "inspected": "selected proof sections; computational certificates not reproduced",
+        "supports": "First polynomial family alone is not full perfect-cuboid nonexistence",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Either construct a single certified positive solution or eliminate every rational point in the corresponding nondegenerate surface.",
+    "obstruction": "Three integral face diagonals do not imply an integral space diagonal; special polynomial families leave general cases.",
+    "next_step": "Avoid duplicate investigation with the cuboid-polynomial entry; compare all excluded degeneracies.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-1278374.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/EulerBrick.lean",
+      "sha": "8ffac53e6218f0b4c8518198a876b2fdd9b4edf5",
+      "snapshot": "sources/formal-statements/EulerBrick.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-148594",
+    "title": "Euler's constant",
+    "pageid": 148594,
+    "url": "https://en.wikipedia.org/wiki/Euler's_constant",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For gamma=lim_{n->infinity}(sum_{k=1}^n 1/k-log n), determine whether gamma is irrational. Transcendence is a strictly stronger separate question.",
+    "current_status": "unverified current status; no irrationality proof established",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1303.1856",
+        "date": "2013-10-25 v6",
+        "inspected": "abstract",
+        "supports": "Lagarias survey of Euler's constant and arithmetic questions",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Produce nonzero integer linear forms in 1 and gamma tending to zero fast enough after clearing denominators.",
+    "obstruction": "Approximants involving uncontrolled logarithms do not give rational approximations with the needed denominator bound.",
+    "next_step": "Demand an explicit nonvanishing and denominator estimate before claiming an irrationality criterion is met.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-148594.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  },
+  {
+    "id": "wiki-12756318",
+    "title": "Feit–Thompson conjecture",
+    "pageid": 12756318,
+    "url": "https://en.wikipedia.org/wiki/Feit%E2%80%93Thompson_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For every ordered pair of distinct primes p,q, (p^q-1)/(p-1) does not divide (q^p-1)/(q-1). The difficult orientation has p>q; the opposite orientation is excluded by size.",
+    "current_status": "unverified current status; stronger coprimality assertion is known false",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1073/pnas.48.6.968",
+        "date": "1962",
+        "inspected": "original source reference",
+        "supports": "Feit-Thompson prime-divisibility conjecture",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.2307/2005226",
+        "date": "1971",
+        "inspected": "source reference",
+        "supports": "Stephens: counterexample to the stronger gcd-one assertion",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.4310/PAMQ.2012.v8.n3.a5",
+        "date": "2012",
+        "inspected": "source reference",
+        "supports": "Le: partial results on the divisibility conjecture",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Assume full divisibility and use multiplicative orders plus valuations of every cyclotomic factor to force a contradiction.",
+    "obstruction": "Shared prime factors exist, so a proof cannot assert coprimality; local order congruences alone leave admissible factors.",
+    "next_step": "Write the exact orientation and analyze the remaining all-factors divisibility condition.",
+    "scope_caveats": "This is unrelated to re-proving the established odd-order group theorem. The catalog uses small p<q and reverses the displayed ordered-pair variable names.",
+    "attempt_record": "ATTEMPTS.md",
+    "target_specification": "TARGETS.md",
+    "lean_specification": "TargetSpecifications.lean",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-12756318.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/FeitThompsonPrimeConjecture.lean",
+      "sha": "47c2550ce3c3eee259a777e372651e65d6609de2",
+      "snapshot": "sources/formal-statements/FeitThompsonPrimeConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-91127",
+    "title": "Fermat number",
+    "pageid": 91127,
+    "url": "https://en.wikipedia.org/wiki/Fermat_number",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For F_n=2^(2^n)+1, n>=0: are the only prime F_n those with n<=4? Are there infinitely many prime F_n or infinitely many composite F_n? Is any F_n nonsquarefree? These are distinct questions and must not be conflated.",
+    "current_status": "unverified current status; no universal primality/compositeness classification established",
+    "primary_sources": [
+      {
+        "url": "https://www.springer.com/mathematics/numbers/book/978-0-387-95332-8",
+        "date": "2001",
+        "inspected": "bibliographic lead",
+        "supports": "Krizek-Luca-Somer: Seventeen Lectures on Fermat Numbers",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Seek a uniform factor construction for an infinite subsequence or a certified exceptional prime/square divisor.",
+    "obstruction": "Pairwise coprimality of Fermat numbers proves neither infinitude of primes among them nor infinitude of composite terms.",
+    "next_step": "Verify current factor tables and choose one explicitly quantified subquestion before substantive work.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-91127.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Fermat.lean",
+      "sha": "a799ee73f08425ad46fd4e75e93ba28d3ae84a87",
+      "snapshot": "sources/formal-statements/Fermat.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-22736152",
+    "title": "Fermat–Catalan conjecture",
+    "pageid": 22736152,
+    "url": "https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory",
+      "Category:Abc conjecture"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "The set of powered-value triples (a^m,b^n,c^k) is finite when a,b,c,m,n,k are positive integers, a,b,c are pairwise coprime, a^m+b^n=c^k and 1/m+1/n+1/k<1.",
+    "current_status": "unverified current status; fixed-signature finiteness is established but insufficient",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.1112/blms/27.6.513",
+        "date": "1995",
+        "inspected": "source reference",
+        "supports": "Darmon-Granville: finiteness for each fixed hyperbolic signature",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://arxiv.org/abs/2410.21552",
+        "date": "2024-10-28",
+        "inspected": "abstract",
+        "supports": "Sikora studies generalizations, not a full proof",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Establish uniform control across unbounded exponent signatures, with repeated powered values identified.",
+    "obstruction": "A countable union of finite fixed-signature solution sets may be infinite.",
+    "next_step": "Seek a uniform height or exponent bound; preserve the image-set formulation in Lean.",
+    "scope_caveats": "Finiteness of sextuples would be false because 1^m+2^3=3^2 holds for every m>6.",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-22736152.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/FermatCatalanConjecture.lean",
+      "sha": "de4846732206deeb6ac500293aee567085fa5a67",
+      "snapshot": "sources/formal-statements/FermatCatalanConjecture.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-2502261",
+    "title": "Fibonacci prime",
+    "pageid": 2502261,
+    "url": "https://en.wikipedia.org/wiki/Fibonacci_prime",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For F_0=0,F_1=1,F_(n+2)=F_(n+1)+F_n, are there infinitely many n with F_n prime?",
+    "current_status": "unverified current status; heuristic asymptotics and probable-prime records do not prove infinitude",
+    "primary_sources": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022314X24000544",
+        "date": "2024",
+        "inspected": "primary abstract/search text",
+        "supports": "Fibonacci prime heuristics and prime-producing sequences",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Turn prime-index Fibonacci factorization into a prime-value theorem, or prove eventual compositeness.",
+    "obstruction": "Primitive prime divisors are divisors of F_n, not certificates that F_n itself is prime.",
+    "next_step": "Distinguish proven primes from probable primes in any example set; require a method controlling all factors.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-2502261.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/FibonacciPrimes.lean",
+      "sha": "fb92c2ae08815d26b9cb990cefa7319483296110",
+      "snapshot": "sources/formal-statements/FibonacciPrimes.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-36793030",
+    "title": "Firoozbakht's conjecture",
+    "pageid": 36793030,
+    "url": "https://en.wikipedia.org/wiki/Firoozbakht's_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For the increasing sequence p_n of primes indexed from n=1, p_(n+1)^n < p_n^(n+1) for every n>=1; equivalently p_n^(1/n) strictly decreases.",
+    "current_status": "unverified current status; verification and implications do not prove the universal inequality",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/abs/1506.03042",
+        "date": "2015",
+        "inspected": "source reference",
+        "supports": "Kourbatov: consequences and verification",
+        "accessed_on": "2026-10-15"
+      },
+      {
+        "url": "https://doi.org/10.3390/math7080691",
+        "date": "2019",
+        "inspected": "primary abstract/search text",
+        "supports": "Further finite verification",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Prove the exact integer inequality for every index, or find one certified consecutive-prime violation.",
+    "obstruction": "Approximate gap asymptotics do not give this strict all-index inequality.",
+    "next_step": "Use the integer-power formulation for any counterexample certificate and independently certify consecutiveness.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-36793030.json",
+    "formalization": {
+      "status": "external statement inspected; not built or accepted locally",
+      "repository": "https://github.com/google-deepmind/formal-conjectures",
+      "commit": "79eac378a26b46d30974cdb33962e0752591b79d",
+      "path": "FormalConjectures/Wikipedia/Firoozbakht.lean",
+      "sha": "76d07d407351037b1af1e4bbf0fe71c9d661aacd",
+      "snapshot": "sources/formal-statements/Firoozbakht.lean",
+      "caution": "Main catalog declarations commonly contain sorry. Status annotations and proof links require a separate proof and axiom audit."
+    }
+  },
+  {
+    "id": "wiki-15114628",
+    "title": "Four exponentials conjecture",
+    "pageid": 15114628,
+    "url": "https://en.wikipedia.org/wiki/Four_exponentials_conjecture",
+    "categories": [
+      "Category:Unsolved problems in number theory"
+    ],
+    "status": "screened",
+    "scope": "direct",
+    "assignment": "batch-a",
+    "exact_question": "For complex x_1,x_2 linearly independent over Q and complex y_1,y_2 linearly independent over Q, at least one of exp(x_i*y_j), i,j in {1,2}, is transcendental over Q.",
+    "current_status": "unverified current status; six-exponential and conditional special-case results do not prove this target",
+    "primary_sources": [
+      {
+        "url": "https://doi.org/10.4064/aa-14-1-73-88",
+        "date": "1967-1968",
+        "inspected": "bibliographic reference; DOI retrieval failed",
+        "supports": "Ramachandra: transcendence results including the six-exponential theorem",
+        "accessed_on": "2026-10-15"
+      }
+    ],
+    "plausible_approach": "Improve the auxiliary-function dimension estimate from a 2-by-3 grid to the 2-by-2 grid.",
+    "obstruction": "Known interpolation estimates need additional independent input; special real or logarithmic cases do not cover all complex pairs.",
+    "next_step": "Write both Q-linear-independence hypotheses explicitly and separate sharp/strong variants.",
+    "scope_caveats": "",
+    "checked_on": "2026-10-15",
+    "accepted_solution": false,
+    "source_article_snapshot": "sources/wiki-15114628.json",
+    "formalization": {
+      "status": "not found in the narrowly searched Wikipedia-module names",
+      "search_scope": "Pinned google-deepmind/formal-conjectures Wikipedia tree; not a proof of absence from all Lean projects"
+    }
+  }
+]

@@ -9,6 +9,8 @@ LaTeX expositions, compiled PDFs, and all supporting source code.
 - Never research, attempt, or create mathematical artifacts for the magic square
   of squares. It is assigned elsewhere. Its catalog exclusion record is sufficient.
 - Screen the whole category before concentrating on selected targets.
+- After the first screen, keep a balanced mix of universal arguments and exact
+  construction or counterexample searches, as requested by the user.
 - Pursue complete proofs and complete disproofs equally; the user explicitly
   confirmed that a decisive Lean-verified counterexample counts as a resolution.
 - A complete resolution of a substantive, precisely identified open subquestion
@@ -16,6 +18,8 @@ LaTeX expositions, compiled PDFs, and all supporting source code.
   conjecture, whose unresolved status must remain explicit.
 - Run at most three research chats alongside the parent coordinator. Use
   `gpt-6-astra` with `ultra` reasoning for those chats.
+- The user explicitly authorized the parent to send follow-up research
+  assignments and review feedback to the three created chats throughout this goal.
 - Retain mathematical work only when it directly advances a full solution.
   Do not build a collection of routine known results or unrelated formalizations.
   Research status, failed-approach records, and tooling are retained to avoid

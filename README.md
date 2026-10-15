@@ -3,12 +3,13 @@
 This project seeks complete Lean-verified solutions to problems listed in
 [Wikipedia's unsolved number theory category](https://en.wikipedia.org/wiki/Category:Unsolved_problems_in_number_theory).
 It is an active research project. **No open problem has been solved by this
-project at initialization.**
+project as of 15 October 2026.**
 
-The first phase inventories every direct entry and checks the linked
-subcategories. Each entry needs a precise target and a current literature check
-before proof work begins. Category membership alone does not establish that a
-problem remains open.
+The initial scope and literature screen covers all 123 eligible direct entries
+and reviews 19 additional subcategory pages. Evidence depth varies by entry;
+unverified claims remain explicit. Category membership alone does not establish
+that a problem remains open. Focused attempts now combine universal arguments
+with exact construction and counterexample searches.
 
 The magic square of squares is excluded because it is being attempted in a
 separate project.
@@ -43,6 +44,8 @@ candidate proof targets.
 
 The initial snapshot contains 124 direct pages (123 eligible) and 143 unique
 pages including the abc subcategory. The
+[initial screening records](catalog/initial-screening/README.md) preserve the
+first assessment and its evidence limits. The
 [subcategory scope review](research/parent/REPORT.md) distinguishes additional
 open questions from biographies, definitions, and established theorems.
 
@@ -74,6 +77,17 @@ python3 scripts/build_papers.py
 The Tectonic 0.17.0 installer verifies the official release asset's SHA-256.
 The manuscript command reports that there is nothing to compile until a result
 is registered. Generated PDFs still require visual and mathematical review.
+
+Optional symbolic research calculations use an isolated, version-pinned Python
+environment:
+
+```sh
+bash scripts/setup_math.sh
+.tools/math-python/bin/python path/to/calculation.py
+```
+
+Symbolic calculations are research evidence; accepted mathematical claims still
+require a kernel-checked proof and independent review.
 
 The catalog records when membership was retrieved. Its page titles and links
 identify source articles; original mathematical summaries are written separately

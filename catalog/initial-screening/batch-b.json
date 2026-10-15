@@ -1,0 +1,3601 @@
+{
+  "schema_version": 1,
+  "batch": "batch-b",
+  "screened_on": "2026-10-15",
+  "coverage": {
+    "assigned": 41,
+    "articles_screened": 41,
+    "accepted_solutions": 0,
+    "entries_with_primary_evidence": 41,
+    "checked_source_records": 56
+  },
+  "evidence_policy": "Current status is unverified unless a checked primary source establishes the stated status as of its own date; retrieval is not independent proof validation. Candidate references are explicitly separate from checked sources.",
+  "entries": [
+    {
+      "id": "wiki-3821872",
+      "title": "Friendly number",
+      "source_article": "https://en.wikipedia.org/wiki/Friendly_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Friendly_number&oldid=1379872024",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every positive integer n, does 5*sigma(n)=9*n imply n=10? The article also asks about infinitely large equal-abundancy classes and density one of friendly numbers.",
+      "current_status": "unverified",
+      "status_notes": "Compound entry. Solitariness of 10 is open in Thackeray (2024); prime-factor lower bounds do not decide it.",
+      "primary_references_from_article": [
+        {
+          "title": "0806.1001",
+          "url": "https://arxiv.org/abs/0806.1001"
+        },
+        {
+          "title": "2310.15900",
+          "url": "https://arxiv.org/abs/2310.15900"
+        },
+        {
+          "title": "10.1016/j.indag.2024.04.011",
+          "url": "https://doi.org/10.1016%2Fj.indag.2024.04.011"
+        },
+        {
+          "title": "\"Upper Bounds for the Prime Divisors of Friends of 10\"",
+          "url": "https://link.springer.com/content/pdf/10.1007/s12045-025-1747-8.pdf"
+        },
+        {
+          "title": "2404.05771",
+          "url": "https://arxiv.org/abs/2404.05771"
+        },
+        {
+          "title": "10.1007/s12045-025-1747-8",
+          "url": "https://doi.org/10.1007%2Fs12045-025-1747-8"
+        },
+        {
+          "title": "\"Exploring the Relationships Between the Divisors of Friends of 10\"",
+          "url": "https://zenodo.org/records/15206287/files/CMS-21-32.pdf?download=1"
+        },
+        {
+          "title": "2504.08295",
+          "url": "https://arxiv.org/abs/2504.08295"
+        },
+        {
+          "title": "10.5281/zenodo.15206286",
+          "url": "https://doi.org/10.5281%2Fzenodo.15206286"
+        },
+        {
+          "title": "\"Prime Divisors of 10's Friends: A Generalization of Prior Bounds\"",
+          "url": "https://arhiva-stiinte.uoradea.ro/en/auofm/auofm2026/Mandal_5.pdf"
+        },
+        {
+          "title": "2412.02701",
+          "url": "https://arxiv.org/abs/2412.02701"
+        },
+        {
+          "title": "2503.11694",
+          "url": "https://arxiv.org/abs/2503.11694"
+        },
+        {
+          "title": "10.7546/nntdm.2025.31.3.617-623",
+          "url": "https://doi.org/10.7546%2Fnntdm.2025.31.3.617-623"
+        },
+        {
+          "title": "\"Friends of 15 Live Far Away\"",
+          "url": "https://future-in-tech.net/14.1/R-Terry.pdf"
+        },
+        {
+          "title": "2409.04451",
+          "url": "https://arxiv.org/abs/2409.04451"
+        },
+        {
+          "title": "10.2478/awutm-2025-0013",
+          "url": "https://doi.org/10.2478%2Fawutm-2025-0013"
+        },
+        {
+          "title": "\"Odd perfect numbers have at least nine distinct prime factors\"",
+          "url": "https://www.ams.org/journals/mcom/2007-76-260/S0025-5718-07-01990-4/S0025-5718-07-01990-4.pdf"
+        },
+        {
+          "title": "math/0602485",
+          "url": "https://arxiv.org/abs/math/0602485"
+        },
+        {
+          "title": "10.1090/S0025-5718-07-01990-4",
+          "url": "https://doi.org/10.1090%2FS0025-5718-07-01990-4"
+        },
+        {
+          "title": "10.2307/2318325",
+          "url": "https://doi.org/10.2307%2F2318325"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "friend10",
+          "url": "https://arxiv.org/abs/2310.15900",
+          "source_date": "2024",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Thackeray (2024) states that friendliness of 10 is unknown and proves that a friend must have at least ten distinct prime factors.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/friend10.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "335b501cc84b66d4b3e4e4544fe3e776cade92f27ea358b6b93e8b411fa54522"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Factor-chain analysis of sigma on prime powers, with an infinite-branch exclusion theorem.",
+      "obstruction": "The number of prime factors and exponents is unbounded; finite branch searches need a global termination argument.",
+      "next_step": "Only pursue a uniform factor-chain obstruction, not another finite lower bound.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-19474055",
+      "title": "Gauss circle problem",
+      "source_article": "https://en.wikipedia.org/wiki/Gauss_circle_problem",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Gauss_circle_problem&oldid=1369581427",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every real epsilon>0, is there C>0 such that for every real R>=1, |#{(a,b) in Z^2:a^2+b^2<=R^2}-pi*R^2|<=C*R^(1/2+epsilon)?",
+      "current_status": "unverified",
+      "status_notes": "Open in cited literature. The often repeated Bourgain-Watt improvement in arXiv:1709.04340 was withdrawn in July 2023; do not use it as a theorem.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1080/00029890.2018.1401853",
+          "url": "https://doi.org/10.1080%2F00029890.2018.1401853"
+        },
+        {
+          "title": "10.1007/978-0-387-26677-0",
+          "url": "https://doi.org/10.1007%2F978-0-387-26677-0"
+        },
+        {
+          "title": "10.2307/2589321",
+          "url": "https://doi.org/10.2307%2F2589321"
+        },
+        {
+          "title": "\"O mierzeniu pól płaskich\"",
+          "url": "https://cstaecker.fairfield.edu/~cstaecker/files/machines/filer.php?name=dotplanpapersteinhaus.pdf"
+        },
+        {
+          "title": "10.1007/s006050200006",
+          "url": "https://doi.org/10.1007%2Fs006050200006"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "circle_withdrawn",
+          "url": "https://arxiv.org/abs/1709.04340",
+          "source_date": "2023",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract and submission history",
+          "finding": "Bourgain-Watt arXiv:1709.04340 is withdrawn as of July 2023; stated problems invalidate the claimed improvements. This does not establish the best surviving exponent.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/circle_withdrawn.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "aadd50fc30d68c234e2171bbab6d4e36d039f529c97477df58512192b69122a8"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform cancellation in the Bessel/exponential-sum expansion.",
+      "obstruction": "Known estimates lose a positive power; exact lattice enumeration cannot bound all radii.",
+      "next_step": "Audit any proposed exponent improvement against withdrawn and corrected versions.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-35633206",
+      "title": "Gaussian moat",
+      "source_article": "https://en.wikipedia.org/wiki/Gaussian_moat",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Gaussian_moat&oldid=1379557707",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Does there exist D>0 and an injective sequence z:N->Z[i] of Gaussian primes with |z(n+1)-z(n)|<=D for all n? The conjectured answer is no.",
+      "current_status": "unverified",
+      "status_notes": "Current status unverified: a 2024 claimed proof was withdrawn; a September 2026 OpenAI manuscript and Lean comparator claim a negative answer, not audited here.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/2589708",
+          "url": "https://doi.org/10.2307%2F2589708"
+        },
+        {
+          "title": "10.1093/ietfec/e88-a.5.1267",
+          "url": "https://doi.org/10.1093%2Fietfec%2Fe88-a.5.1267"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "moat_withdrawn",
+          "url": "https://arxiv.org/abs/2401.08441",
+          "source_date": "2024",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract and withdrawal notice",
+          "finding": "Stumpenhusen withdrew the 2024 argument after a moat width was computed incorrectly.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/moat_withdrawn.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "1e4f38a98f4a275f4c50413d3cbd44f753e025a3963a6b433f22f3aa3a98afcc"
+        },
+        {
+          "key": "moat_2026_scope",
+          "url": "https://raw.githubusercontent.com/openai/math/main/lean/docs/028.md",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "full scope document",
+          "finding": "The September 2026 manuscript claims no infinite bounded-step Gaussian-prime walk, plus uniform finite component bounds. Its implementation and axiom closure have not been checked here.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/moat_2026_scope.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "8c84833b7ad47c59ee7e5392858ee2a3d410f3e082af31d064654202b5105521"
+        },
+        {
+          "key": "moat_comparator",
+          "url": "https://raw.githubusercontent.com/openai/math/main/lean/ComparatorChallenges/GaussianMoat.lean",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "full comparator",
+          "finding": "The comparator includes all Gaussian associates and axis primes and states both endpoints. Its fullMain declaration has a placeholder proof; this comparator is a specification, not an audited implementation.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/moat_comparator.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f1d2bdcb38ababb65d98dba286dfe13286c1709aea704d9dac58e2004ca80e84"
+        }
+      ],
+      "existing_formalization": {
+        "status": "external_formal_specification_found",
+        "url": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/GaussianMoat.lean",
+        "note": "Comparator statement read; proof implementation not audited. The comparator contains a placeholder and is not itself an accepted proof."
+      },
+      "plausible_full_solution_route": "Finite periodic sieves excluding unbounded connected components; audit the new existing claim before independent work.",
+      "obstruction": "Isolated primes and arbitrarily large empty disks do not separate every infinite path.",
+      "next_step": "Parent should independently audit the 2026 comparator, proof imports, transitive axioms and geometric coverage.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-1010141",
+      "title": "Gilbreath's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Gilbreath's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Gilbreath%27s_conjecture&oldid=1378328959",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Let p_n be the nth prime (p_0=2), D_0(n)=p_n and D_(k+1)(n)=|D_k(n+1)-D_k(n)|. Is D_k(0)=1 for every k>=1?",
+      "current_status": "unverified",
+      "status_notes": "Open in Chase (2024), with much larger computational verifications reported later. Croft-style deterministic small-gap generalizations are false.",
+      "primary_references_from_article": [
+        {
+          "title": "2005.00530",
+          "url": "https://arxiv.org/abs/2005.00530"
+        },
+        {
+          "title": "10.1007/s00208-023-02579-w",
+          "url": "https://doi.org/10.1007%2Fs00208-023-02579-w"
+        },
+        {
+          "title": "10.2307/2152962",
+          "url": "https://doi.org/10.2307%2F2152962"
+        },
+        {
+          "title": "2510.06688",
+          "url": "https://arxiv.org/abs/2510.06688"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "gilbreath_random",
+          "url": "https://arxiv.org/abs/2005.00530",
+          "source_date": "2024",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Chase proves an analogue for a random process, not the deterministic rows of actual primes.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/gilbreath_random.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "786f4441c3c824c338853a59ec23eab1b961d4544a49c82ad1cf7aaa38288b85"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A prime-specific invariant forcing entry into the {0,2} regime behind the leading 1.",
+      "obstruction": "Parity alone controls residues, not magnitudes; randomness analogues do not cover actual primes.",
+      "next_step": "Require a deterministic prime-distribution lemma that reaches every row.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-41730066",
+      "title": "Gillies' conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Gillies'_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Gillies%27_conjecture&oldid=1364886556",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For prime exponents p, characterize the asymptotic distribution of prime factors of M_p=2^p-1 in intervals [A,B]; Gillies proposes a Poisson law with logarithmic mean.",
+      "current_status": "unverified",
+      "status_notes": "Probabilistic formulation needs a sampling measure and joint limiting regime before formalization. The implied Mersenne-prime constant 2/log(2) conflicts with the LPW constant exp(gamma)/log(2).",
+      "primary_references_from_article": [
+        {
+          "title": "10.1090/S0025-5718-1964-0159774-6",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1964-0159774-6"
+        },
+        {
+          "title": "10.1090/S0025-5718-1955-0071444-6",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1955-0071444-6"
+        },
+        {
+          "title": "10.1090/S0025-5718-1983-0679454-X",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1983-0679454-X"
+        },
+        {
+          "title": "10.1090/S0025-5718-1967-0223320-1",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1967-0223320-1"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "gillies",
+          "url": "https://www.ams.org/journals/mcom/1964-18-085/S0025-5718-1964-0159774-6/S0025-5718-1964-0159774-6.pdf",
+          "source_date": "1964",
+          "checked_on": "2026-10-15",
+          "reading_scope": "original paper introduction and conjecture",
+          "finding": "Gillies proposes a Poisson factor-count heuristic. A precise probability space and coupled limit must be supplied before converting it into a formal target.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/gillies.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "28eda5e34aec3cbd97411d11d38035b99dd82af76b66f64f2d43401e90648ecc"
+        },
+        {
+          "key": "wagstaff",
+          "url": "https://www.ams.org/journals/mcom/1983-40-161/S0025-5718-1983-0679454-X/S0025-5718-1983-0679454-X.pdf",
+          "source_date": "1983",
+          "checked_on": "2026-10-15",
+          "reading_scope": "introduction and heuristic discussion",
+          "finding": "Wagstaff explains the LPW distribution heuristic and limitations of extrapolating Gillies factor statistics to primality. It is not a proof of infinitude.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/wagstaff.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "3fe3f0e2a457065d2022023b5541d4f55041c41adfd066642aed80bde53fe687"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Derive arithmetic factorial moments for factor counts over prime exponents.",
+      "obstruction": "The article incorrectly calls M_p a Mersenne prime even when it is composite. Heuristic probabilities are not pointwise assertions about a fixed p.",
+      "next_step": "Read Gillies (1964) and Wagstaff (1983) with explicit averaging quantifiers.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-2771364",
+      "title": "Giuga number",
+      "source_article": "https://en.wikipedia.org/wiki/Giuga_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Giuga_number&oldid=1378676030",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Are there infinitely many composite n such that every prime p|n satisfies p|(n/p-1)? Separately, can such an n also be Carmichael, and can it be odd?",
+      "current_status": "unverified",
+      "status_notes": "Compound entry. Giuga numbers exist, but infinitude and the Giuga-Carmichael intersection are different open targets; Lava’s derivative equality is another stronger claim.",
+      "primary_references_from_article": [
+        {
+          "title": "\"Giuga's Conjecture on Primality\"",
+          "url": "https://web.archive.org/web/20050531164907/http://www.math.uwo.ca/~dborwein/cv/giuga.pdf"
+        },
+        {
+          "title": "10.2307/2975213",
+          "url": "https://doi.org/10.2307%2F2975213"
+        },
+        {
+          "title": "the original",
+          "url": "http://www.math.uwo.ca/~dborwein/cv/giuga.pdf"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "giuga_derivative",
+          "url": "https://arxiv.org/abs/1103.2298",
+          "source_date": "2011",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Arithmetic-derivative reformulations concern conditions on Giuga numbers. They do not construct infinitely many or settle the Carmichael intersection.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/giuga_derivative.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f80b7c6abb2b43212aba7bbb5f8fd993937d4d02b78136cd7afb1129155148fc"
+        },
+        {
+          "key": "giuga_2026",
+          "url": "https://arxiv.org/abs/2610.09129",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The October 2026 preprint develops idempotence and structural necessary conditions; it does not state a solution to the full infinitude or Giuga-Carmichael questions.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/giuga_2026.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "199c274c39bdcb38b734a461b2b3d04b97bcb0fca1b83398fbf71e42e8c18324"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Construct an infinite family satisfying the simultaneous divisibility equations, or rule out Carmichael compatibility.",
+      "obstruction": "Squarefreeness and derivative reformulations do not force nonexistence or generate an unbounded family.",
+      "next_step": "Choose exactly one subclaim; avoid treating a Giuga example as a counterexample to Giuga primality.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-44758",
+      "title": "Goldbach's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Goldbach's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Goldbach%27s_conjecture&oldid=1376998825",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every even integer N>=4, do there exist primes p,q with N=p+q? Primes may be equal.",
+      "current_status": "unverified",
+      "status_notes": "Strong binary Goldbach remains open in the checked literature. Ternary Goldbach is a known theorem and is not this target.",
+      "primary_references_from_article": [
+        {
+          "title": "\"Letter XLIV, Euler to Goldbach\"",
+          "url": "http://eulerarchive.maa.org/correspondence/letters/OO0766.pdf"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20240917121157/http://eulerarchive.maa.org//correspondence/letters/OO0766.pdf"
+        },
+        {
+          "title": "\"Popular Lectures\"",
+          "url": "https://web.archive.org/web/20030616020619/http://claymath.org/Popular_Lectures/U_Texas/Riemann_1.pdf"
+        },
+        {
+          "title": "the original",
+          "url": "http://www.claymath.org/Popular_Lectures/U_Texas/Riemann_1.pdf"
+        },
+        {
+          "title": "\"On a conjecture of Descartes\"",
+          "url": "https://real.mtak.hu/164172/1/PJ_DESCARTES_Conjecture1109.pdf"
+        },
+        {
+          "title": "\"Sur l'hypothèse de Goldbach\"",
+          "url": "http://www.dwc.knaw.nl/DL/publications/PU00016746.pdf"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20131020200916/http://www.dwc.knaw.nl/DL/publications/PU00016746.pdf"
+        },
+        {
+          "title": "10.1112/plms/s2-44.4.307",
+          "url": "https://doi.org/10.1112%2Fplms%2Fs2-44.4.307"
+        },
+        {
+          "title": "1312.7748",
+          "url": "https://arxiv.org/abs/1312.7748"
+        },
+        {
+          "title": "\"Checking the Goldbach Conjecture up to 4 ⋅ 1011\"",
+          "url": "https://www.ams.org/journals/mcom/1993-61-204/S0025-5718-1993-1185250-6/S0025-5718-1993-1185250-6.pdf"
+        },
+        {
+          "title": "10.2307/2153264",
+          "url": "https://doi.org/10.2307%2F2153264"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20210417005438/https://www.ams.org/journals/mcom/1993-61-204/S0025-5718-1993-1185250-6/S0025-5718-1993-1185250-6.pdf"
+        },
+        {
+          "title": "10.1112/plms/s2-22.1.46",
+          "url": "https://doi.org/10.1112%2Fplms%2Fs2-22.1.46"
+        },
+        {
+          "title": "1804.05561",
+          "url": "https://arxiv.org/abs/1804.05561"
+        },
+        {
+          "title": "10.1007/s10474-020-01077-8",
+          "url": "https://doi.org/10.1007%2Fs10474-020-01077-8"
+        },
+        {
+          "title": "math.NT/0201299",
+          "url": "https://arxiv.org/abs/math.NT/0201299"
+        },
+        {
+          "title": "10.4310/AJM.2002.v6.n3.a7",
+          "url": "https://doi.org/10.4310%2FAJM.2002.v6.n3.a7"
+        },
+        {
+          "title": "1305.2897",
+          "url": "https://arxiv.org/abs/1305.2897"
+        },
+        {
+          "title": "1205.5252",
+          "url": "https://arxiv.org/abs/1205.5252"
+        },
+        {
+          "title": "\"Empirical Verification of the Even Goldbach Conjecture and Computation of up to 4 · 1018\"",
+          "url": "https://www.ams.org/journals/mcom/2014-83-288/S0025-5718-2013-02787-1/S0025-5718-2013-02787-1.pdf"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20250615124608/https://www.ams.org/journals/mcom/2014-83-288/S0025-5718-2013-02787-1/S0025-5718-2013-02787-1.pdf"
+        },
+        {
+          "title": "\"On two conjectures about practical numbers\"",
+          "url": "https://doi.org/10.1006%2Fjnth.1996.0012"
+        },
+        {
+          "title": "10.1006/jnth.1996.0012",
+          "url": "https://doi.org/10.1006%2Fjnth.1996.0012"
+        },
+        {
+          "title": "\"TWIN PRIME CONJECTURES\"",
+          "url": "https://oeis.org/A007534/a007534.pdf"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20210806115957/https://oeis.org/A007534/a007534.pdf"
+        },
+        {
+          "title": "\"A complete Vinogradov 3-primes theorem under the Riemann hypothesis\"",
+          "url": "https://www.ams.org/era/1997-03-15/S1079-6762-97-00031-0/S1079-6762-97-00031-0.pdf"
+        },
+        {
+          "title": "10.1090/S1079-6762-97-00031-0",
+          "url": "https://doi.org/10.1090%2FS1079-6762-97-00031-0"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20080725093829/http://www.ams.org/era/1997-03-15/S1079-6762-97-00031-0/S1079-6762-97-00031-0.pdf"
+        },
+        {
+          "title": "\"The exceptional set in Goldbach's problem\"",
+          "url": "http://matwbn.icm.edu.pl/ksiazki/aa/aa27/aa27126.pdf"
+        },
+        {
+          "title": "10.4064/aa-27-1-353-370",
+          "url": "https://doi.org/10.4064%2Faa-27-1-353-370"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20240917195520/http://matwbn.icm.edu.pl/ksiazki/aa/aa27/aa27126.pdf"
+        },
+        {
+          "title": "Goldbach's original letter to Euler — PDF format (in German and Latin)",
+          "url": "http://www.math.dartmouth.edu/~euler/correspondence/letters/OO0765.pdf"
+        },
+        {
+          "title": "Archived",
+          "url": "https://web.archive.org/web/20090916213213/http://www.math.dartmouth.edu/~euler/correspondence/letters/OO0765.pdf"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "goldbach_ternary",
+          "url": "https://arxiv.org/abs/1312.7748",
+          "source_date": "2013",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Helfgott proves every odd integer greater than 5 is a sum of three primes. The binary statement is different.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/goldbach_ternary.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f2fc08768c805def2c7540a083f599e8710fa9199a9664593f7813563ecb45c3"
+        },
+        {
+          "key": "goldbach_binary",
+          "url": "https://arxiv.org/abs/2207.09452",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The explicit Chen theorem gives a prime plus a product of at most two primes above an enormous threshold; it is not binary Goldbach.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/goldbach_binary.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "9201c38eb4ece81fea97ad736e5e08fe31da0c4b2a86a8b9ff9f5438fa8cba21"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A binary circle-method lower bound with complete minor-arc control, or a sieve overcoming parity.",
+      "obstruction": "Almost-all results allow exceptions, and prime-plus-semiprime does not imply prime-plus-prime.",
+      "next_step": "No credible complete route identified; do not formalize finite verification as a solution.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-11327223",
+      "title": "Goormaghtigh conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Goormaghtigh_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Goormaghtigh_conjecture&oldid=1374401321",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For integers x>y>1 and n>m>2, does sum_(i<m)x^i=sum_(j<n)y^j imply (x,y,m,n)=(5,2,3,5) or (90,2,3,13)?",
+      "current_status": "unverified",
+      "status_notes": "Open full classification. Fixed-base uniqueness and fixed-exponent finiteness leave both bases and exponents unbounded.",
+      "primary_references_from_article": [
+        {
+          "title": "\"On the diophantine equation \"",
+          "url": "http://msp.org/pjm/2002/207-1/pjm-v207-n1-p04-s.pdf"
+        },
+        {
+          "title": "10.2140/pjm.2002.207.61",
+          "url": "https://doi.org/10.2140%2Fpjm.2002.207.61"
+        },
+        {
+          "title": "\"On the equation \"",
+          "url": "https://doi.org/10.7146%2Fmath.scand.a-11861"
+        },
+        {
+          "title": "10.7146/math.scand.a-11861",
+          "url": "https://doi.org/10.7146%2Fmath.scand.a-11861"
+        },
+        {
+          "title": "10.1093/qmath/12.1.304",
+          "url": "https://doi.org/10.1093%2Fqmath%2F12.1.304"
+        },
+        {
+          "title": "\"On the number of solutions of Goormaghtigh equation for given  and \"",
+          "url": "https://doi.org/10.1016%2FS0019-3577%2808%2980015-8"
+        },
+        {
+          "title": "10.1016/S0019-3577(08)80015-8",
+          "url": "https://doi.org/10.1016%2FS0019-3577%2808%2980015-8"
+        },
+        {
+          "title": "\"On an equation of Goormaghtigh\"",
+          "url": "http://matwbn.icm.edu.pl/ksiazki/aa/aa83/aa8345.pdf"
+        },
+        {
+          "title": "10.4064/aa-83-4-381-389",
+          "url": "https://doi.org/10.4064%2Faa-83-4-381-389"
+        },
+        {
+          "title": "\"On the diophantine equation \"",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2004.12.002"
+        },
+        {
+          "title": "10.1016/j.jnt.2004.12.002",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2004.12.002"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "goormaghtigh",
+          "url": "https://msp.org/pjm/2002/207-1/pjm-v207-n1-p04-s.pdf",
+          "source_date": "2002",
+          "checked_on": "2026-10-15",
+          "reading_scope": "introduction and theorem statements",
+          "finding": "Bugeaud-Shorey discuss the two known exceptional repunit coincidences and parameter-restricted results. Their estimates do not classify all bases and exponents.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/goormaghtigh.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "4883328e954ee279e1e8f1e4c6b16c69354e35c4fb089b96e83b8e17d9de54be"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform effective linear-forms bounds combined with cyclotomic factor constraints.",
+      "obstruction": "Known effective bounds depend on parameters that remain unbounded in the full question.",
+      "next_step": "Check the exact hypotheses of the m=3 results before proposing an unproved residual case.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-60008412",
+      "title": "Greenberg's conjectures",
+      "source_article": "https://en.wikipedia.org/wiki/Greenberg's_conjectures",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Greenberg%27s_conjectures&oldid=1380076254",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every totally real number field K and prime p, are the p-parts of class numbers in its cyclotomic Z_p tower bounded? Separate targets are generalized pseudo-nullity and multiquadratic p-rational field existence for every odd p and rank t.",
+      "current_status": "unverified",
+      "status_notes": "Compound and misleadingly updated article: arXiv:2609.40282 concerns Selmer mu-invariants of rational elliptic curves with a p-isogeny, not class-group lambda=mu=0 for all totally real fields.",
+      "primary_references_from_article": [
+        {
+          "title": "On Greenberg's generalized conjecture for families of number fields",
+          "url": "http://arxiv.org/abs/2505.07529"
+        },
+        {
+          "title": "10.48550/arXiv.2505.07529",
+          "url": "https://doi.org/10.48550%2FarXiv.2505.07529"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "greenberg_general",
+          "url": "https://arxiv.org/abs/2505.07529",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The 2025 generalized Greenberg paper gives partial pseudo-nullity results; it does not prove the cyclotomic class-group conjecture for every totally real field.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/greenberg_general.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "e56f737477391545f1e5cca5ec5eeaf6aa09024445165a738fb53b44271f26f5"
+        },
+        {
+          "key": "greenberg_mismatch",
+          "url": "https://arxiv.org/abs/2609.40282",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The September 2026 paper is about Selmer mu-invariants for rational elliptic curves admitting a rational p-isogeny at an ordinary prime. This cannot support the article claim that all totally real class-group lambda and mu invariants vanish.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/greenberg_mismatch.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f5ac19514c6caf7746da1360afdd47a4619ed14caa9e5a9ba194600894dc43e8"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Control norm-compatible class groups through Iwasawa modules and ramification.",
+      "obstruction": "Results for abelian fields or elliptic-curve Selmer groups do not settle arbitrary totally real fields.",
+      "next_step": "Correct the catalog status inference; specify one Iwasawa module before proof work.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-6278350",
+      "title": "Grimm's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Grimm's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Grimm%27s_conjecture&oldid=1379453404",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For all n,k>=1 with each n+i (1<=i<=k) composite, can one assign pairwise distinct primes p_i with p_i|(n+i)?",
+      "current_status": "unverified",
+      "status_notes": "Open in Laishram-Murty (2012/2013). Merely having k prime factors in the whole product is a weaker statement.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/2317188",
+          "url": "https://doi.org/10.2307%2F2317188"
+        },
+        {
+          "title": "1306.0765",
+          "url": "https://arxiv.org/abs/1306.0765"
+        },
+        {
+          "title": "10.1307/mmj/1331222852",
+          "url": "https://doi.org/10.1307%2Fmmj%2F1331222852"
+        },
+        {
+          "title": "10.1142/S1793042106000498",
+          "url": "https://doi.org/10.1142%2FS1793042106000498"
+        },
+        {
+          "title": "10.1515/crll.1975.273.109",
+          "url": "https://doi.org/10.1515%2Fcrll.1975.273.109"
+        },
+        {
+          "title": "10.1515/crll.1976.288.192",
+          "url": "https://doi.org/10.1515%2Fcrll.1976.288.192"
+        },
+        {
+          "title": "10.1016/1385-7258(73)90073-5",
+          "url": "https://doi.org/10.1016%2F1385-7258%2873%2990073-5"
+        },
+        {
+          "title": "10.1016/1385-7258(75)90009-8",
+          "url": "https://doi.org/10.1016%2F1385-7258%2875%2990009-8"
+        },
+        {
+          "title": "10.1016/1385-7258(77)90030-0",
+          "url": "https://doi.org/10.1016%2F1385-7258%2877%2990030-0"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "grimm",
+          "url": "https://arxiv.org/abs/1306.0765",
+          "source_date": "2012",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Laishram-Murty obtain bounds related to Grimm through smooth numbers and computations. The arbitrary consecutive composite matching statement is not proved.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/grimm.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "9eb3d4a1a15c6a613fc85c988f474e0eb796c2239cfa0057d193c9e6c698be82"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prove every subset of the composites has at least its size in prime neighbors, then apply Hall matching.",
+      "obstruction": "Controlling only the full interval does not prove Hall inequalities for all subsets.",
+      "next_step": "A full route must establish the subset expansion inequality uniformly.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-3135542",
+      "title": "Grothendieck–Katz p-curvature conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Grothendieck%E2%80%93Katz_p-curvature_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Grothendieck–Katz_p-curvature_conjecture&oldid=1364886808",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every linear differential system over a number field function field with a model of good reduction, does vanishing p-curvature at all but finitely many good primes imply a full algebraic solution basis?",
+      "current_status": "unverified",
+      "status_notes": "General conjecture remains open in checked sources; the 2025 effective order-one theorem is a special case.",
+      "primary_references_from_article": [
+        {
+          "title": "Daniel Bertrand, Bourbaki Seminar 750, 1991-2",
+          "url": "http://archive.numdam.org/ARCHIVE/SB/SB_1991-1992__34_/SB_1991-1992__34__183_0/SB_1991-1992__34__183_0.pdf"
+        },
+        {
+          "title": "\"A conjecture in the arithmetic theory of differential equations\"",
+          "url": "http://archive.numdam.org/ARCHIVE/BSMF/BSMF_1982__110_/BSMF_1982__110__203_0/BSMF_1982__110__203_0.pdf"
+        },
+        {
+          "title": "10.24033/bsmf.1960",
+          "url": "https://doi.org/10.24033%2Fbsmf.1960"
+        },
+        {
+          "title": "\"Rigidity, Locally Symmetric Varieties, and the Grothendieck–Katz Conjecture\"",
+          "url": "http://www.math.uchicago.edu/~farb/papers/pcurv5.pdf"
+        },
+        {
+          "title": "10.1093/imrn/rnp082",
+          "url": "https://doi.org/10.1093%2Fimrn%2Frnp082"
+        },
+        {
+          "title": "math/0103192",
+          "url": "https://arxiv.org/abs/math/0103192"
+        },
+        {
+          "title": "10.1007/BF01389714",
+          "url": "https://doi.org/10.1007%2FBF01389714"
+        },
+        {
+          "title": "math/0104178",
+          "url": "https://arxiv.org/abs/math/0104178"
+        },
+        {
+          "title": "10.1007/s00222-002-0241-z",
+          "url": "https://doi.org/10.1007%2Fs00222-002-0241-z"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "pcurvature",
+          "url": "https://arxiv.org/abs/2510.00892",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The October 2025 result is effective order one; arbitrary-rank p-curvature remains a different target.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/pcurvature.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "3e3e418292ce837ae8d7e54b25cb09f851182fc6d285b65fc2325b9af3e492ac"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Algebraization of horizontal leaves from reductions at almost all primes.",
+      "obstruction": "Finite-prime tests and rank-one methods do not control arbitrary rank and geometry.",
+      "next_step": "Specify the model and good-prime quantifier; reject rank restrictions masquerading as a full proof.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-7119900",
+      "title": "Hall's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Hall's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Hall%27s_conjecture&oldid=1380386558",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every epsilon>0, is there c_epsilon>0 such that for all positive integers x and integers y with y^2!=x^3, |y^2-x^3|>=c_epsilon*x^(1/2-epsilon)?",
+      "current_status": "unverified",
+      "status_notes": "Weak Hall is the usual current target. The epsilon=0 version is stronger and doubted; Hall’s suggested constant 1/5 is already contradicted.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1007/BF01140190",
+          "url": "https://doi.org/10.1007%2FBF01140190"
+        },
+        {
+          "title": "10.1093/qmath/29.4.483",
+          "url": "https://doi.org/10.1093%2Fqmath%2F29.4.483"
+        },
+        {
+          "title": "http://arxiv.org/abs/math/0005139",
+          "url": "http://arxiv.org/abs/math/0005139"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "hall",
+          "url": "https://arxiv.org/abs/math/0005139",
+          "source_date": "2000",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Elkies studies small nonzero differences between squares and cubes and record examples. This does not establish weak Hall for every epsilon.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/hall.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "0b9c0f69b18a9edc64770955a6457a141738a43a2842af3351fafddd9af263b1"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform height bounds for integral points on Mordell curves, stronger than existing effective estimates.",
+      "obstruction": "An abc implication is conditional and small numerical differences cannot disprove the epsilon version.",
+      "next_step": "Keep weak, strong and fixed-constant statements separate.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-32010162",
+      "title": "Hermite's problem",
+      "source_article": "https://en.wikipedia.org/wiki/Hermite's_problem",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Hermite%27s_problem&oldid=1377315046",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Construct an explicitly specified real-number expansion algorithm, not requiring a supplied minimal polynomial, whose eventual periodicity characterizes real algebraic numbers of degree 3.",
+      "current_status": "unverified",
+      "status_notes": "Formulation-sensitive. A bare set-theoretic coding is trivial and misses Hermite’s intended algorithmic problem. Known periodic cubic representations can require algebraic input; special algorithms have restricted domains.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1515/crll.1850.40.279",
+          "url": "https://doi.org/10.1515%2Fcrll.1850.40.279"
+        },
+        {
+          "title": "math/0210480",
+          "url": "https://arxiv.org/abs/math/0210480"
+        },
+        {
+          "title": "10.1016/j.jnt.2004.01.008",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2004.01.008"
+        },
+        {
+          "title": "2101.12707",
+          "url": "https://arxiv.org/abs/2101.12707"
+        },
+        {
+          "title": "10.4064/aa210614-5-1",
+          "url": "https://doi.org/10.4064%2Faa210614-5-1"
+        },
+        {
+          "title": "2101.12627",
+          "url": "https://arxiv.org/abs/2101.12627"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "hermite",
+          "url": "https://arxiv.org/abs/2101.12707",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Karpenkov describes a sin-squared algorithm resolving a totally real cubic case while a cubic case with complex embeddings remains. Algorithm and input conventions must be aligned before using the result.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/hermite.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "91bae8a68f077d4b377d772d0e74d1e0560cf9f12fb31350bcc793bbb6ee07fa"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A multidimensional continued-fraction return map with a provable periodicity criterion.",
+      "obstruction": "Periodic encodings of known cubic irrationals do not give an algorithm on arbitrary real input.",
+      "next_step": "Fix allowed arithmetic/oracle operations and domain before any Lean specification.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-1695214",
+      "title": "Hilbert's ninth problem",
+      "source_article": "https://en.wikipedia.org/wiki/Hilbert's_ninth_problem",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Hilbert%27s_ninth_problem&oldid=1368310755",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Hilbert’s original ninth problem asks for reciprocity for power norm residues in number fields. Modern nonabelian extension: automorphy of irreducible finite-image Galois representations with matching L-functions.",
+      "current_status": "unverified",
+      "status_notes": "Historical original largely answered by class field theory; the article folds it into the much broader Langlands reciprocity problem. No single unchanged open statement.",
+      "primary_references_from_article": [],
+      "primary_sources_checked": [
+        {
+          "key": "hilbert9",
+          "url": "https://math.clarku.edu/~djoyce/hilbert/problems.html",
+          "source_date": "1900",
+          "checked_on": "2026-10-15",
+          "reading_scope": "original ninth-problem text",
+          "finding": "Hilbert asks for a general reciprocity law for power residues in number fields. The historical text does not identify the entire modern Langlands program with this original wording or certify its current status.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/hilbert9.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "c9374aebe4ac771c7b6170f2e35a51fdd90b838a9ad88b71544186405cead73e"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Choose a precise unsolved nonabelian reciprocity theorem rather than reproving abelian reciprocity.",
+      "obstruction": "Replacing the historical question by all of Langlands silently changes the target.",
+      "next_step": "Parent should mark scope clarification required; no direct attack selected.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-14556621",
+      "title": "Idoneal number",
+      "source_article": "https://en.wikipedia.org/wiki/Idoneal_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Idoneal_number&oldid=1283811656",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Is every positive integer D not representable as ab+ac+bc with distinct positive integers a,b,c in the explicit classical list of 65 idoneal numbers?",
+      "current_status": "unverified",
+      "status_notes": "List completeness is conditional on GRH. Kani (2011) explains why Weinberger gives at most two extra numbers, not the often quoted one.",
+      "primary_references_from_article": [
+        {
+          "title": "Acta Arith., 22 (1973), p. 117-124",
+          "url": "http://matwbn.icm.edu.pl/ksiazki/aa/aa22/aa2221.pdf"
+        },
+        {
+          "title": "\"Idoneal numbers and some generalizations\"",
+          "url": "http://www.labmath.uqam.ca/~annales/volumes/35-2/PDF/197-227.pdf"
+        },
+        {
+          "title": "An illustration of a paradox about the idoneal, or suitable, numbers",
+          "url": "https://arxiv.org/abs/math/0507352"
+        },
+        {
+          "title": "Open Diophantine problems",
+          "url": "https://arxiv.org/abs/math.NT/0312440"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "idoneal",
+          "url": "https://www.labmath.uqam.ca/~annales/volumes/35-2/PDF/197-227.pdf",
+          "source_date": "2011",
+          "checked_on": "2026-10-15",
+          "reading_scope": "definition and Corollary 23 with proof",
+          "finding": "Kani permits at most two additional idoneal numbers, related by a factor 4; GRH gives the known list of 65. This corrects the often repeated at-most-one assertion.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/idoneal.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "ce64b05348b1fec6f3b721dbe3ac8c9fd87ce94502d07eed3a8b64e87eb9928f"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Effective exclusion of exceptional quadratic class-group exponent-two discriminants.",
+      "obstruction": "Siegel-zero ineffectivity prevents a finite unconditional cutoff.",
+      "next_step": "Audit the elementary characterization and distinguish discriminants from D.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-18677709",
+      "title": "Juggler sequence",
+      "source_article": "https://en.wikipedia.org/wiki/Juggler_sequence",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Juggler_sequence&oldid=1377670964",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Define J(n)=floor(sqrt(n)) for even n and J(n)=floor(sqrt(n^3)) for odd n. For every n>=1, does some iterate J^k(n)=1?",
+      "current_status": "unverified",
+      "status_notes": "Open; current computational coverage is author-reported and does not prove termination. Integer square root is needed for exact evaluation.",
+      "primary_references_from_article": [],
+      "primary_sources_checked": [
+        {
+          "key": "juggler_author_computation",
+          "url": "https://derneueschwan.ch/juggler/",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "author computation page",
+          "finding": "The page reports a search through 7110200 and an unresolved trajectory at 7110201, last updated May 2026. These are author-reported computations, not independent verification or a nontermination proof.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/juggler_author_computation.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "bfd612cebd1b7627397c216fbaaabe475f8a5fdfac743f561323ff763d21deab"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Find a well-founded measure decreasing over variable-length blocks of iterates.",
+      "obstruction": "Odd steps increase rapidly; heuristic parity independence is unsupported.",
+      "next_step": "Do not extend enumeration without a specific global descent invariant.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-2478058",
+      "title": "Kummer–Vandiver conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Kummer–Vandiver_conjecture&oldid=1364925557",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every prime p, is p coprime to the class number of Q(zeta_p)^+?",
+      "current_status": "unverified",
+      "status_notes": "Kummer-Vandiver remains open in checked literature; large finite prime verification and competing heuristics do not decide it.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1006/jsco.1999.1011",
+          "url": "https://doi.org/10.1006%2Fjsco.1999.1011"
+        },
+        {
+          "title": "10.1090/S0025-5718-2011-02461-0",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2011-02461-0"
+        },
+        {
+          "title": "\"Vandiver's conjecture via K-theory\"",
+          "url": "https://www.bprim.org/sites/default/files/vand.pdf"
+        },
+        {
+          "title": "10.1090/mcom/3211",
+          "url": "https://doi.org/10.1090%2Fmcom%2F3211"
+        },
+        {
+          "title": "10.1007/978-3-642-28821-0_12",
+          "url": "https://doi.org/10.1007%2F978-3-642-28821-0_12"
+        },
+        {
+          "title": "10.1090/S0025-5718-02-01432-1",
+          "url": "https://doi.org/10.1090%2FS0025-5718-02-01432-1"
+        },
+        {
+          "title": "10.1080/00029890.1946.11991754",
+          "url": "https://doi.org/10.1080%2F00029890.1946.11991754"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "vandiver",
+          "url": "https://arxiv.org/abs/1605.02398",
+          "source_date": "2017",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Hart-Harvey-Ong report Vandiver and related computations for all primes below 2^31. This is finite verification, not the universal conjecture.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/vandiver.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "c9c1d319c850b23fe41e1c2d39fab2075d20eb098d98c4881cd3d1cd28aa2036"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prove uniform p-indivisibility via cyclotomic units or a structural K-theory argument.",
+      "obstruction": "Irregular primes evade the easy regular-prime implication.",
+      "next_step": "No full-solution route identified; keep separate from Fermat’s Last Theorem.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-5785677",
+      "title": "Landau's problems",
+      "source_article": "https://en.wikipedia.org/wiki/Landau's_problems",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Landau%27s_problems&oldid=1357581813",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Four separate targets: binary Goldbach; infinitely many twin primes; a prime between every consecutive pair of squares; infinitely many n with n^2+1 prime.",
+      "current_status": "unverified",
+      "status_notes": "Compound entry with duplicates of other assigned/category pages. Bounded gaps and almost-prime polynomial values solve none of the four full claims.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1142/9789812776600_0003",
+          "url": "https://doi.org/10.1142%2F9789812776600_0003"
+        },
+        {
+          "title": "1305.2897",
+          "url": "https://arxiv.org/abs/1305.2897"
+        },
+        {
+          "title": "1205.5252",
+          "url": "https://arxiv.org/abs/1205.5252"
+        },
+        {
+          "title": "1312.7748",
+          "url": "https://arxiv.org/abs/1312.7748"
+        },
+        {
+          "title": "2207.09452",
+          "url": "https://arxiv.org/abs/2207.09452"
+        },
+        {
+          "title": "1511.03409",
+          "url": "https://arxiv.org/abs/1511.03409"
+        },
+        {
+          "title": "2211.08844",
+          "url": "https://arxiv.org/abs/2211.08844"
+        },
+        {
+          "title": "2208.01229",
+          "url": "https://arxiv.org/abs/2208.01229"
+        },
+        {
+          "title": "\"The exceptional set in Goldbach's problem\"",
+          "url": "http://matwbn.icm.edu.pl/ksiazki/aa/aa27/aa27126.pdf"
+        },
+        {
+          "title": "10.4064/aa-27-1-353-370",
+          "url": "https://doi.org/10.4064%2Faa-27-1-353-370"
+        },
+        {
+          "title": "1804.09084",
+          "url": "https://arxiv.org/abs/1804.09084"
+        },
+        {
+          "title": "\"An Approximate Formula for Goldbach's Problem with Applications\"",
+          "url": "https://real.mtak.hu/124681/1/Cikk2020Rivista.pdf"
+        },
+        {
+          "title": "\"On Linnik's approximation to Goldbach's problem. II\"",
+          "url": "http://real.mtak.hu/124682/1/PintzRuzsa200219.pdf"
+        },
+        {
+          "title": "10.1007/s10474-020-01077-8",
+          "url": "https://doi.org/10.1007%2Fs10474-020-01077-8"
+        },
+        {
+          "title": "math/0201299",
+          "url": "https://arxiv.org/abs/math/0201299"
+        },
+        {
+          "title": "10.4007/annals.2014.179.3.7",
+          "url": "https://doi.org/10.4007%2Fannals.2014.179.3.7"
+        },
+        {
+          "title": "\"Variants of the Selberg sieve, and bounded intervals containing many primes\"",
+          "url": "https://doi.org/10.1186%2Fs40687-014-0012-7"
+        },
+        {
+          "title": "1407.4897",
+          "url": "https://arxiv.org/abs/1407.4897"
+        },
+        {
+          "title": "10.1186/s40687-014-0012-7",
+          "url": "https://doi.org/10.1186%2Fs40687-014-0012-7"
+        },
+        {
+          "title": "1311.4600",
+          "url": "https://arxiv.org/abs/1311.4600"
+        },
+        {
+          "title": "math/0505300",
+          "url": "https://arxiv.org/abs/math/0505300"
+        },
+        {
+          "title": "10.3792/pjaa.82.61",
+          "url": "https://doi.org/10.3792%2Fpjaa.82.61"
+        },
+        {
+          "title": "2212.10965",
+          "url": "https://arxiv.org/abs/2212.10965"
+        },
+        {
+          "title": "1906.09555",
+          "url": "https://arxiv.org/abs/1906.09555"
+        },
+        {
+          "title": "10.1093/imrn/rnz295",
+          "url": "https://doi.org/10.1093%2Fimrn%2Frnz295"
+        },
+        {
+          "title": "10.1093/qmath/ham021",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fham021"
+        },
+        {
+          "title": "10.1093/qmath/os-8.1.255",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-8.1.255"
+        },
+        {
+          "title": "10.1007/BF01578070",
+          "url": "https://doi.org/10.1007%2FBF01578070"
+        },
+        {
+          "title": "10.4064/aa151-3-2",
+          "url": "https://doi.org/10.4064%2Faa151-3-2"
+        },
+        {
+          "title": "10.2307/2372233",
+          "url": "https://doi.org/10.2307%2F2372233"
+        },
+        {
+          "title": "10.1112/S0025579300014388",
+          "url": "https://doi.org/10.1112%2FS0025579300014388"
+        },
+        {
+          "title": "2410.04189",
+          "url": "https://arxiv.org/abs/2410.04189"
+        },
+        {
+          "title": "2505.00493",
+          "url": "https://arxiv.org/abs/2505.00493"
+        },
+        {
+          "title": "\"Largest prime factor of \"",
+          "url": "https://doi.org/10.4171%2Fjems%2F1216"
+        },
+        {
+          "title": "1908.08816",
+          "url": "https://arxiv.org/abs/1908.08816"
+        },
+        {
+          "title": "10.4171/jems/1216",
+          "url": "https://doi.org/10.4171%2Fjems%2F1216"
+        },
+        {
+          "title": "1703.03197",
+          "url": "https://arxiv.org/abs/1703.03197"
+        },
+        {
+          "title": "10.4171/jems/951",
+          "url": "https://doi.org/10.4171%2Fjems%2F951"
+        },
+        {
+          "title": "\"On the greatest prime factor of a quadratic polynomial\"",
+          "url": "https://doi.org/10.1007%2FBF02395047"
+        },
+        {
+          "title": "10.1007/BF02395047",
+          "url": "https://doi.org/10.1007%2FBF02395047"
+        },
+        {
+          "title": "10.2307/2305526",
+          "url": "https://doi.org/10.2307%2F2305526"
+        },
+        {
+          "title": "10.1073/pnas.94.4.1054",
+          "url": "https://doi.org/10.1073%2Fpnas.94.4.1054"
+        },
+        {
+          "title": "math/0602116",
+          "url": "https://arxiv.org/abs/math/0602116"
+        },
+        {
+          "title": "10.4064/aa125-2-5",
+          "url": "https://doi.org/10.4064%2Faa125-2-5"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "goldbach_ternary",
+          "url": "https://arxiv.org/abs/1312.7748",
+          "source_date": "2013",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Helfgott proves every odd integer greater than 5 is a sum of three primes. The binary statement is different.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/goldbach_ternary.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f2fc08768c805def2c7540a083f599e8710fa9199a9664593f7813563ecb45c3"
+        },
+        {
+          "key": "goldbach_binary",
+          "url": "https://arxiv.org/abs/2207.09452",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The explicit Chen theorem gives a prime plus a product of at most two primes above an enormous threshold; it is not binary Goldbach.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/goldbach_binary.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "9201c38eb4ece81fea97ad736e5e08fe31da0c4b2a86a8b9ff9f5438fa8cba21"
+        },
+        {
+          "key": "quadratic_primes",
+          "url": "https://arxiv.org/abs/2505.00493",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Grimmelt-Merikoski prove large prime factors of quadratic values infinitely often. A large factor need not be the whole value.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/quadratic_primes.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "d5099df7e80ea3347e9c1ba9a200a8a10c7af7b83dda5d664662e1638f4e292b"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Use specialized prime-distribution techniques appropriate to each subproblem.",
+      "obstruction": "The parity obstruction and uniform short-interval control remain.",
+      "next_step": "Cross-link duplicate IDs in the parent catalog rather than count them as independent solved problems.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-40052960",
+      "title": "Lander, Parkin, and Selfridge conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Lander%2C_Parkin%2C_and_Selfridge_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lander,_Parkin,_and_Selfridge_conjecture&oldid=1374833637",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For k>=2, m,n>=1 and positive integer arrays x,y with x_i!=y_j for all i,j, does sum x_i^k=sum y_j^k imply m+n>=k? Repetition within either side is allowed.",
+      "current_status": "unverified",
+      "status_notes": "Current full LPS status unverified: the inspected Sidon-set abstract does not establish it. The article presents LPS as open. Euler’s older one-sided conjecture is different.",
+      "primary_references_from_article": [
+        {
+          "title": "\"A survey of equal sums of like powers\"",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1967-0222008-0"
+        },
+        {
+          "title": "10.1090/S0025-5718-1967-0222008-0",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1967-0222008-0"
+        },
+        {
+          "title": "\"Generalized Sidon sets of perfect powers\"",
+          "url": "https://doi.org/10.1007%2Fs11139-022-00622-z"
+        },
+        {
+          "title": "2006.02783",
+          "url": "https://arxiv.org/abs/2006.02783"
+        },
+        {
+          "title": "10.1007/s11139-022-00622-z",
+          "url": "https://doi.org/10.1007%2Fs11139-022-00622-z"
+        },
+        {
+          "title": "\"Counterexample to Euler's conjecture on sums of like powers\"",
+          "url": "https://doi.org/10.1090%2FS0002-9904-1966-11654-3"
+        },
+        {
+          "title": "10.1090/S0002-9904-1966-11654-3",
+          "url": "https://doi.org/10.1090%2FS0002-9904-1966-11654-3"
+        },
+        {
+          "title": "\"On A4 + B4 + C4 = D4\"",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1988-0930224-9"
+        },
+        {
+          "title": "10.1090/S0025-5718-1988-0930224-9",
+          "url": "https://doi.org/10.1090%2FS0025-5718-1988-0930224-9"
+        },
+        {
+          "title": "10.1109/SUPERC.1988.74138",
+          "url": "https://doi.org/10.1109%2FSUPERC.1988.74138"
+        },
+        {
+          "title": "\"New results in equal sums of like powers\"",
+          "url": "https://doi.org/10.1090%2FS0025-5718-98-00979-X"
+        },
+        {
+          "title": "10.1090/S0025-5718-98-00979-X",
+          "url": "https://doi.org/10.1090%2FS0025-5718-98-00979-X"
+        },
+        {
+          "title": "10.1112/jlms/s1-9.3.172",
+          "url": "https://doi.org/10.1112%2Fjlms%2Fs1-9.3.172"
+        },
+        {
+          "title": "\"The smallest solutions to the diophantine equation \"",
+          "url": "https://www.ams.org/journals/mcom/2003-72-242/S0025-5718-02-01445-X/S0025-5718-02-01445-X.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-02-01445-X",
+          "url": "https://doi.org/10.1090%2FS0025-5718-02-01445-X"
+        },
+        {
+          "title": "\"Equal sums of two kth powers\"",
+          "url": "https://doi.org/10.1006%2Fjnth.2002.2800"
+        },
+        {
+          "title": "10.1006/jnth.2002.2800",
+          "url": "https://doi.org/10.1006%2Fjnth.2002.2800"
+        },
+        {
+          "title": "10.1112/S0024609305004741",
+          "url": "https://doi.org/10.1112%2FS0024609305004741"
+        },
+        {
+          "title": "2504.04354",
+          "url": "https://arxiv.org/abs/2504.04354"
+        },
+        {
+          "title": "10.1112/jlms.70499",
+          "url": "https://doi.org/10.1112%2Fjlms.70499"
+        },
+        {
+          "title": "\"Bipartite Diophantine tuples and their applications\"",
+          "url": "https://doi.org/10.1007%2Fs40993-026-00709-2"
+        },
+        {
+          "title": "2512.03441",
+          "url": "https://arxiv.org/abs/2512.03441"
+        },
+        {
+          "title": "10.1007/s40993-026-00709-2",
+          "url": "https://doi.org/10.1007%2Fs40993-026-00709-2"
+        },
+        {
+          "title": "10.2307/2323442",
+          "url": "https://doi.org/10.2307%2F2323442"
+        },
+        {
+          "title": "10.1007/978-1-4899-3585-4",
+          "url": "https://doi.org/10.1007%2F978-1-4899-3585-4"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lps",
+          "url": "https://arxiv.org/abs/2006.02783",
+          "source_date": "2020",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract only",
+          "finding": "This paper constructs dense generalized Sidon sets of perfect powers. Its abstract does not establish the current status of the full LPS conjecture; that status remains unverified here.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lps.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "1c950f10376691679b75d36fe4219417535c1fe90f5cc214edd19bf134a57c39"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform Diophantine rigidity, or one explicit positive-integer counterexample with fewer than k total terms.",
+      "obstruction": "Sparse-solution estimates do not rule out isolated solutions; zero or negative bases change the problem.",
+      "next_step": "The 2-versus-2 fifth-power case is already hard; no full route selected.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-2620450",
+      "title": "Legendre's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Legendre's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Legendre%27s_conjecture&oldid=1331535778",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every integer n>=1, is there a prime p with n^2<p<(n+1)^2?",
+      "current_status": "unverified",
+      "status_notes": "Open full target; almost-all square intervals and large-n cubic intervals do not settle it.",
+      "primary_references_from_article": [
+        {
+          "title": "\"Primes between consecutive squares\"",
+          "url": "http://porto.polito.it/1397858/2/Primes_between_squares.pdf"
+        },
+        {
+          "title": "10.1007/s000130050469",
+          "url": "https://doi.org/10.1007%2Fs000130050469"
+        },
+        {
+          "title": "\"Between consecutive squares\"",
+          "url": "https://projecteuclid.org/journals/missouri-journal-of-mathematical-sciences/volume-16/issue-1/Between-Consecutive-Squares/10.35834/2004/1601051.pdf"
+        },
+        {
+          "title": "10.35834/2004/1601051",
+          "url": "https://doi.org/10.35834%2F2004%2F1601051"
+        },
+        {
+          "title": "\"The number of primes in a short interval\"",
+          "url": "https://hal.archives-ouvertes.fr/hal-01108692/file/16Article2.pdf"
+        },
+        {
+          "title": "10.1515/crll.1988.389.22",
+          "url": "https://doi.org/10.1515%2Fcrll.1988.389.22"
+        },
+        {
+          "title": "10.1093/qmath/os-8.1.255",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-8.1.255"
+        },
+        {
+          "title": "1401.4233",
+          "url": "https://arxiv.org/abs/1401.4233"
+        },
+        {
+          "title": "10.7169/facm/2016.55.2.3",
+          "url": "https://doi.org/10.7169%2Ffacm%2F2016.55.2.3"
+        },
+        {
+          "title": "10.25911/5d9efba535a3e",
+          "url": "https://doi.org/10.25911%2F5d9efba535a3e"
+        },
+        {
+          "title": "2107.14468",
+          "url": "https://arxiv.org/abs/2107.14468"
+        },
+        {
+          "title": "10.1016/j.jnt.2022.12.002",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2022.12.002"
+        },
+        {
+          "title": "\"The difference between consecutive primes, II\"",
+          "url": "https://www.cs.umd.edu/~gasarch/BLOGPAPERS/BakerHarmanPintz.pdf"
+        },
+        {
+          "title": "10.1112/plms/83.3.532",
+          "url": "https://doi.org/10.1112%2Fplms%2F83.3.532"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "legendre",
+          "url": "https://arxiv.org/abs/1401.4233",
+          "source_date": "2014",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Dudek proves prime existence between large consecutive cubes. Consecutive squares are a different short-interval scale.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/legendre.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "8ab13bfc31a7fd39b0e730e83ddfe3443f0a18a74a67c2f3f3af42e9e8bfe263"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform primes in intervals of square-root length with effective small-case closure.",
+      "obstruction": "Existing unconditional gap exponents exceed 1/2; RH alone has a logarithmic loss.",
+      "next_step": "Treat finite maximal-gap tables only as computational evidence.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-13739985",
+      "title": "Lehmer's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Lehmer's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lehmer%27s_conjecture&oldid=1358493814",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Does there exist mu>1 such that every nonzero P in Z[X] with Mahler measure M(P)>1 satisfies M(P)>=mu?",
+      "current_status": "unverified",
+      "status_notes": "Mahler-measure Lehmer problem, not tau nonvanishing or the totient problem. The stronger optimal mu is Lehmer’s degree-ten Salem number. Constants and zero polynomial require care.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/1968172",
+          "url": "https://doi.org/10.2307%2F1968172"
+        },
+        {
+          "title": "\"Speculations concerning the range of Mahler's measure\"",
+          "url": "https://doi.org/10.4153%2FCMB-1981-069-5"
+        },
+        {
+          "title": "10.4153/CMB-1981-069-5",
+          "url": "https://doi.org/10.4153%2FCMB-1981-069-5"
+        },
+        {
+          "title": "\"Dynamical properties of quasihyperbolic toral automorphisms\"",
+          "url": "https://doi.org/10.1017%2Fs0143385700009573"
+        },
+        {
+          "title": "10.1017/s0143385700009573",
+          "url": "https://doi.org/10.1017%2Fs0143385700009573"
+        },
+        {
+          "title": "Heights of polynomials and entropy in algebraic dynamics",
+          "url": "https://doi.org/10.1007/978-1-4471-3898-3"
+        },
+        {
+          "title": "10.1007/978-1-4471-3898-3",
+          "url": "https://doi.org/10.1007%2F978-1-4471-3898-3"
+        },
+        {
+          "title": "10.1112/blms/3.2.169",
+          "url": "https://doi.org/10.1112%2Fblms%2F3.2.169"
+        },
+        {
+          "title": "\"Algebraic integers near the unit circle\"",
+          "url": "https://doi.org/10.4064%2Faa-18-1-355-369"
+        },
+        {
+          "title": "10.4064/aa-18-1-355-369",
+          "url": "https://doi.org/10.4064%2Faa-18-1-355-369"
+        },
+        {
+          "title": "\"Algebraic integers whose conjugates lie near the unit circle\"",
+          "url": "https://doi.org/10.24033%2Fbsmf.1868"
+        },
+        {
+          "title": "10.24033/bsmf.1868",
+          "url": "https://doi.org/10.24033%2Fbsmf.1868"
+        },
+        {
+          "title": "\"On a question of Lehmer and the number of irreducible factors of a polynomial\"",
+          "url": "https://doi.org/10.4064%2Faa-34-4-391-401"
+        },
+        {
+          "title": "10.4064/aa-34-4-391-401",
+          "url": "https://doi.org/10.4064%2Faa-34-4-391-401"
+        },
+        {
+          "title": "An effective lower bound for the height of algebraic numbers",
+          "url": "https://arxiv.org/abs/1211.3110"
+        },
+        {
+          "title": "\"Counting points of small height on elliptic curves\"",
+          "url": "https://doi.org/10.24033%2Fbsmf.2120"
+        },
+        {
+          "title": "10.24033/bsmf.2120",
+          "url": "https://doi.org/10.24033%2Fbsmf.2120"
+        },
+        {
+          "title": "\"Mahler measure and entropy for commuting automorphisms of compact groups\"",
+          "url": "https://doi.org/10.1007/BF01231517"
+        },
+        {
+          "title": "10.1007/BF01231517",
+          "url": "https://doi.org/10.1007%2FBF01231517"
+        },
+        {
+          "title": "\"The structure of skew products with ergodic group automorphisms\"",
+          "url": "https://doi.org/10.1007/BF02759810"
+        },
+        {
+          "title": "10.1007/BF02759810",
+          "url": "https://doi.org/10.1007%2FBF02759810"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lehmer_measure",
+          "url": "https://arxiv.org/abs/1211.3110",
+          "source_date": "1996",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Voutier gives an explicit degree-dependent height lower bound. Lehmer asks for a degree-independent Mahler-measure gap above 1.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lehmer_measure.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "1e0378cd98b08f749c5641568e8ea37568c0dc77572620f70b2c466fb4573513"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform height separation for reciprocal algebraic units of unbounded degree.",
+      "obstruction": "Dobrowolski bounds deteriorate with degree; nonreciprocal special cases leave the hard reciprocal case.",
+      "next_step": "Avoid the article’s inaccurate wording that every integral multiple of a cyclotomic product has measure 1.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-39052718",
+      "title": "Lehmer's totient problem",
+      "source_article": "https://en.wikipedia.org/wiki/Lehmer's_totient_problem",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lehmer%27s_totient_problem&oldid=1380097423",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every integer n>=2, does phi(n)|(n-1) imply n is prime?",
+      "current_status": "unverified",
+      "status_notes": "Open; n=1 must be excluded. Known hypothetical composites are odd squarefree Carmichael numbers with many prime factors.",
+      "primary_references_from_article": [
+        {
+          "title": "\"On Euler's totient function\"",
+          "url": "https://doi.org/10.1090%2Fs0002-9904-1932-05521-5"
+        },
+        {
+          "title": "10.1090/s0002-9904-1932-05521-5",
+          "url": "https://doi.org/10.1090%2Fs0002-9904-1932-05521-5"
+        },
+        {
+          "title": "\"Computational investigation of Lehmer's totient problem\"",
+          "url": "https://web.archive.org/web/20200727103126/https://ac.inf.elte.hu/Vol_035_2011/043.pdf"
+        },
+        {
+          "title": "the original",
+          "url": "http://ac.inf.elte.hu/Vol_035_2011/043.pdf"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lehmer_totient",
+          "url": "https://arxiv.org/abs/1806.11280",
+          "source_date": "2019",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Burek-Zmija constrain hypothetical composite solutions and special number families; they do not eliminate all composites.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lehmer_totient.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "8bce82d54096a4450251089824a3aef3881945b9999ea5395b89cdb4b89c515b"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prove a contradiction from the exact integer quotient (n-1)/phi(n) and factor-chain constraints.",
+      "obstruction": "An arbitrarily large number of prime factors defeats finite searches and local congruence restrictions.",
+      "next_step": "Only retain a proposed global obstruction, not another size bound.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-12552062",
+      "title": "Lemoine's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Lemoine's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lemoine%27s_conjecture&oldid=1368580782",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every odd integer N>5, do there exist primes p,q with N=p+2*q? Equality p=q and q=2 are allowed.",
+      "current_status": "unverified",
+      "status_notes": "Full status unverified. arXiv:1709.05335v16 (April 2026) claims asymptotic binary Goldbach and Lemoine results; the latest version is not withdrawn and was not independently validated. An asymptotic claim alone does not cover every small input.",
+      "primary_references_from_article": [
+        {
+          "title": "arXiv preprint arXiv:0803.3737",
+          "url": "https://arxiv.org/abs/0803.3737"
+        },
+        {
+          "title": "1709.05335v6",
+          "url": "https://arxiv.org/abs/1709.05335v6"
+        },
+        {
+          "title": "10.2307/2690477",
+          "url": "https://doi.org/10.2307%2F2690477"
+        },
+        {
+          "title": "10.2307/2689513",
+          "url": "https://doi.org/10.2307%2F2689513"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lemoine_claim",
+          "url": "https://arxiv.org/abs/1709.05335v16",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "version 16 abstract and history",
+          "finding": "April 2026 version 16 claims asymptotic binary Goldbach and Lemoine results. It is not currently marked withdrawn. The proof is unaudited, and an asymptotic statement alone does not settle every small input.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lemoine_claim.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "a1af2e10c0202f7761046ddf93830050eeac6cf83347fd11e2fbb03cfb0763aa"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Binary weighted prime-representation lower bounds overcoming the parity barrier.",
+      "obstruction": "Two independently varying primes cannot be supplied by the ternary theorem alone.",
+      "next_step": "Audit the failed proof’s exact error before reusing any circles-of-partition argument.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-21829200",
+      "title": "Leopoldt's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Leopoldt's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Leopoldt%27s_conjecture&oldid=1365275565",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every number field K and rational prime p, is the Z_p-rank of the closure of global principal units in product_(P|p)U_(1,P) equal to r1+r2-1?",
+      "current_status": "unverified",
+      "status_notes": "General Leopoldt remains open in current checked sources; historical CM proof announcements are not treated as accepted general resolutions.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1215/ijm/1256059299",
+          "url": "https://doi.org/10.1215%2Fijm%2F1256059299"
+        },
+        {
+          "title": "10.1112/S0025579300003703",
+          "url": "https://doi.org/10.1112%2FS0025579300003703"
+        },
+        {
+          "title": "10.1007/BF01389373",
+          "url": "https://doi.org/10.1007%2FBF01389373"
+        },
+        {
+          "title": "10.1515/crll.1962.209.54",
+          "url": "https://doi.org/10.1515%2Fcrll.1962.209.54"
+        },
+        {
+          "title": "10.1515/crll.1975.274-275.224",
+          "url": "https://doi.org/10.1515%2Fcrll.1975.274-275.224"
+        },
+        {
+          "title": "0905.1274",
+          "url": "https://arxiv.org/abs/0905.1274"
+        },
+        {
+          "title": "1105.4544",
+          "url": "https://arxiv.org/abs/1105.4544"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "leopoldt_claim",
+          "url": "https://arxiv.org/abs/1105.4544",
+          "source_date": "2011",
+          "checked_on": "2026-10-15",
+          "reading_scope": "version 4 abstract and history",
+          "finding": "The current 2016 version 4 claims a CM result. Version 3 was withdrawn in 2015, but that does not mean version 4 is withdrawn. The current proof and any dependencies are not validated here.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/leopoldt_claim.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "63d217a1953fb50f072022008068a77f14bf423977e558b9019d486a2b40e8e5"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "p-adic logarithmic independence or Iwasawa-theoretic control of excess Z_p extensions.",
+      "obstruction": "Known abelian cases do not establish the general p-adic regulator nonvanishing.",
+      "next_step": "Check exact claimed theorem and independent acceptance before using a CM preprint.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-1465085",
+      "title": "Lindelöf hypothesis",
+      "source_article": "https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lindelöf_hypothesis&oldid=1361644445",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every epsilon>0, do constants C,T0 exist such that |zeta(1/2+i*t)|<=C*t^epsilon for all real t>=T0?",
+      "current_status": "unverified",
+      "status_notes": "Open. RH implies it, while known subconvex exponents and fourth moments do not establish arbitrary epsilon.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1007/BF02422942",
+          "url": "https://doi.org/10.1007%2FBF02422942"
+        },
+        {
+          "title": "10.1093/qmath/os-3.1.133",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-3.1.133"
+        },
+        {
+          "title": "10.1093/qmath/os-4.1.209",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-4.1.209"
+        },
+        {
+          "title": "10.1093/qmath/6.1.147",
+          "url": "https://doi.org/10.1093%2Fqmath%2F6.1.147"
+        },
+        {
+          "title": "10.1093/qmath/os-13.1.11",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-13.1.11"
+        },
+        {
+          "title": "10.1090/S0002-9947-1949-0030996-6",
+          "url": "https://doi.org/10.1090%2FS0002-9947-1949-0030996-6"
+        },
+        {
+          "title": "10.4064/aa-8-4-357-430",
+          "url": "https://doi.org/10.4064%2Faa-8-4-357-430"
+        },
+        {
+          "title": "10.2140/pjm.1982.98.107",
+          "url": "https://doi.org/10.2140%2Fpjm.1982.98.107"
+        },
+        {
+          "title": "10.4064/aa-45-2-115-143",
+          "url": "https://doi.org/10.4064%2Faa-45-2-115-143"
+        },
+        {
+          "title": "10.4064/aa-2-1-23-46",
+          "url": "https://doi.org/10.4064%2Faa-2-1-23-46"
+        },
+        {
+          "title": "1908.08613",
+          "url": "https://arxiv.org/abs/1908.08613"
+        },
+        {
+          "title": "10.1007/s00222-023-01199-0",
+          "url": "https://doi.org/10.1007%2Fs00222-023-01199-0"
+        },
+        {
+          "title": "2306.05599",
+          "url": "https://arxiv.org/abs/2306.05599"
+        },
+        {
+          "title": "10.1093/qmath/os-11.1.201",
+          "url": "https://doi.org/10.1093%2Fqmath%2Fos-11.1.201"
+        },
+        {
+          "title": "10.1007/BF01418933",
+          "url": "https://doi.org/10.1007%2FBF01418933"
+        },
+        {
+          "title": "2405.20552",
+          "url": "https://arxiv.org/abs/2405.20552"
+        },
+        {
+          "title": "math/0608555",
+          "url": "https://arxiv.org/abs/math/0608555"
+        },
+        {
+          "title": "10.4007/annals.2010.172.1679",
+          "url": "https://doi.org/10.4007%2Fannals.2010.172.1679"
+        },
+        {
+          "title": "0903.3591",
+          "url": "https://arxiv.org/abs/0903.3591"
+        },
+        {
+          "title": "10.1007/s10240-010-0025-8",
+          "url": "https://doi.org/10.1007%2Fs10240-010-0025-8"
+        },
+        {
+          "title": "2109.15230",
+          "url": "https://arxiv.org/abs/2109.15230"
+        },
+        {
+          "title": "1408.5794",
+          "url": "https://arxiv.org/abs/1408.5794"
+        },
+        {
+          "title": "10.1090/jams/860",
+          "url": "https://doi.org/10.1090%2Fjams%2F860"
+        },
+        {
+          "title": "math/0206018",
+          "url": "https://arxiv.org/abs/math/0206018"
+        },
+        {
+          "title": "10.1112/S0024611504015175",
+          "url": "https://doi.org/10.1112%2FS0024611504015175"
+        },
+        {
+          "title": "math/0612843",
+          "url": "https://arxiv.org/abs/math/0612843"
+        },
+        {
+          "title": "10.1016/j.jnt.2007.05.013",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2007.05.013"
+        },
+        {
+          "title": "math/9807187",
+          "url": "https://arxiv.org/abs/math/9807187"
+        },
+        {
+          "title": "10.1155/S1073792898000476",
+          "url": "https://doi.org/10.1155%2FS1073792898000476"
+        },
+        {
+          "title": "10.1112/plms/s3-38.3.385",
+          "url": "https://doi.org/10.1112%2Fplms%2Fs3-38.3.385"
+        },
+        {
+          "title": "10.1112/S0024611504014959",
+          "url": "https://doi.org/10.1112%2FS0024611504014959"
+        },
+        {
+          "title": "10.1112/plms/s2-27.1.273",
+          "url": "https://doi.org/10.1112%2Fplms%2Fs2-27.1.273"
+        },
+        {
+          "title": "10.1007/s002200000261",
+          "url": "https://doi.org/10.1007%2Fs002200000261"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lindelof",
+          "url": "https://arxiv.org/abs/1408.5794",
+          "source_date": "2017",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Bourgain proves the subconvex exponent 53/342 plus epsilon. This is a positive exponent, not the arbitrary-epsilon Lindelof bound; no claim that it is the current best bound.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lindelof.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "be635d242931eeaae2389be83fbf47c28921c9942aaaa6209c5829befde2e12b"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform high moments or new exponential-sum cancellation beyond fixed positive exponents.",
+      "obstruction": "All moments are needed for the standard implication; the sixth moment alone is already difficult.",
+      "next_step": "Do not identify zero-density improvements with Lindelof.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-627501",
+      "title": "Littlewood conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Littlewood_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Littlewood_conjecture&oldid=1378649270",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every pair alpha,beta in R and every epsilon>0,N>=1, does some integer n>=N satisfy n*||n*alpha||*||n*beta||<epsilon?",
+      "current_status": "unverified",
+      "status_notes": "Open universal multiplicative approximation target. Dimension-zero exceptional sets may still be nonempty; logarithmic, p-adic and inhomogeneous variants differ.",
+      "primary_references_from_article": [
+        {
+          "title": "\"The work of Einsiedler, Katok and Lindenstrauss on the Littlewood conjecture\"",
+          "url": "https://doi.org/10.1090%2FS0273-0979-07-01194-9"
+        },
+        {
+          "title": "10.1090/S0273-0979-07-01194-9",
+          "url": "https://doi.org/10.1090%2FS0273-0979-07-01194-9"
+        },
+        {
+          "title": "\"Combinatorics on number walls and the P(t)-adic Littlewood conjecture\"",
+          "url": "https://doi.org/10.1112%2Fmtk.70064"
+        },
+        {
+          "title": "10.1112/mtk.70064",
+          "url": "https://doi.org/10.1112%2Fmtk.70064"
+        },
+        {
+          "title": "\"Around the Littlewood conjecture in Diophantine approximation\"",
+          "url": "https://doi.org/10.5802%2Fpmb.1"
+        },
+        {
+          "title": "10.5802/pmb.1",
+          "url": "https://doi.org/10.5802%2Fpmb.1"
+        },
+        {
+          "title": "10.1112/jlms/s1-37.1.387",
+          "url": "https://doi.org/10.1112%2Fjlms%2Fs1-37.1.387"
+        },
+        {
+          "title": "\"Invariant measures and the set of exceptions to Littlewood's conjecture\"",
+          "url": "https://doi.org/10.4007%2Fannals.2006.164.513"
+        },
+        {
+          "title": "10.4007/annals.2006.164.513",
+          "url": "https://doi.org/10.4007%2Fannals.2006.164.513"
+        },
+        {
+          "title": "10.1098/rsta.1955.0010",
+          "url": "https://doi.org/10.1098%2Frsta.1955.0010"
+        },
+        {
+          "title": "1212.0216",
+          "url": "https://arxiv.org/abs/1212.0216"
+        },
+        {
+          "title": "\"A nonhomogeneous orbit closure of a diagonal subgroup\"",
+          "url": "https://doi.org/10.4007%2Fannals.2010.171.557"
+        },
+        {
+          "title": "0707.2920",
+          "url": "https://arxiv.org/abs/0707.2920"
+        },
+        {
+          "title": "10.4007/annals.2010.171.557",
+          "url": "https://doi.org/10.4007%2Fannals.2010.171.557"
+        },
+        {
+          "title": "10.1007/s00222-023-01233-1",
+          "url": "https://doi.org/10.1007%2Fs00222-023-01233-1"
+        },
+        {
+          "title": "\"A solution to a problem of Cassels and Diophantine properties of cubic numbers\"",
+          "url": "https://doi.org/10.4007%2Fannals.2011.173.1.11"
+        },
+        {
+          "title": "10.4007/annals.2011.173.1.11",
+          "url": "https://doi.org/10.4007%2Fannals.2011.173.1.11"
+        },
+        {
+          "title": "10.1007/BF02392812",
+          "url": "https://doi.org/10.1007%2FBF02392812"
+        },
+        {
+          "title": "\"Conjecture de Littlewood et récurrences linéaires\"",
+          "url": "https://doi.org/10.5802%2Fjtnb.401"
+        },
+        {
+          "title": "10.5802/jtnb.401",
+          "url": "https://doi.org/10.5802%2Fjtnb.401"
+        },
+        {
+          "title": "10.1112/S0024610706022617",
+          "url": "https://doi.org/10.1112%2FS0024610706022617"
+        },
+        {
+          "title": "10.1017/S0305004110000605",
+          "url": "https://doi.org/10.1017%2FS0305004110000605"
+        },
+        {
+          "title": "1101.1855",
+          "url": "https://arxiv.org/abs/1101.1855"
+        },
+        {
+          "title": "10.1112/S0025579312000095",
+          "url": "https://doi.org/10.1112%2FS0025579312000095"
+        },
+        {
+          "title": "10.1016/j.jnt.2025.05.001",
+          "url": "https://doi.org/10.1016%2Fj.jnt.2025.05.001"
+        },
+        {
+          "title": "10.1112/mtk.12095",
+          "url": "https://doi.org/10.1112%2Fmtk.12095"
+        },
+        {
+          "title": "\"Dispersion and Littlewood's conjecture\"",
+          "url": "https://doi.org/10.1016%2Fj.aim.2024.109697"
+        },
+        {
+          "title": "10.1016/j.aim.2024.109697",
+          "url": "https://doi.org/10.1016%2Fj.aim.2024.109697"
+        },
+        {
+          "title": "\"The dispersion of dilated lacunary sequences, with applications in multiplicative Diophantine approximation\"",
+          "url": "https://doi.org/10.1016%2Fj.aim.2024.110062"
+        },
+        {
+          "title": "10.1016/j.aim.2024.110062",
+          "url": "https://doi.org/10.1016%2Fj.aim.2024.110062"
+        },
+        {
+          "title": "10.1080/10586458.2015.1031356",
+          "url": "https://doi.org/10.1080%2F10586458.2015.1031356"
+        },
+        {
+          "title": "10.1080/10586458.2026.2615945",
+          "url": "https://doi.org/10.1080%2F10586458.2026.2615945"
+        },
+        {
+          "title": "10.1007/s00605-003-0199-y",
+          "url": "https://doi.org/10.1007%2Fs00605-003-0199-y"
+        },
+        {
+          "title": "\"Measure rigidity and p-adic Littlewood-type problems\"",
+          "url": "https://doi.org/10.1112%2FS0010437X07002801"
+        },
+        {
+          "title": "10.1112/S0010437X07002801",
+          "url": "https://doi.org/10.1112%2FS0010437X07002801"
+        },
+        {
+          "title": "1806.04478",
+          "url": "https://arxiv.org/abs/1806.04478"
+        },
+        {
+          "title": "10.1215/00127094-2020-0077",
+          "url": "https://doi.org/10.1215%2F00127094-2020-0077"
+        },
+        {
+          "title": "\"Counterexamples to the p(t)-adic Littlewood conjecture over small finite fields\"",
+          "url": "https://doi.org/10.1090%2Fmcom%2F4104"
+        },
+        {
+          "title": "10.1090/mcom/4104",
+          "url": "https://doi.org/10.1090%2Fmcom%2F4104"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "littlewood",
+          "url": "https://arxiv.org/abs/1212.0216",
+          "source_date": "2012",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The homogeneous-dynamics paper identifies sufficient conditions involving compact diagonal orbits. It does not prove the universal real-pair conjecture.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/littlewood.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "0aa25e6c9b32033db083138773aed4a4a5ef069b0d6e0adc91ec2a23cd95a0a4"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Exclude bounded diagonal orbits via rigidity, or prove a uniform scale contraction in continued fractions.",
+      "obstruction": "Measure rigidity leaves exceptional orbits, and any fixed positive universal bound is insufficient.",
+      "next_step": "A route must force the universal bound to zero, not merely improve it numerically.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-19538953",
+      "title": "Lonely runner conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Lonely_runner_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lonely_runner_conjecture&oldid=1371790914",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every k>=1 and positive integer speeds v_1,...,v_k, does some real t satisfy ||t*v_i||>=1/(k+1) for every i? This is the stationary-runner form; real-speed equivalence requires proof.",
+      "current_status": "unverified",
+      "status_notes": "General case open. 2026 papers claim 13 and then 15 total runners (arXiv:2609.02604v2, September 24); do not use the article’s 13-runner ceiling as current or count finite-k results as the whole conjecture.",
+      "primary_references_from_article": [
+        {
+          "title": "\"The lonely runner with seven runners\"",
+          "url": "https://doi.org/10.37236%2F772"
+        },
+        {
+          "title": "10.37236/772",
+          "url": "https://doi.org/10.37236%2F772"
+        },
+        {
+          "title": "\"On the chromatic number of circulant graphs\"",
+          "url": "https://doi.org/10.1016%2Fj.disc.2008.04.041"
+        },
+        {
+          "title": "10.1016/j.disc.2008.04.041",
+          "url": "https://doi.org/10.1016%2Fj.disc.2008.04.041"
+        },
+        {
+          "title": "\"Lonely Runner Polyhedra\"",
+          "url": "https://math.colgate.edu/~integers/t29/t29.pdf"
+        },
+        {
+          "title": "1606.01783v4",
+          "url": "https://arxiv.org/abs/1606.01783v4"
+        },
+        {
+          "title": "10.1007/BF01322924",
+          "url": "https://doi.org/10.1007%2FBF01322924"
+        },
+        {
+          "title": "\"Flows, view obstructions, and the lonely runner\"",
+          "url": "https://doi.org/10.1006%2Fjctb.1997.1770"
+        },
+        {
+          "title": "10.1006/jctb.1997.1770",
+          "url": "https://doi.org/10.1006%2Fjctb.1997.1770"
+        },
+        {
+          "title": "\"Six lonely runners\"",
+          "url": "https://doi.org/10.37236%2F1602"
+        },
+        {
+          "title": "10.37236/1602",
+          "url": "https://doi.org/10.37236%2F1602"
+        },
+        {
+          "title": "10.1006/jnth.1998.2309",
+          "url": "https://doi.org/10.1006%2Fjnth.1998.2309"
+        },
+        {
+          "title": "\"Lonely runners in function fields\"",
+          "url": "http://wrap.warwick.ac.uk/125495/7/WRAP-lonely-runners-function-fields-Chow-2019.pdf"
+        },
+        {
+          "title": "1711.01207",
+          "url": "https://arxiv.org/abs/1711.01207"
+        },
+        {
+          "title": "10.1112/S002557931900007X",
+          "url": "https://doi.org/10.1112%2FS002557931900007X"
+        },
+        {
+          "title": "10.1007/BF01832623",
+          "url": "https://doi.org/10.1007%2FBF01832623"
+        },
+        {
+          "title": "\"View-obstruction problems in n-dimensional geometry\"",
+          "url": "https://doi.org/10.1016%2F0097-3165%2874%2990066-1"
+        },
+        {
+          "title": "10.1016/0097-3165(74)90066-1",
+          "url": "https://doi.org/10.1016%2F0097-3165%2874%2990066-1"
+        },
+        {
+          "title": "\"View-obstruction problems, III\"",
+          "url": "https://doi.org/10.1016%2F0022-314X%2884%2990097-0"
+        },
+        {
+          "title": "10.1016/0022-314X(84)90097-0",
+          "url": "https://doi.org/10.1016%2F0022-314X%2884%2990097-0"
+        },
+        {
+          "title": "1102.4464",
+          "url": "https://arxiv.org/abs/1102.4464"
+        },
+        {
+          "title": "10.1016/j.jcta.2012.02.002",
+          "url": "https://doi.org/10.1016%2Fj.jcta.2012.02.002"
+        },
+        {
+          "title": "\"The lonely runner problem for lacunary sequences\"",
+          "url": "https://doi.org/10.1016%2Fj.disc.2018.02.002"
+        },
+        {
+          "title": "10.1016/j.disc.2018.02.002",
+          "url": "https://doi.org/10.1016%2Fj.disc.2018.02.002"
+        },
+        {
+          "title": "10.1016/j.ipl.2008.03.019",
+          "url": "https://doi.org/10.1016%2Fj.ipl.2008.03.019"
+        },
+        {
+          "title": "10.3336/gm.46.1.05",
+          "url": "https://doi.org/10.3336%2Fgm.46.1.05"
+        },
+        {
+          "title": "\"Tight instances of the lonely runner\"",
+          "url": "http://people.math.sfu.ca/~goddyn/Papers/063tight_lonely_runner.pdf"
+        },
+        {
+          "title": "\"Barely lonely runners and very lonely runners: a refined approach to the Lonely Runner Problem\"",
+          "url": "https://doi.org/10.5070%2FC61055383"
+        },
+        {
+          "title": "1912.06034",
+          "url": "https://arxiv.org/abs/1912.06034"
+        },
+        {
+          "title": "10.5070/C61055383",
+          "url": "https://doi.org/10.5070%2FC61055383"
+        },
+        {
+          "title": "2411.06903",
+          "url": "https://arxiv.org/abs/2411.06903"
+        },
+        {
+          "title": "10.1017/fms.2025.10107",
+          "url": "https://doi.org/10.1017%2Ffms.2025.10107"
+        },
+        {
+          "title": "\"Correlation among runners and some results on the lonely runner conjecture\"",
+          "url": "https://doi.org/10.37236%2F5123"
+        },
+        {
+          "title": "1407.3381",
+          "url": "https://arxiv.org/abs/1407.3381"
+        },
+        {
+          "title": "10.37236/5123",
+          "url": "https://doi.org/10.37236%2F5123"
+        },
+        {
+          "title": "10.1016/j.disc.2004.06.008",
+          "url": "https://doi.org/10.1016%2Fj.disc.2004.06.008"
+        },
+        {
+          "title": "2111.13688",
+          "url": "https://arxiv.org/abs/2111.13688"
+        },
+        {
+          "title": "10.1007/s10440-022-00515-9",
+          "url": "https://doi.org/10.1007%2Fs10440-022-00515-9"
+        },
+        {
+          "title": "2509.14111",
+          "url": "https://arxiv.org/abs/2509.14111"
+        },
+        {
+          "title": "2512.01912",
+          "url": "https://arxiv.org/abs/2512.01912"
+        },
+        {
+          "title": "\"Some remarks on the lonely runner conjecture\"",
+          "url": "https://doi.org/10.11575%2Fcdm.v13i2.62728"
+        },
+        {
+          "title": "10.11575/cdm.v13i2.62728",
+          "url": "https://doi.org/10.11575%2Fcdm.v13i2.62728"
+        },
+        {
+          "title": "2511.22427",
+          "url": "https://arxiv.org/abs/2511.22427"
+        },
+        {
+          "title": "2604.23906",
+          "url": "https://arxiv.org/abs/2604.23906"
+        },
+        {
+          "title": "10.1007/BF01298332",
+          "url": "https://doi.org/10.1007%2FBF01298332"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "runner13",
+          "url": "https://arxiv.org/abs/2604.23906",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The April 2026 paper claims k=10,11,12 moving runners relative to a stationary runner, hence up to 13 total.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/runner13.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "5ef5c7d00e4f8ce57084d01ec4500c251b6f6d9fa416a215120143ee09ef3b0e"
+        },
+        {
+          "key": "runner15",
+          "url": "https://arxiv.org/abs/2609.02604v2",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "version 2 abstract and history",
+          "finding": "Allikvere version 2, September 24 2026, claims fourteen and fifteen total runners and provides certificate links. Those certificates were not rerun; all-k remains unproved by this paper.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/runner15.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "37c735b74cabf1b46a3ffd2c2792078e4095ed5eaf97cf8784d72cf08453d6bd"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A uniform finite-checking or polyhedral argument valid for arbitrary k.",
+      "obstruction": "Each fixed-k finite gate calculation grows rapidly and supplies no uniform induction.",
+      "next_step": "Audit recent certificates only if a new parameter-free reduction is found.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-398404",
+      "title": "Lucas number",
+      "source_article": "https://en.wikipedia.org/wiki/Lucas_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lucas_number&oldid=1362026831",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For L_0=2,L_1=1,L_(n+2)=L_(n+1)+L_n, are there infinitely many n>=0 with L_n prime?",
+      "current_status": "unverified",
+      "status_notes": "The article is mostly known identities; its research lead is Lucas-prime infinitude. Current primary status is unverified here.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1098/rsos.160091",
+          "url": "https://doi.org/10.1098%2Frsos.160091"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "lucas_primary_database",
+          "url": "https://t5k.org/top20/page.php?id=48",
+          "source_date": "undated",
+          "checked_on": "2026-10-15",
+          "reading_scope": "author-maintained sequence database",
+          "finding": "The Prime Pages entry gives Lucas-prime index constraints and records. It is useful for the definition but does not certify current infinitude status.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lucas_primary_database.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "da06959bc87169405387d61da4e5d55706f9336acc80bffcd077962e1915564b"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prime values of a sparse linear recurrence.",
+      "obstruction": "Primitive prime divisors of L_n need not make L_n itself prime.",
+      "next_step": "Seek a primary infinitude-status source before selecting; routine recurrence formalization is out of scope.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-1358112",
+      "title": "Lychrel number",
+      "source_article": "https://en.wikipedia.org/wiki/Lychrel_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Lychrel_number&oldid=1376703229",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Does there exist n>=1 such that every iterate of T(n)=n+reverse_10(n) is nonpalindromic? The distinguished stronger instance is n=196.",
+      "current_status": "unverified",
+      "status_notes": "No accepted base-10 example found in checked sources. Proven examples in other bases do not settle decimal existence.",
+      "primary_references_from_article": [],
+      "primary_sources_checked": [
+        {
+          "key": "lychrel_computation",
+          "url": "https://www.fourmilab.ch/documents/threeyears/threeyears.html",
+          "source_date": "1990",
+          "checked_on": "2026-10-15",
+          "reading_scope": "original computational report",
+          "finding": "Walker reports the original 196 reverse-and-add computation and its stopping point. A finite search is not a proof of perpetual nonpalindromicity; current global status is not established by this 1990 report.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/lychrel_computation.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "f5d232046c5f0562b6b082d7bd3a92fc06fcde7ab9d4ebfd3849ef631ab05319"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A carry-aware invariant language closed under reverse-and-add and excluding palindromes.",
+      "obstruction": "Unbounded digit length and carries prevent a finite prefix/suffix test from proving the whole orbit.",
+      "next_step": "Only pursue a symbolic invariant with an exact inductive closure proof.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-41912043",
+      "title": "Manin conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Manin_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Manin_conjecture&oldid=1346170032",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For smooth Fano X over a number field K with suitable rational points and anticanonical height, predict N(B)~c*B*(log B)^(rho-1) after removing a precisely defined exceptional set.",
+      "current_status": "unverified",
+      "status_notes": "Original Zariski-open formulation is false by Batyrev-Tschinkel. Thin-set refinements are the open targets, with hypotheses and Peyre constant needing exact specification.",
+      "primary_references_from_article": [
+        {
+          "title": "10.1007/bf01393904",
+          "url": "https://doi.org/10.1007%2Fbf01393904"
+        },
+        {
+          "title": "10.1215/S0012-7094-95-07904-6",
+          "url": "https://doi.org/10.1215%2FS0012-7094-95-07904-6"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "manin_counterexample",
+          "url": "https://arxiv.org/abs/alg-geom/9602013",
+          "source_date": "1996",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Batyrev-Tschinkel construct Fano cubic bundles contradicting the original counting prediction on every nonempty Zariski open. This is a historical disproof, not a new result here.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/manin_counterexample.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "36ace4b139d3dc7f1c40afb3dffaaf7b019d9123ca35940bde2890adb5b0b74f"
+        },
+        {
+          "key": "manin_refinement",
+          "url": "https://www.cambridge.org/core/journals/compositio-mathematica/article/geometric-consistency-of-manins-conjecture/9C57603C488262073DC14420CD92EC58",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "publisher abstract via web tool",
+          "finding": "Lehmann-Sengupta-Tanimoto prove geometric consistency of the thin-set formulation, not the full asymptotic rational-point count.",
+          "retrieval_status": "read_with_web_tool; direct urllib retrieval failed",
+          "local_text": null,
+          "independent_proof_validation": false
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Control accumulating subvarieties and covers plus height zeta functions.",
+      "obstruction": "Removing a closed subset is insufficient; changing to thin sets is a substantive target correction.",
+      "next_step": "Do not attempt the false original statement; use a named modern formulation.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed.",
+      "historical_status": "Original Zariski-open formulation disproved in the checked 1996 primary paper; modern thin-set refinements are separate."
+    },
+    {
+      "id": "wiki-8478563",
+      "title": "Mersenne conjectures",
+      "source_article": "https://en.wikipedia.org/wiki/Mersenne_conjectures",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Mersenne_conjectures&oldid=1375207868",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "New Mersenne: for every odd p>1, any two of special exponent shape, primality of 2^p-1, and primality of (2^p+1)/3 imply the third. Separately LPW predicts Mersenne-prime counting asymptotics.",
+      "current_status": "unverified",
+      "status_notes": "Original Mersenne exponent list is false. New Mersenne and LPW are distinct open conjectures; interval computations do not establish them.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/2323195",
+          "url": "https://doi.org/10.2307%2F2323195"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "wagstaff",
+          "url": "https://www.ams.org/journals/mcom/1983-40-161/S0025-5718-1983-0679454-X/S0025-5718-1983-0679454-X.pdf",
+          "source_date": "1983",
+          "checked_on": "2026-10-15",
+          "reading_scope": "introduction and heuristic discussion",
+          "finding": "Wagstaff explains the LPW distribution heuristic and limitations of extrapolating Gillies factor statistics to primality. It is not a proof of infinitude.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/wagstaff.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "3fe3f0e2a457065d2022023b5541d4f55041c41adfd066642aed80bde53fe687"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Structural divisibility constraints for simultaneous Mersenne/Wagstaff primes, or rigorous recurrence-prime statistics.",
+      "obstruction": "An empirical finite exception list has no known completeness argument.",
+      "next_step": "Pin the exponent-shape definition and avoid conflating original and new conjectures.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-18908",
+      "title": "Mersenne prime",
+      "source_article": "https://en.wikipedia.org/wiki/Mersenne_prime",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Mersenne_prime&oldid=1373929786",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Are there infinitely many prime exponents p for which 2^p-1 is prime? Separately, are there infinitely many prime p for which it is composite?",
+      "current_status": "unverified",
+      "status_notes": "Both infinitude questions are open in checked sources. Record discoveries and the Lucas-Lehmer test do not answer either.",
+      "primary_references_from_article": [
+        {
+          "title": "\"On the factoring of large numbers\"",
+          "url": "https://doi.org/10.1090%2FS0002-9904-1903-01079-9"
+        },
+        {
+          "title": "10.1090/S0002-9904-1903-01079-9",
+          "url": "https://doi.org/10.1090%2FS0002-9904-1903-01079-9"
+        },
+        {
+          "title": "10.1007/978-3-662-45611-8_19",
+          "url": "https://doi.org/10.1007%2F978-3-662-45611-8_19"
+        },
+        {
+          "title": "10.1007/978-1-4419-5906-5_32",
+          "url": "https://doi.org/10.1007%2F978-1-4419-5906-5_32"
+        },
+        {
+          "title": "(x, −1) for x = 2 to 200",
+          "url": "https://cs.uwaterloo.ca/journals/JIS/VOL3/DUBNER/dubner.pdf#search=%22107%20811%202819%204817%209601%22"
+        },
+        {
+          "title": "Property of Mersenne numbers with prime exponent that are composite",
+          "url": "http://tony.reix.free.fr/Mersenne/Mersenne8x3qy.pdf"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "wagstaff",
+          "url": "https://www.ams.org/journals/mcom/1983-40-161/S0025-5718-1983-0679454-X/S0025-5718-1983-0679454-X.pdf",
+          "source_date": "1983",
+          "checked_on": "2026-10-15",
+          "reading_scope": "introduction and heuristic discussion",
+          "finding": "Wagstaff explains the LPW distribution heuristic and limitations of extrapolating Gillies factor statistics to primality. It is not a proof of infinitude.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/wagstaff.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "3fe3f0e2a457065d2022023b5541d4f55041c41adfd066642aed80bde53fe687"
+        }
+      ],
+      "existing_formalization": {
+        "status": "related_library_theorem_only",
+        "note": "Mathlib NumberTheory.LucasLehmer formalizes the primality test, not either infinitude conjecture."
+      },
+      "plausible_full_solution_route": "Sieve or arithmetic distribution of prime factors across prime exponents.",
+      "obstruction": "Primitive divisors and an infinite supply of prime exponents do not force infinitely many prime values.",
+      "next_step": "Cross-link with LPW and Gillies; do not count duplicates.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-41375141",
+      "title": "Minimum overlap problem",
+      "source_article": "https://en.wikipedia.org/wiki/Minimum_overlap_problem",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Minimum_overlap_problem&oldid=1373751234",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For equal-size complementary A,B in {1,...,2n}, put M(n)=min_(A,B) max_k #{(a,b):a-b=k}. Determine the exact limit c=lim M(n)/n, with matching rigorous lower and upper bounds.",
+      "current_status": "unverified",
+      "status_notes": "Limit existence is known. arXiv:2608.23691v2 reports lower bound greater than 0.380552; its Lean proof was not audited here. The repaired EinsteinArena source vector independently evaluates below 0.3808590568145606537807120. Exact value remains unresolved; neither bound is a new result of this batch.",
+      "primary_references_from_article": [
+        {
+          "title": "\"Erdös' minimum overlap problem\"",
+          "url": "https://web.archive.org/web/20150405060955/http://www.people.fas.harvard.edu/~sfinch/csolve/ovr.pdf"
+        },
+        {
+          "title": "the original",
+          "url": "http://www.people.fas.harvard.edu/~sfinch/csolve/ovr.pdf"
+        },
+        {
+          "title": "\"Advances in the Minimum Overlap Problem\"",
+          "url": "https://doi.org/10.1006%2Fjnth.1996.0064"
+        },
+        {
+          "title": "10.1006/jnth.1996.0064",
+          "url": "https://doi.org/10.1006%2Fjnth.1996.0064"
+        },
+        {
+          "title": "1609.08000",
+          "url": "https://arxiv.org/abs/1609.08000"
+        },
+        {
+          "title": "2201.05704",
+          "url": "https://arxiv.org/abs/2201.05704"
+        },
+        {
+          "title": "2506.13131",
+          "url": "https://arxiv.org/abs/2506.13131"
+        },
+        {
+          "title": "2601.16175",
+          "url": "https://arxiv.org/abs/2601.16175"
+        },
+        {
+          "title": "2604.19341",
+          "url": "https://arxiv.org/abs/2604.19341"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "overlap_lower",
+          "url": "https://arxiv.org/abs/2201.05704",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "White states the lower bound 0.379005. This is a historical benchmark, not the current reported frontier.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_lower.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "eb5dbe601ae4f1809d127875cc41db0cc39d2af1be58a315fa9efa1abc09eded"
+        },
+        {
+          "key": "overlap_haugland",
+          "url": "https://arxiv.org/abs/1609.08000",
+          "source_date": "2016",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Haugland gives a step-function upper construction. The full paper is separately cached and checked.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_haugland.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "3816e4cb91a177fc65799e618ff2b417a425c6768973fe42e31bd17a40741284"
+        },
+        {
+          "key": "simpletes",
+          "url": "https://arxiv.org/abs/2604.19341",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract and linked primary repository",
+          "finding": "The 2026 SimpleTES work supplies a 2400-cell vector with a reported overlap score about 0.380868. It has been superseded by the repaired EinsteinArena construction.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/simpletes.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "c3b257184c6b3e1dfb4bdbd10e199c38f84bcb8809e393b4e7e5120b9462360b"
+        },
+        {
+          "key": "overlap_lower_full",
+          "url": "https://arxiv.org/pdf/2201.05704",
+          "source_date": "2022",
+          "checked_on": "2026-10-15",
+          "reading_scope": "definition, theorem 1 and Sections 2-3",
+          "finding": "The full White paper defines the exact continuum target and proves the historical lower bound by Fourier constraints and a convex relaxation.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_lower_full.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "04dadbe7cac22ac3c3c5aba0e51c5861368d63a834c3ae30a70b806b37143669"
+        },
+        {
+          "key": "overlap_haugland_full",
+          "url": "https://arxiv.org/pdf/1609.08000",
+          "source_date": "2016",
+          "checked_on": "2026-10-15",
+          "reading_scope": "full two-page paper",
+          "finding": "The paper states the equivalence between the limiting discrete constant and the infimum over admissible step functions, and gives explicit historical upper constructions.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_haugland_full.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "4c9be030b0cc51943d9e0c2a7c9caca6908f95282e1794d089ca976e53098e5f"
+        },
+        {
+          "key": "simpletes_construction",
+          "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/main/best_results/mathematics_discovery/erdos_minimum_overlap/erdos_minimum_overlap_best_construction.json",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "data schema, values and independent exact evaluator",
+          "finding": "The explicit 2400 decimal values have a tiny mass surplus when read literally. The local evaluator repairs the mass exactly and evaluates all shifts; see attempts/minimum_overlap_results.json.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/simpletes_construction.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "5599983a94e0bfe96000c278a5fd470b9dde33f41282dcc90a3d9ca6c7bc1b4f"
+        },
+        {
+          "key": "simpletes_code",
+          "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/main/best_results/mathematics_discovery/erdos_minimum_overlap/erdos_minimum_overlap_best.py",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "source inspection only",
+          "finding": "The search code uses stochastic optimization and a floating-point correlation score. Downloaded code was not executed.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/simpletes_code.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "951f1c9e3f09e16525b557b1de72ce44840dcf65a24cc9919fa683470be5dda1"
+        },
+        {
+          "key": "overlap_current_note",
+          "url": "https://raw.githubusercontent.com/techno-optimist/erdos-minimum-overlap-bound/main/erdos_minimum_overlap_bracket.tex",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "definitions, piecewise-linearity proof and certified upper-bound sections",
+          "finding": "The primary note reports the repaired lnzwz bound below 0.3808590568145606537807120. The local evaluator independently checks its shipped vector using exact arithmetic. Its lower bound is stale compared with the Station preprint.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_current_note.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "179e15ea11fb6d8693c71febb8fe2b35537b891c30f3529c47162b6a8dbdd8b5"
+        },
+        {
+          "key": "overlap_station",
+          "url": "https://arxiv.org/pdf/2608.23691v2",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "Section 6.2 and verification-scope paragraph",
+          "finding": "Chung-Du-Wesley arXiv:2608.23691v2 reports mu>0.380552 using phase-sensitive Fourier inequalities and says the theoretical findings were Lean-verified. The full Lean project and transitive axioms were not audited here; this remains an externally reported lower bound.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_station.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "b13619c1b9b6fbc47a086a7fe4ee188beb7d484c5a9c0b2515b1257522e9043f"
+        },
+        {
+          "key": "overlap_notebook",
+          "url": "https://dualverse.ai/station/math/erdos-minimum-overlap/",
+          "source_date": "2026",
+          "checked_on": "2026-10-15",
+          "reading_scope": "Sections 1-2 and 4.1",
+          "finding": "The notebook gives the continuum target, all-frequency phase inequality, interval-certificate method and known symmetrization/interpolation identities. Its external verifier and Lean proof were not rerun. The averaging obstruction must not be claimed as new.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/overlap_notebook.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "8fcd310b8f52b0ba15c35621126ef4ec6e5856b266c869e11cfa1a48d1f44196"
+        }
+      ],
+      "existing_formalization": {
+        "status": "local_specification_checked; external_lower_proof_claim_unaudited",
+        "note": "attempts/MinimumOverlapSpec.lean defines CorrectValue(c), with no proposed c or proof. The Station authors report a Lean-verified lower bound; that implementation was not audited here."
+      },
+      "plausible_full_solution_route": "Find a continuum optimizer and a matching analytic or exact dual lower-bound certificate.",
+      "obstruction": "A visible gap persists between best bounds; step-function local minima do not prove global optimality.",
+      "next_step": "Review attempts/overlap_structure.md: White’s even-minimizer question and the explicit nonrealizable cosine-profile mixture. Determine whether the phase relaxation is exact at its optimum; pointwise phase feasibility is not enough to reconstruct a density.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-21627970",
+      "title": "Montgomery's pair correlation conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Montgomery's_pair_correlation_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Montgomery%27s_pair_correlation_conjecture&oldid=1378671804",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Assuming RH and counting zeta-zero ordinates with multiplicity, does normalized ordered-pair counting converge to the sine-kernel measure plus the diagonal atom? Equivalent strong forms need separate quantifiers.",
+      "current_status": "unverified",
+      "status_notes": "Open conditional-on-RH pair correlation; the unconditional conjunction with RH is stronger. Numerical zero statistics and limited Fourier support are insufficient.",
+      "primary_references_from_article": [
+        {
+          "title": "Pair Correlation Conjecture for the zeros of the Riemann zeta-function II: The Alternative Hypothesis",
+          "url": "https://arxiv.org/abs/2507.06823"
+        },
+        {
+          "title": "10.48550/ARXIV.2507.06823",
+          "url": "https://doi.org/10.48550%2FARXIV.2507.06823"
+        },
+        {
+          "title": "10.1007/978-1-4612-4816-3_10",
+          "url": "https://doi.org/10.1007%2F978-1-4612-4816-3_10"
+        },
+        {
+          "title": "2108.09258",
+          "url": "https://arxiv.org/abs/2108.09258"
+        },
+        {
+          "title": "10.1515/crelle-2021-0084",
+          "url": "https://doi.org/10.1515%2Fcrelle-2021-0084"
+        },
+        {
+          "title": "10.1090/S0273-0979-99-00766-1",
+          "url": "https://doi.org/10.1090%2FS0273-0979-99-00766-1"
+        },
+        {
+          "title": "10.2307/2007890",
+          "url": "https://doi.org/10.2307%2F2007890"
+        },
+        {
+          "title": "10.1215/S0012-7094-96-08115-6",
+          "url": "https://doi.org/10.1215%2FS0012-7094-96-08115-6"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "pair_correlation",
+          "url": "https://arxiv.org/abs/2507.06823",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "The 2025 work obtains consequences conditional on a pair-correlation formulation without assuming RH. It does not prove the full pair-correlation conjecture.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/pair_correlation.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "06f018e7ca8dd1680faa6842029f559b1de860b56336a948ba74749ac99503ca"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prime-pair correlation in the explicit formula, extending Fourier support beyond the known range.",
+      "obstruction": "The full support problem encodes difficult correlations of primes.",
+      "next_step": "Specify diagonal, interval endpoints and multiplicity before formalization.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-47297286",
+      "title": "N conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/N_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=N_conjecture&oldid=1378050537",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For n>=3, epsilon>0, primitive nonzero integer n-tuples summing to zero with no nonempty proper zero subsum, is max|a_i|<=C_(n,epsilon)*rad(product|a_i|)^(2n-5+epsilon)?",
+      "current_status": "unverified",
+      "status_notes": "Compound entry: the ordinary n-conjecture remains separate from the strong pairwise-coprime exponent-one version, which Hölzl-Kleine-Stephan disprove for n>=5. The n=3 abc status is disputed and not assumed.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/2153551",
+          "url": "https://doi.org/10.2307%2F2153551"
+        },
+        {
+          "title": "The abc-conjecture and the n-conjecture",
+          "url": "https://pure.tue.nl/ws/portalfiles/portal/67739846/657782-1.pdf"
+        },
+        {
+          "title": "\"Improved lower bounds for strong n-conjectures\"",
+          "url": "https://doi.org/10.1017%2FS1446788725000084"
+        },
+        {
+          "title": "2409.13439",
+          "url": "https://arxiv.org/abs/2409.13439"
+        },
+        {
+          "title": "10.1017/S1446788725000084",
+          "url": "https://doi.org/10.1017%2FS1446788725000084"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "n_conjecture",
+          "url": "https://arxiv.org/abs/2409.13439",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Hoelzl-Kleine-Stephan disprove the strong pairwise-coprime exponent-one n-conjecture for every n>=5. The ordinary exponent 2n-5 version is distinct.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/n_conjecture.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "cd9388e4521a286de5484e9218de95ddf1cd4a36bdf36308686bacf447881ba4"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform S-unit height bounds, or constructive families beating a proposed exponent.",
+      "obstruction": "Setwise and pairwise coprimality are not interchangeable; a limsup equality also needs a lower construction.",
+      "next_step": "Mark the strong n>=5 version disproved and retain exact ordinary/remaining targets.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed.",
+      "historical_status": "Strong exponent-one pairwise-coprime formulation disproved for n>=5 in the checked primary paper; ordinary n-conjecture is separate."
+    },
+    {
+      "id": "wiki-62769759",
+      "title": "Newman's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Newman's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Newman%27s_conjecture&oldid=1356440442",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every integer m>=1, residue 0<=r<m and N>=0, is there n>=N with p(n) congruent to r modulo m, where p is the partition function?",
+      "current_status": "unverified",
+      "status_notes": "Morris Newman’s partition conjecture. Known prime-power and density-one-modulus results do not give every modulus; the 2- and 3-primary cases require particular care.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/1993300",
+          "url": "https://doi.org/10.2307%2F1993300"
+        },
+        {
+          "title": "10.2307/2314179",
+          "url": "https://doi.org/10.2307%2F2314179"
+        },
+        {
+          "title": "\"Note on the Parity of the Partition Functions\"",
+          "url": "https://doi.org/10.7146%2Fmath.scand.a-10584"
+        },
+        {
+          "title": "10.7146/math.scand.a-10584",
+          "url": "https://doi.org/10.7146%2Fmath.scand.a-10584"
+        },
+        {
+          "title": "10.2307/2312568",
+          "url": "https://doi.org/10.2307%2F2312568"
+        },
+        {
+          "title": "\"Congruences for the partition function to composite moduli\"",
+          "url": "https://doi.org/10.1215%2Fijm%2F1255631806"
+        },
+        {
+          "title": "10.1215/ijm/1255631806",
+          "url": "https://doi.org/10.1215%2Fijm%2F1255631806"
+        },
+        {
+          "title": "math/0008140",
+          "url": "https://arxiv.org/abs/math/0008140"
+        },
+        {
+          "title": "10.2307/121118",
+          "url": "https://doi.org/10.2307%2F121118"
+        },
+        {
+          "title": "10.1007/s002080000142",
+          "url": "https://doi.org/10.1007%2Fs002080000142"
+        },
+        {
+          "title": "\"Coefficients of half-integral weight modular forms\"",
+          "url": "https://doi.org/10.1016%2FS0022-314X%2802%2900061-6"
+        },
+        {
+          "title": "10.1016/S0022-314X(02)00061-6",
+          "url": "https://doi.org/10.1016%2FS0022-314X%2802%2900061-6"
+        },
+        {
+          "title": "10.1007/s00222-003-0295-6",
+          "url": "https://doi.org/10.1007%2Fs00222-003-0295-6"
+        },
+        {
+          "title": "10.1007/s00208-004-0555-9",
+          "url": "https://doi.org/10.1007%2Fs00208-004-0555-9"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "newman_moduli",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0001870825002658",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "publisher abstract via web tool",
+          "finding": "Choi-Lee (2025) prove a density-one result for moduli with a fixed number of distinct prime factors. This does not quantify over every modulus.",
+          "retrieval_status": "read_with_web_tool; direct urllib retrieval failed",
+          "local_text": null,
+          "independent_proof_validation": false
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Modular-form coefficient distribution and Hecke operators with exceptional residue control.",
+      "obstruction": "Infinitude separately modulo prime powers cannot be combined by CRT on the indices without a simultaneous distribution theorem.",
+      "next_step": "Read the 2025 Choi-Lee result as density one within factor-count classes, not all moduli.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-323705",
+      "title": "Newman–Shanks–Williams prime",
+      "source_article": "https://en.wikipedia.org/wiki/Newman%E2%80%93Shanks%E2%80%93Williams_prime",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Newman–Shanks–Williams_prime&oldid=1364924860",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For S_0=S_1=1 and S_(n+2)=2*S_(n+1)+S_n, are there infinitely many odd n>=3 with S_n prime?",
+      "current_status": "unverified",
+      "status_notes": "The article does not explicitly state its unresolved claim; infinitude is the natural lead and current status is unverified. Do not include prime S_2=3 in the odd-index NSW definition.",
+      "primary_references_from_article": [
+        {
+          "title": "10.4064/aa-38-2-129-140",
+          "url": "https://doi.org/10.4064%2Faa-38-2-129-140"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "nsw",
+          "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa38/aa3826.pdf",
+          "source_date": "1980",
+          "checked_on": "2026-10-15",
+          "reading_scope": "visually inspected scanned first page, printed page 129",
+          "finding": "Newman-Shanks-Williams define the odd-index sequence 1,7,41,... and ask which terms are prime. The scan pairs adjacent pages and has no usable text layer. Current infinitude status remains unverified.",
+          "retrieval_status": "retrieved",
+          "local_text": null,
+          "independent_proof_validation": false,
+          "source_sha256": "c8ae371e92177431b501960bf4b33bbf430f4a6c283026f4921c85ef3975cc5e"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Prime values in the odd companion-Pell subsequence.",
+      "obstruction": "Pell identities and primitive factors do not prove infinitely many prime terms.",
+      "next_step": "Confirm the target in the original Newman-Shanks-Williams paper before attacking.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-8509589",
+      "title": "Odd greedy expansion",
+      "source_article": "https://en.wikipedia.org/wiki/Odd_greedy_expansion",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Odd_greedy_expansion&oldid=1226038262",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every positive rational with odd reduced denominator, does the odd greedy algorithm using the least unused odd denominator whose unit fraction fits terminate?",
+      "current_status": "unverified",
+      "status_notes": "Open in Louwsma-Martino (2025). Their two-term classification allows repetitions; the article requires distinct denominators. They agree below 2/3, the full distinct version needs a transition argument for its initial prefix.",
+      "primary_references_from_article": [
+        {
+          "title": "10.2307/2307234",
+          "url": "https://doi.org/10.2307%2F2307234"
+        },
+        {
+          "title": "10.2307/2589289",
+          "url": "https://doi.org/10.2307%2F2589289"
+        },
+        {
+          "title": "10.2307/2589753",
+          "url": "https://doi.org/10.2307%2F2589753"
+        },
+        {
+          "title": "10.2307/2372651",
+          "url": "https://doi.org/10.2307%2F2372651"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "odd_greedy",
+          "url": "https://math.colgate.edu/~integers/z46/z46.pdf",
+          "source_date": "2025",
+          "checked_on": "2026-10-15",
+          "reading_scope": "introduction, Lemma 2 and Theorem 3",
+          "finding": "Louwsma-Martino (2025) state general termination for odd-denominator rationals is open and classify exactly two-term expansions. They allow repetitions and 1/1. Their variants agree below 2/3. A new short-length parametrization would need a novelty check.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/odd_greedy.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "71805787ae49bd5c17a4994c8be92a87c1cd16e39c6227858718bd7d40644437"
+        }
+      ],
+      "existing_formalization": {
+        "status": "local_specification_checked_only",
+        "note": "attempts/OddGreedySpec.lean defines the exact finite-trace target. There is no theorem asserting it. The specification elaborated with only standard Lean/Mathlib axioms."
+      },
+      "plausible_full_solution_route": "Analyze reduced-numerator transitions and prove a global descent over blocks, with denominator growth handled symbolically.",
+      "obstruction": "Numerators can increase for arbitrarily long stretches; ordinary Egyptian-fraction numerator descent fails.",
+      "next_step": "Review the exact target and arbitrary-length growth family in attempts/odd_greedy.md. A full descent route must allow denominator-dependent waiting times; no eventual-descent theorem was found.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-4860966",
+      "title": "Odd perfect number",
+      "source_article": "https://en.wikipedia.org/wiki/Odd_perfect_number",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Perfect_number&oldid=1378937800#Odd_perfect_numbers",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Does there exist an odd positive integer n with sigma(n)=2*n? The conjectured answer is no.",
+      "current_status": "unverified",
+      "status_notes": "Open. The assigned URL redirects to Perfect number, so only its odd-perfect section is the assigned target. Known size and prime-factor bounds remain necessary conditions.",
+      "primary_references_from_article": [
+        {
+          "title": "Introduction to Arithmetic",
+          "url": "https://archive.org/download/NicomachusIntroToArithmetic/nicomachus_introduction_arithmetic.pdf"
+        },
+        {
+          "title": "The Reception of Philonic Arithmological Exegesis in Didymus the Blind's Commentary on Genesis",
+          "url": "http://torreys.org/sblpapers2015/S22-05_philonic_arithmological_exegesis.pdf"
+        },
+        {
+          "title": "\"The oldest open problem in mathematics\"",
+          "url": "https://people.math.harvard.edu/~knill/seminars/perfect/handout.pdf"
+        },
+        {
+          "title": "\"Odd perfect numbers are greater than 101500\"",
+          "url": "http://www.lirmm.fr/~ochem/opn/opn.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-2012-02563-4",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2012-02563-4"
+        },
+        {
+          "title": "10.1007/BF02230691",
+          "url": "https://doi.org/10.1007%2FBF02230691"
+        },
+        {
+          "title": "\"On the Form of an Odd Perfect Number\"",
+          "url": "https://web.archive.org/web/20130514033635/http://www.austms.org.au/Publ/Gazette/2008/Sep08/CommsRoberts.pdf"
+        },
+        {
+          "title": "the original",
+          "url": "http://www.austms.org.au/Publ/Gazette/2008/Sep08/CommsRoberts.pdf"
+        },
+        {
+          "title": "\"Odd perfect numbers have a prime factor exceeding 108\"",
+          "url": "https://web.archive.org/web/20110807101906/http://www.ma.noda.tus.ac.jp/u/tg/perfect/perfect.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-08-02050-9",
+          "url": "https://doi.org/10.1090%2FS0025-5718-08-02050-9"
+        },
+        {
+          "title": "the original",
+          "url": "http://www.ma.noda.tus.ac.jp/u/tg/perfect/perfect.pdf"
+        },
+        {
+          "title": "10.1142/S1793042112500935",
+          "url": "https://doi.org/10.1142%2FS1793042112500935"
+        },
+        {
+          "title": "\"The second largest prime divisor of an odd perfect number exceeds ten thousand\"",
+          "url": "https://www.ams.org/journals/mcom/1999-68-228/S0025-5718-99-01126-6/S0025-5718-99-01126-6.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-99-01126-6",
+          "url": "https://doi.org/10.1090%2FS0025-5718-99-01126-6"
+        },
+        {
+          "title": "1810.11734",
+          "url": "https://arxiv.org/abs/1810.11734"
+        },
+        {
+          "title": "10.1142/S1793042119500659",
+          "url": "https://doi.org/10.1142%2FS1793042119500659"
+        },
+        {
+          "title": "\"The third largest prime divisor of an odd perfect number exceeds one hundred\"",
+          "url": "https://www.ams.org/journals/mcom/2000-69-230/S0025-5718-99-01127-8/S0025-5718-99-01127-8.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-99-01127-8",
+          "url": "https://doi.org/10.1090%2FS0025-5718-99-01127-8"
+        },
+        {
+          "title": "\"On the Third Largest Prime Divisor of an Odd Perfect Number\"",
+          "url": "http://math.colgate.edu/~integers/v115/v115.pdf"
+        },
+        {
+          "title": "\"Odd perfect numbers, Diophantine equations, and upper bounds\"",
+          "url": "https://web.archive.org/web/20150708185554/https://math.byu.edu/~pace/BestBound_web.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-2015-02941-X",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2015-02941-X"
+        },
+        {
+          "title": "the original",
+          "url": "https://math.byu.edu/~pace/BestBound_web.pdf"
+        },
+        {
+          "title": "\"Odd perfect numbers have at least nine distinct prime factors\"",
+          "url": "https://web.archive.org/web/20211103100630/https://math.byu.edu/~pace/NotEight_web.pdf"
+        },
+        {
+          "title": "math/0602485",
+          "url": "https://arxiv.org/abs/math/0602485"
+        },
+        {
+          "title": "10.1090/S0025-5718-07-01990-4",
+          "url": "https://doi.org/10.1090%2FS0025-5718-07-01990-4"
+        },
+        {
+          "title": "the original",
+          "url": "https://math.byu.edu/~pace/NotEight_web.pdf"
+        },
+        {
+          "title": "\"On the Total Number of Prime Factors of an Odd Perfect Number\"",
+          "url": "http://math.colgate.edu/~integers/v76/v76.pdf"
+        },
+        {
+          "title": "\"Improved upper bounds for odd multiperfect numbers\"",
+          "url": "https://doi.org/10.1017%2FS0004972713000488"
+        },
+        {
+          "title": "10.1017/S0004972713000488",
+          "url": "https://doi.org/10.1017%2FS0004972713000488"
+        },
+        {
+          "title": "10.5281/zenodo.7607545",
+          "url": "https://doi.org/10.5281%2Fzenodo.7607545"
+        },
+        {
+          "title": "\"On the number of prime factors of an odd perfect number\"",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2013-02776-7"
+        },
+        {
+          "title": "10.1090/S0025-5718-2013-02776-7",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2013-02776-7"
+        },
+        {
+          "title": "\"On inequalities involving counts of the prime factors of an odd perfect number\"",
+          "url": "http://math.colgate.edu/~integers/x79/x79.pdf"
+        },
+        {
+          "title": "2303.11974",
+          "url": "https://arxiv.org/abs/2303.11974"
+        },
+        {
+          "title": "10.1080/00150517.1978.12430277",
+          "url": "https://doi.org/10.1080%2F00150517.1978.12430277"
+        },
+        {
+          "title": "10.1090/S0002-9939-1963-0155786-8",
+          "url": "https://doi.org/10.1090%2FS0002-9939-1963-0155786-8"
+        },
+        {
+          "title": "10.1007/BF01220877",
+          "url": "https://doi.org/10.1007%2FBF01220877"
+        },
+        {
+          "title": "\"Sieve methods for odd perfect numbers\"",
+          "url": "http://www.lirmm.fr/~ochem/opn/OPNS_Adam_Pace.pdf"
+        },
+        {
+          "title": "10.1090/S0025-5718-2011-02576-7",
+          "url": "https://doi.org/10.1090%2FS0025-5718-2011-02576-7"
+        },
+        {
+          "title": "\"On the largest component of an odd perfect number\"",
+          "url": "https://doi.org/10.1017%2FS1446788700028251"
+        },
+        {
+          "title": "10.1017/S1446788700028251",
+          "url": "https://doi.org/10.1017%2FS1446788700028251"
+        },
+        {
+          "title": "10.1515/crll.1950.188.129",
+          "url": "https://doi.org/10.1515%2Fcrll.1950.188.129"
+        },
+        {
+          "title": "\"Extensions of some results concerning odd perfect numbers\"",
+          "url": "https://www.fq.math.ca/Scanned/23-1/cohen.pdf"
+        },
+        {
+          "title": "10.1080/00150517.1985.12429857",
+          "url": "https://doi.org/10.1080%2F00150517.1985.12429857"
+        },
+        {
+          "title": "\"A new result concerning the structure of odd perfect numbers\"",
+          "url": "https://doi.org/10.1090%2FS0002-9939-1972-0292740-5"
+        },
+        {
+          "title": "10.1090/S0002-9939-1972-0292740-5",
+          "url": "https://doi.org/10.1090%2FS0002-9939-1972-0292740-5"
+        },
+        {
+          "title": "\"Some results concerning the non-existence of odd perfect numbers of the form \"",
+          "url": "https://www.fq.math.ca/Scanned/13-1/mcdaniel.pdf"
+        },
+        {
+          "title": "10.1080/00150517.1975.12430680",
+          "url": "https://doi.org/10.1080%2F00150517.1975.12430680"
+        },
+        {
+          "title": "1706.09341",
+          "url": "https://arxiv.org/abs/1706.09341"
+        },
+        {
+          "title": "10.4064/cm7339-3-2018",
+          "url": "https://doi.org/10.4064%2Fcm7339-3-2018"
+        },
+        {
+          "title": "\"On a remark of Makowski about perfect numbers\"",
+          "url": "https://doi.org/10.4171%2FEM%2F149"
+        },
+        {
+          "title": "10.4171/EM/149",
+          "url": "https://doi.org/10.4171%2FEM%2F149"
+        },
+        {
+          "title": "10.2307/3619053",
+          "url": "https://doi.org/10.2307%2F3619053"
+        },
+        {
+          "title": "10.1007/BF01901120",
+          "url": "https://doi.org/10.1007%2FBF01901120"
+        },
+        {
+          "title": "10.1007/BF01350108",
+          "url": "https://doi.org/10.1007%2FBF01350108"
+        },
+        {
+          "title": "10.1515/crll.1941.183.98",
+          "url": "https://doi.org/10.1515%2Fcrll.1941.183.98"
+        },
+        {
+          "title": "\"Odd Spoof Multiperfect Numbers\"",
+          "url": "https://math.colgate.edu/~integers/z19/z19.pdf"
+        },
+        {
+          "title": "2502.16954",
+          "url": "https://arxiv.org/abs/2502.16954"
+        },
+        {
+          "title": "\"A Lower Bound for the set of odd Perfect Prime Numbers\"",
+          "url": "https://doi.org/10.2307%2F2005530"
+        },
+        {
+          "title": "10.2307/2005530",
+          "url": "https://doi.org/10.2307%2F2005530"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "odd_perfect",
+          "url": "https://www.lirmm.fr/~ochem/opn/opn.pdf",
+          "source_date": "2012",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract and introduction",
+          "finding": "Ochem-Rao prove necessary size and prime-factor bounds for an odd perfect number. The paper does not prove nonexistence.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/odd_perfect.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "d40f10d66def19738714a074e38e8e58690d1cb12fe01dde94f6d9aad76e93be"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "A uniform factor-chain contradiction using Euler’s odd-power exceptional prime structure.",
+      "obstruction": "Unbounded prime support and exponents prevent known finite exclusions from covering all cases.",
+      "next_step": "No complete obstruction identified; do not formalize the even-perfect classification as progress on this target.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-29543748",
+      "title": "Oppermann's conjecture",
+      "source_article": "https://en.wikipedia.org/wiki/Oppermann's_conjecture",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Oppermann%27s_conjecture&oldid=1364888908",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "For every integer n>=2, is there a prime strictly between n*(n-1) and n^2, and another strictly between n^2 and n*(n+1)?",
+      "current_status": "unverified",
+      "status_notes": "Open prime-gap strengthening. Endpoint conventions matter at n=2; naive displayed gap consequences in the article should not be copied without derivation.",
+      "primary_references_from_article": [],
+      "primary_sources_checked": [
+        {
+          "key": "oppermann",
+          "url": "https://arxiv.org/abs/1812.02762",
+          "source_date": "2018",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Visser studies conditional prime-gap relations and finite verifications. This does not establish both required intervals for all n.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/oppermann.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "d10c2ed2f35ade340ce10a449f0685dfea6234513ab39d2b2bf9614978704693"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Uniform square-root-scale short-interval prime existence with constants sharp enough for both half-intervals.",
+      "obstruction": "Existing prime gaps have an exponent or logarithmic loss; asymptotic density says nothing about every interval.",
+      "next_step": "Cross-link Legendre and avoid claiming RH alone proves it.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    },
+    {
+      "id": "wiki-424723",
+      "title": "Palindromic prime",
+      "source_article": "https://en.wikipedia.org/wiki/Palindromic_prime",
+      "source_revision": "https://en.wikipedia.org/w/index.php?title=Palindromic_prime&oldid=1379590106",
+      "screened_on": "2026-10-15",
+      "article_screened": true,
+      "exact_question": "Are there infinitely many primes whose ordinary base-10 digit strings without leading zeroes are palindromes?",
+      "current_status": "unverified",
+      "status_notes": "Open in checked literature. All even-length decimal palindromes except 11 are excluded, while density zero among palindromes does not imply finitely many primes.",
+      "primary_references_from_article": [
+        {
+          "title": "math/0405056",
+          "url": "https://arxiv.org/abs/math/0405056"
+        },
+        {
+          "title": "10.4310/MRL.2004.v11.n6.a10",
+          "url": "https://doi.org/10.4310%2FMRL.2004.v11.n6.a10"
+        }
+      ],
+      "primary_sources_checked": [
+        {
+          "key": "palindromic_primes",
+          "url": "https://arxiv.org/abs/math/0405056",
+          "source_date": "2004",
+          "checked_on": "2026-10-15",
+          "reading_scope": "abstract",
+          "finding": "Banks-Hart-Sakata show almost all palindromes are composite. Zero prime density does not determine whether there are infinitely many prime palindromes.",
+          "retrieval_status": "retrieved",
+          "local_text": "primary_cache/palindromic_primes.txt",
+          "independent_proof_validation": false,
+          "source_sha256": "559abd5eeafc6bf29ce7544bc27566aa1546c504eb63850d04d3b27c2626620b"
+        }
+      ],
+      "existing_formalization": {
+        "status": "not_found_in_this_pass",
+        "note": "No claim of exhaustive search or nonexistence; formal statement is not a proof."
+      },
+      "plausible_full_solution_route": "Digit-restricted sieve with sufficient cancellation to prove prime, not merely almost-prime, values.",
+      "obstruction": "Digit symmetry creates long-range dependence and the sieve parity obstruction persists.",
+      "next_step": "Require a genuine infinitude theorem; record-sized examples do not advance the full target.",
+      "accepted_solution": false,
+      "status_scope": "Evidence is dated to each checked source; an exhaustive current-literature status certification was not performed."
+    }
+  ],
+  "formalization_search_scope": "Read-only local Mathlib search by target names and selected related phrases, plus the external Gaussian comparator. This was not an exhaustive repository or literature search."
+}
