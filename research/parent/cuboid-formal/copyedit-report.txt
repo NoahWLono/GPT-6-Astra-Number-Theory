@@ -1,0 +1,5 @@
+README.md:1  title-case-heading  KEPT  User-specified repository name.
+AGENTS.md:35  negative-parallelism  KEPT  Category membership and evidence of current openness are distinct research gates.
+Parent proof README, Gauss helper status, final proof review, and four-cubes status: no detector findings.
+Manual reading: theorem scope, dependency names, and novelty limitations remain consistent across the proof README and manuscript.
+FIXED: 0. KEPT: 2.

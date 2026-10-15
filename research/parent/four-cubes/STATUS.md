@@ -65,6 +65,10 @@ fixed power of 3, so a proof must use degree information or the exact identity.
 The proposed induction on integer-valued polynomial generators has an unresolved
 step: division by 3 may introduce a higher generator.
 
-The next step is to compare this obstruction with the precise coefficient
-restrictions in the older Schinzel, Mordell, and Cohn–Mordell papers. The current
-Lean file compiles as a specification; it supplies no proof of the target.
+The source audit has now checked Mordell's full degree-four paper and the
+available Cohn–Mordell first-page preview. The advertised unrestricted-degree
+coefficient divisibility does not supply the stronger, degree-dependent
+divisibility needed for the proposed descent. The companion note gives an
+explicit counterexample to that scaling inference. A new argument must bridge
+this gap; the current Lean file compiles as a specification and supplies no
+proof of the target.

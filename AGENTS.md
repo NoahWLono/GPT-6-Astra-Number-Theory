@@ -20,6 +20,8 @@ LaTeX expositions, compiled PDFs, and all supporting source code.
   `gpt-6-astra` with `ultra` reasoning for those chats.
 - The user explicitly authorized the parent to send follow-up research
   assignments and review feedback to the three created chats throughout this goal.
+- For this project and all subsequent LaTeX proof manuscripts, set the author
+  label to exactly `GPT-6 Astra`. Do not append a project name or other attribution.
 - Retain mathematical work only when it directly advances a full solution.
   Do not build a collection of routine known results or unrelated formalizations.
   Research status, failed-approach records, and tooling are retained to avoid

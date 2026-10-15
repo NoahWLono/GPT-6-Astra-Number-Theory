@@ -11,6 +11,13 @@ unverified claims remain explicit. Category membership alone does not establish
 that a problem remains open. Focused attempts now combine universal arguments
 with exact construction and counterexample searches.
 
+The first complete formal research restriction excludes rational quadratic
+divisors of the second cuboid quintic for positive unequal odd parameters.
+Its [Lean proof and matching research note](research/parent/cuboid-formal/README.md)
+are retained to reduce the remaining factor-type target to opposite parity.
+The restriction's novelty is unverified. It is not counted as a solved open
+problem or a complete solution of the quadratic-factor question.
+
 The magic square of squares is excluded because it is being attempted in a
 separate project.
 
@@ -38,9 +45,9 @@ See [AGENTS.md](AGENTS.md) for the research and verification rules.
 - `scripts/`: catalog and verification tools.
 - `docs/`: coordination policy and implementation plan.
 
-Three GPT-6 Astra Ultra research chats screen disjoint groups of direct entries.
-The parent coordinates integration, audits subcategory coverage, and reviews
-candidate proof targets.
+Three GPT-6 Astra Ultra research chats completed disjoint groups of direct
+entries and now pursue focused targets. The parent coordinates integration,
+audits subcategory coverage, and reviews candidate proofs.
 
 The initial snapshot contains 124 direct pages (123 eligible) and 143 unique
 pages including the abc subcategory. The

@@ -1,0 +1,43 @@
+'CuboidResearch.constant_zero_of_mod_two_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.no_two_three_integral_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.integral_divisor_of_rational_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.rational_quadratic_divisor_integral_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CuboidResearch.integralQuintic_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.integralQuintic_mod_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.integralQuintic_constant_not_four_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.odd_half_sum_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.twice_half_sum_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.integralQuintic_no_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.transformedQuintic_no_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.odd_odd_transformedQuintic_no_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CuboidResearch.odd_odd_ratio_transformedQuintic_no_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.P_at_neg_s' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.T_comp' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.inverse_v_cleared' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.inverse_w_cleared' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.quadratic_remainder' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.square_cover' depends on axioms: [propext, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.P_to_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.factor_of_generated_algebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.factor_degree_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.inverse_mem_of_mul_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.isUnit_sub_of_aeval_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.tEquivG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.tEquivP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.pEquivG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.quadratic_factor_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NumberTheoryResearch.BatchA.Cuboid.odd_odd_P_no_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+Fresh compilation and axiom checks passed for the odd/odd cuboid restriction.
+The opposite-parity case, full conjecture, and novelty remain unresolved here.

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-15",
+  "problem_id": "wiki-48707305",
+  "status": "verified_research_restriction",
+  "novelty": "unverified",
+  "full_quadratic_factor_target": "unresolved",
+  "full_second_cuboid_conjecture": "unresolved",
+  "accepted_solution_registry_entry": false,
+  "author_label": "GPT-6 Astra",
+  "theorem": "NumberTheoryResearch.BatchA.Cuboid.odd_odd_P_no_quadratic",
+  "statement": "For positive unequal odd integers p,q and every rational polynomial D of degree two, D does not divide P_s at s=(p/q)^2. Coprimality is not assumed.",
+  "proof_check_command": "scripts/with_lean.sh lake env python3 research/parent/cuboid-formal/verify.py",
+  "parent_fresh_build": "passed",
+  "parent_build_log_sha256": "71e4a6963fe422c7c92f75b96ba0fb88eb3d535749109a55a03c413111896a64",
+  "transitive_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "mathlib_revision": "e91b128082cc221d6432a6a5aadcd3243af8e76c",
+  "source_sha256": {
+    "research/parent/cuboid-formal/ParityObstruction.lean": "b6fe380bb5d6ec1e37ee585ca4fe6175f1acd216d3603e13aad55d515e9d8fb1",
+    "research/parent/cuboid-formal/GaussTransfer.lean": "5abfd01cfe2a7c44ed51313692809834dd4bbed790f2100a60fdb3ae0f4d6e6d",
+    "research/parent/cuboid-formal/IntegralQuintic.lean": "bf38e27e3125f7bbf30cb935faec9f1bef6e2dfaade78018b6a03bdba9082ba8",
+    "research/parent/cuboid-formal/QuinticExclusion.lean": "7b1a3947c0c40e741aef69a34e0afb54ac447f802318e42336d16d1cf76618ee",
+    "research/batch-a/CuboidIdentities.lean": "6ce41e446d81902523f5f03ee65328b5e51a10ddd35f3cfd70e6558ed9a7777e",
+    "research/batch-a/FactorDegreeTransfer.lean": "4b9e767cab6881b3c383804f9a570efd7d009025421c385bdeb4ed5316c9d559",
+    "research/batch-a/CuboidEquivalence.lean": "69d81c4e92c5cf4d610d02611338d059ca4d633a7a59f8a13a6050aac9a2864b",
+    "research/batch-a/OddOddExclusion.lean": "37f145875bcd1c6a5fc31db6e1fbf94315d591fd82fe2359e2f1960523b8341a",
+    "research/parent/cuboid-formal/verify.py": "c6d67a9afb05df402cb2bbf9ec871d7f170890dd839633b68b831180173197d7",
+    "scripts/audit_axioms.py": "375c8901a4de3674723a4308de084971808e7674c03fc718ca0e2227bb97e0d7",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "lake-manifest.json": "a8ad22fb6ffbc45c12426afe3cbc4c7c00a6b82ad988907bb88fed130dd9b3fc",
+    "research/batch-a/ODD_ODD_PROOF.md": "9a79ed92e81262c87ca0a34b8f041600f5dd712287a3c94f6ee4485822bfd563"
+  },
+  "manuscript_source": "research/parent/cuboid-formal/odd-parameters.tex",
+  "manuscript_pdf": "research/parent/cuboid-formal/odd-parameters.pdf",
+  "review": "research/parent/cuboid-review/FINAL_REVIEW.md",
+  "review_scope_note": "The semantic review predates only layout, author-label, and final-whitespace changes. The reviewer authored the known Gauss helper and disclosed this.",
+  "manuscript_source_sha256": "2fe838e279d19a140504d493378e8405aa10c5deec4a39676ec32b10188d68eb",
+  "manuscript_pdf_sha256": "352f8b1b62232d48b1c3d92a6d6a93dd6c7cb47a1beea2c569b97fb48527f4ce",
+  "review_sha256": "3e40386fad07feffcace9c0fcadc69cfcff55b29090e0c2aa9a3e4c78c63d862",
+  "pdf_visual_review": {
+    "pages": 4,
+    "status": "all four final pages inspected",
+    "author_label_verified": "GPT-6 Astra"
+  }
+}

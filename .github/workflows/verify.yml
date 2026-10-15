@@ -13,3 +13,5 @@ jobs:
         run: bash scripts/setup_lean.sh
       - name: Check inventory, build Lean, and audit registered declarations
         run: bash scripts/verify.sh
+      - name: Verify the odd-parameter cuboid research theorem
+        run: scripts/with_lean.sh lake env python3 research/parent/cuboid-formal/verify.py

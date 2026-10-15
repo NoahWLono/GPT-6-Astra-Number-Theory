@@ -12,7 +12,7 @@ __pycache__/
 *.synctex.gz
 tmp/
 # Retrieved third-party articles and statement copies stay local; cite originals.
-research/*/sources/
-research/*/source_cache/
+research/**/sources/
+research/**/source_cache/
 research/*/.retrieval-deps/
-research/*/primary_cache/
+research/**/primary_cache/

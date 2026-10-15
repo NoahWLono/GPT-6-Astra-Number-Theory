@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-15",
+  "catalog_id": "wiki-48707305",
+  "scope": "Odd/odd quadratic-factor exclusion for the normalized second-cuboid quintic; opposite parity and full target unresolved",
+  "command": "scripts/with_lean.sh lake env python3 research/parent/cuboid-formal/verify.py",
+  "exit_code": 0,
+  "fresh_module_cache": true,
+  "module_count": 8,
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "mathlib_revision": "e91b128082cc221d6432a6a5aadcd3243af8e76c",
+  "target_declaration": "NumberTheoryResearch.BatchA.Cuboid.odd_odd_P_no_quadratic",
+  "printed_axioms": {
+    "CuboidResearch.constant_zero_of_mod_two_divisor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.no_two_three_integral_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.integral_divisor_of_rational_divisor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.rational_quadratic_divisor_integral_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.integralQuintic_natDegree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.integralQuintic_mod_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.integralQuintic_constant_not_four_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.odd_half_sum_squares": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.twice_half_sum_squares": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.integralQuintic_no_quadratic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.transformedQuintic_no_quadratic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.odd_odd_transformedQuintic_no_quadratic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CuboidResearch.odd_odd_ratio_transformedQuintic_no_quadratic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.P_at_neg_s": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.T_comp": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.inverse_v_cleared": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.inverse_w_cleared": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.quadratic_remainder": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.square_cover": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.P_to_T": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.factor_of_generated_algebra": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.factor_degree_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.inverse_mem_of_mul_eq_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.isUnit_sub_of_aeval_eq_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.tEquivG": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.tEquivP": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.pEquivG": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.quadratic_factor_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NumberTheoryResearch.BatchA.Cuboid.odd_odd_P_no_quadratic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "no_sorry_admit_native_decide_custom_axiom_tokens_in_eight_sources": true,
+  "source_sha256": {
+    "research/parent/cuboid-formal/ParityObstruction.lean": "b6fe380bb5d6ec1e37ee585ca4fe6175f1acd216d3603e13aad55d515e9d8fb1",
+    "research/parent/cuboid-formal/GaussTransfer.lean": "5abfd01cfe2a7c44ed51313692809834dd4bbed790f2100a60fdb3ae0f4d6e6d",
+    "research/parent/cuboid-formal/IntegralQuintic.lean": "bf38e27e3125f7bbf30cb935faec9f1bef6e2dfaade78018b6a03bdba9082ba8",
+    "research/parent/cuboid-formal/QuinticExclusion.lean": "7b1a3947c0c40e741aef69a34e0afb54ac447f802318e42336d16d1cf76618ee",
+    "research/batch-a/CuboidIdentities.lean": "6ce41e446d81902523f5f03ee65328b5e51a10ddd35f3cfd70e6558ed9a7777e",
+    "research/batch-a/FactorDegreeTransfer.lean": "4b9e767cab6881b3c383804f9a570efd7d009025421c385bdeb4ed5316c9d559",
+    "research/batch-a/CuboidEquivalence.lean": "69d81c4e92c5cf4d610d02611338d059ca4d633a7a59f8a13a6050aac9a2864b",
+    "research/batch-a/OddOddExclusion.lean": "37f145875bcd1c6a5fc31db6e1fbf94315d591fd82fe2359e2f1960523b8341a",
+    "research/parent/cuboid-formal/verify.py": "c6d67a9afb05df402cb2bbf9ec871d7f170890dd839633b68b831180173197d7",
+    "scripts/audit_axioms.py": "375c8901a4de3674723a4308de084971808e7674c03fc718ca0e2227bb97e0d7",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "lake-manifest.json": "a8ad22fb6ffbc45c12426afe3cbc4c7c00a6b82ad988907bb88fed130dd9b3fc",
+    "research/batch-a/ODD_ODD_PROOF.md": "9a79ed92e81262c87ca0a34b8f041600f5dd712287a3c94f6ee4485822bfd563"
+  },
+  "build_log": "research/batch-a/fresh-cuboid-build.log",
+  "build_log_sha256": "71e4a6963fe422c7c92f75b96ba0fb88eb3d535749109a55a03c413111896a64",
+  "novelty": "unverified",
+  "complete_solution": false
+}

@@ -1,0 +1,25 @@
+{
+  "sympy": "1.14.0",
+  "checked_on": "2026-10-15",
+  "verified_rational_function_identities": [
+    "P_at_minus_s",
+    "T_at_h",
+    "P_to_T",
+    "mobius_inverse_x",
+    "mobius_inverse_w",
+    "T_of_one_minus_v_squared",
+    "inverse_v",
+    "inverse_w",
+    "T_at_one",
+    "T_at_minus_one",
+    "g_at_zero",
+    "g_mod_v_squared_minus_two",
+    "original_circle"
+  ],
+  "quadratic_remainder_identity": true,
+  "elliptic_discriminant_identity": true,
+  "square_cover_identity": true,
+  "lean_kernel_checked": false,
+  "novelty_verified": false,
+  "accepted_solution": false
+}
